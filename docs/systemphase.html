@@ -1,0 +1,1491 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>systemphase.md</title>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+
+<style>
+/* https://github.com/microsoft/vscode/blob/master/extensions/markdown-language-features/media/markdown.css */
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+body {
+	font-family: var(--vscode-markdown-font-family, -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif);
+	font-size: var(--vscode-markdown-font-size, 14px);
+	padding: 0 26px;
+	line-height: var(--vscode-markdown-line-height, 22px);
+	word-wrap: break-word;
+}
+
+#code-csp-warning {
+	position: fixed;
+	top: 0;
+	right: 0;
+	color: white;
+	margin: 16px;
+	text-align: center;
+	font-size: 12px;
+	font-family: sans-serif;
+	background-color:#444444;
+	cursor: pointer;
+	padding: 6px;
+	box-shadow: 1px 1px 1px rgba(0,0,0,.25);
+}
+
+#code-csp-warning:hover {
+	text-decoration: none;
+	background-color:#007acc;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.25);
+}
+
+body.scrollBeyondLastLine {
+	margin-bottom: calc(100vh - 22px);
+}
+
+body.showEditorSelection .code-line {
+	position: relative;
+}
+
+body.showEditorSelection .code-active-line:before,
+body.showEditorSelection .code-line:hover:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -12px;
+	height: 100%;
+}
+
+body.showEditorSelection li.code-active-line:before,
+body.showEditorSelection li.code-line:hover:before {
+	left: -30px;
+}
+
+.vscode-light.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.15);
+}
+
+.vscode-light.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(0, 0, 0, 0.40);
+}
+
+.vscode-light.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-dark.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.4);
+}
+
+.vscode-dark.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 255, 255, 0.60);
+}
+
+.vscode-dark.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+.vscode-high-contrast.showEditorSelection .code-active-line:before {
+	border-left: 3px solid rgba(255, 160, 0, 0.7);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line:hover:before {
+	border-left: 3px solid rgba(255, 160, 0, 1);
+}
+
+.vscode-high-contrast.showEditorSelection .code-line .code-line:hover:before {
+	border-left: none;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:focus,
+input:focus,
+select:focus,
+textarea:focus {
+	outline: 1px solid -webkit-focus-ring-color;
+	outline-offset: -1px;
+}
+
+hr {
+	border: 0;
+	height: 2px;
+	border-bottom: 2px solid;
+}
+
+h1 {
+	padding-bottom: 0.3em;
+	line-height: 1.2;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+h1, h2, h3 {
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table > thead > tr > th {
+	text-align: left;
+	border-bottom: 1px solid;
+}
+
+table > thead > tr > th,
+table > thead > tr > td,
+table > tbody > tr > th,
+table > tbody > tr > td {
+	padding: 5px 10px;
+}
+
+table > tbody > tr + tr > td {
+	border-top: 1px solid;
+}
+
+blockquote {
+	margin: 0 7px 0 5px;
+	padding: 0 16px 0 10px;
+	border-left-width: 5px;
+	border-left-style: solid;
+}
+
+code {
+	font-family: Menlo, Monaco, Consolas, "Droid Sans Mono", "Courier New", monospace, "Droid Sans Fallback";
+	font-size: 1em;
+	line-height: 1.357em;
+}
+
+body.wordWrap pre {
+	white-space: pre-wrap;
+}
+
+pre:not(.hljs),
+pre.hljs code > div {
+	padding: 16px;
+	border-radius: 3px;
+	overflow: auto;
+}
+
+pre code {
+	color: var(--vscode-editor-foreground);
+	tab-size: 4;
+}
+
+/** Theming */
+
+.vscode-light pre {
+	background-color: rgba(220, 220, 220, 0.4);
+}
+
+.vscode-dark pre {
+	background-color: rgba(10, 10, 10, 0.4);
+}
+
+.vscode-high-contrast pre {
+	background-color: rgb(0, 0, 0);
+}
+
+.vscode-high-contrast h1 {
+	border-color: rgb(0, 0, 0);
+}
+
+.vscode-light table > thead > tr > th {
+	border-color: rgba(0, 0, 0, 0.69);
+}
+
+.vscode-dark table > thead > tr > th {
+	border-color: rgba(255, 255, 255, 0.69);
+}
+
+.vscode-light h1,
+.vscode-light hr,
+.vscode-light table > tbody > tr + tr > td {
+	border-color: rgba(0, 0, 0, 0.18);
+}
+
+.vscode-dark h1,
+.vscode-dark hr,
+.vscode-dark table > tbody > tr + tr > td {
+	border-color: rgba(255, 255, 255, 0.18);
+}
+
+</style>
+
+<style>
+/* Tomorrow Theme */
+/* http://jmblog.github.com/color-themes-for-google-code-highlightjs */
+/* Original theme - https://github.com/chriskempson/tomorrow-theme */
+
+/* Tomorrow Comment */
+.hljs-comment,
+.hljs-quote {
+	color: #8e908c;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+	color: #c82829;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+	color: #f5871f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+	color: #eab700;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+	color: #718c00;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+	color: #4271ae;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+	color: #8959a8;
+}
+
+.hljs {
+	display: block;
+	overflow-x: auto;
+	color: #4d4d4c;
+	padding: 0.5em;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+.hljs-strong {
+	font-weight: bold;
+}
+</style>
+
+<style>
+/*
+ * Markdown PDF CSS
+ */
+
+ body {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe WPC", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif, "Meiryo";
+	padding: 0 12px;
+}
+
+pre {
+	background-color: #f8f8f8;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+	overflow-x: auto;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+}
+
+pre:not(.hljs) {
+	padding: 23px;
+	line-height: 19px;
+}
+
+blockquote {
+	background: rgba(127, 127, 127, 0.1);
+	border-color: rgba(0, 122, 204, 0.5);
+}
+
+.emoji {
+	height: 1.4em;
+}
+
+code {
+	font-size: 14px;
+	line-height: 19px;
+}
+
+/* for inline code */
+:not(pre):not(.hljs) > code {
+	color: #C9AE75; /* Change the old color so it seems less like an error */
+	font-size: inherit;
+}
+
+/* Page Break : use <div class="page"/> to insert page break
+-------------------------------------------------------- */
+.page {
+	page-break-after: always;
+}
+
+</style>
+
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</head>
+<body>
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: document.body.classList.contains('vscode-dark') || document.body.classList.contains('vscode-high-contrast')
+          ? 'dark'
+          : 'default'
+    });
+  </script>
+<h1 id="system-phase--m%E1%BB%91c-1-%C4%91%E1%BB%8Dc-l%C6%B0u-v%C3%A0-truy-xu%E1%BA%A5t-%C4%91i%E1%BB%81u-kho%E1%BA%A3n-lc01">System Phase — Mốc 1: đọc, lưu và truy xuất điều khoản LC01</h1>
+<h2 id="1-m%E1%BB%A5c-%C4%91%C3%ADch-c%E1%BB%A7a-t%C3%A0i-li%E1%BB%87u">1. Mục đích của tài liệu</h2>
+<p>Tài liệu này trình bày lại toàn bộ <strong>Mốc 1, tương ứng Bước 1–3</strong> trong <code>docs/contract-agent-implementation-checklist.md</code>:</p>
+<ol>
+<li>Định nghĩa dữ liệu hợp đồng.</li>
+<li>Đọc và lưu hợp đồng.</li>
+<li>Truy xuất một điều khoản theo <code>contract_id</code> và <code>label</code> hoặc <code>clause_id</code>.</li>
+</ol>
+<p>Mục tiêu cuối của Mốc 1 là:</p>
+<blockquote>
+<p>Từ file gốc <code>LC01.pdf</code>, hệ thống lưu được file và dữ liệu có cấu trúc, sau đó lấy lại đúng nguyên văn điều khoản cùng trang, block và tọa độ nguồn.</p>
+</blockquote>
+<p>Mốc 1 <strong>chưa dùng LLM, LangChain, OpenAI, Qdrant hoặc agent</strong>. Các quyết định trong mốc này là deterministic: cùng một PDF và cùng cấu hình trang thì phải cho cùng cấu trúc field/item.</p>
+<h2 id="2-tr%E1%BA%A1ng-th%C3%A1i-nghi%E1%BB%87m-thu-hi%E1%BB%87n-t%E1%BA%A1i">2. Trạng thái nghiệm thu hiện tại</h2>
+<h3 id="21-ph%E1%BA%A7n-%C4%91%C3%A3-ch%E1%BA%A1y-th%C3%A0nh-c%C3%B4ng-v%E1%BB%9Bi-lc01">2.1. Phần đã chạy thành công với LC01</h3>
+<ul>
+<li>MinIO nhận PDF, kiểm tra checksum và xóa object thử nghiệm thành công.</li>
+<li>PostgreSQL có đủ 5 bảng của contract pipeline.</li>
+<li>Alembic đã chạy hai migration theo đúng thứ tự.</li>
+<li>LC01 được ingest với <code>page_count=14</code> và trạng thái ban đầu <code>uploaded</code>.</li>
+<li>Chỉ trang 2–3 được chọn để đọc nội dung.</li>
+<li>Trang 1 là cover; trang 4–14 bị đánh dấu ngoài phạm vi.</li>
+<li>Đã lưu metadata của 14 trang và 99 text block của trang 2–3.</li>
+<li>Trạng thái tài liệu sau xử lý là <code>ready</code>; không có trang cần OCR trong phạm vi đã chọn.</li>
+<li>Parser tìm được 24 MT700 field.</li>
+<li>Parser tìm được 17 numbered item: <code>46A.1</code>–<code>46A.6</code> và <code>47A.1</code>–<code>47A.11</code>.</li>
+<li>Tổng cộng lưu được 41 clause.</li>
+<li>Đã truy xuất đúng <code>47A.2</code>, gồm nguyên văn, trang 3 và hai source span.</li>
+</ul>
+<p>Kết quả đã quan sát:</p>
+<pre class="hljs"><code><div>label=47A.2
+title=Additional Conditions item 2
+kind=swift_item
+page_range=3-3
+source_span_count=2
+raw_text:
+2/ DISCREPANCY FEE OF USD77 OR EQUIVALENT WILL BE DEDUCT FROM
+THE PROCEEDS FOR EACH PRESENTATION OF DISCREPANT DOCUMENT.
+</div></code></pre>
+<h3 id="22-ph%E1%BA%A7n-%C4%91%C3%A3-c%C3%B3-code-nh%C6%B0ng-c%E1%BA%A7n-test-th%C3%AAm-%C4%91%E1%BB%83-nghi%E1%BB%87m-thu-k%C3%ADn-m%E1%BB%91c-1">2.2. Phần đã có code nhưng cần test thêm để nghiệm thu kín Mốc 1</h3>
+<ul>
+<li>Script hiện đã in <code>bbox</code>, <code>block_index</code> và <code>char_start:char_end</code>, nhưng cần chạy lại lệnh retrieval để lưu bằng chứng đầu ra cuối cùng.</li>
+<li>Code đã phân biệt:
+<ul>
+<li>không tìm thấy contract;</li>
+<li>contract chưa <code>ready</code>;</li>
+<li>không tìm thấy clause.
+Tuy nhiên chưa có bằng chứng chạy thực tế cho cả ba nhánh lỗi.</li>
+</ul>
+</li>
+<li>Chưa có bộ <code>pytest</code> tự động cho contract pipeline; các kiểm tra hiện tại chủ yếu là import check và smoke test chạy thật.</li>
+<li><code>access_scope=&quot;public&quot;</code> đang được hard-code trong các script thử nghiệm. Khi làm API, scope phải đến từ lớp xác thực tin cậy, không nhận tùy ý từ người dùng.</li>
+<li>Pipeline xử lý lại file local để lấy text. PDF gốc đã được lưu trên MinIO, nhưng chưa có bước tải file từ MinIO về khi chỉ có <code>contract_id</code>.</li>
+</ul>
+<p>Vì vậy, <strong>happy path của Mốc 1 đã chạy thành công</strong>, nhưng nên hoàn thành các test âm và test tự động trước khi gọi Mốc 1 là production-ready.</p>
+<h2 id="3-lu%E1%BB%93ng-d%E1%BB%AF-li%E1%BB%87u-t%E1%BB%AB-%C4%91%E1%BA%A7u-%C4%91%E1%BA%BFn-cu%E1%BB%91i">3. Luồng dữ liệu từ đầu đến cuối</h2>
+<pre><code class="language-mermaid"><div class="mermaid">flowchart TD
+    A[LC01.pdf trên máy] --> B[validate PDF và SHA-256]
+    B --> C[upload PDF gốc vào MinIO]
+    B --> D[tạo contract_documents trong PostgreSQL]
+    C --> D
+    D --> E[PyMuPDF trích 14 trang và các positioned block]
+    E --> F[người dùng chọn trang 2-3]
+    F --> G[page classifier]
+    G --> H[lưu 14 contract_pages]
+    G --> I[lưu 99 contract_text_blocks của trang 2-3]
+    I --> J[sắp xếp block theo hàng của MT700]
+    J --> K[tách 24 MT700 field]
+    K --> L[tách 17 item trong 46A và 47A]
+    K --> M[lưu contract_clauses]
+    L --> M
+    I --> N[lưu contract_clause_spans]
+    M --> O[retrieval theo contract_id + access_scope + label]
+    N --> O
+    O --> P[raw_text + page + block + bbox + char offsets]
+</div></code></pre>
+<p>Luồng ngắn gọn:</p>
+<pre class="hljs"><code><div>PDF gốc
+  -&gt; checksum + MinIO
+  -&gt; contract metadata
+  -&gt; page và positioned block
+  -&gt; field MT700
+  -&gt; numbered item
+  -&gt; clause + source span
+  -&gt; truy xuất lại đúng nguyên văn và vị trí
+</div></code></pre>
+<h2 id="4-ai-quy%E1%BA%BFt-%C4%91%E1%BB%8Bnh-b%C6%B0%E1%BB%9Bc-ti%E1%BA%BFp-theo">4. Ai quyết định bước tiếp theo?</h2>
+<table>
+<thead>
+<tr>
+<th>Quyết định</th>
+<th>Thành phần quyết định</th>
+<th>Lý do</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>File nào được xử lý</td>
+<td>Operator/script <code>ingest_lc01.py</code></td>
+<td>Mốc 1 đang thử nghiệm có kiểm soát với LC01, chưa có API upload.</td>
+</tr>
+<tr>
+<td>Dùng database và MinIO nào</td>
+<td><code>Settings</code> đọc environment</td>
+<td>Tách cấu hình khỏi code và không ghi secret vào source.</td>
+</tr>
+<tr>
+<td>Upload mới hay trả bản đã có</td>
+<td><code>ContractIngestionService</code> + <code>ContractDocumentRepository</code></td>
+<td>So checksum trong cùng <code>access_scope</code> để tránh ingest trùng.</td>
+</tr>
+<tr>
+<td>Chỉ xử lý trang nào</td>
+<td>Người dùng/nghiệp vụ truyền <code>{2, 3}</code></td>
+<td>Đây là phạm vi review, code không được tự đoán thay người dùng.</td>
+</tr>
+<tr>
+<td>Trang là text, cover, ngoài phạm vi hay cần OCR</td>
+<td><code>page_classifier.py</code></td>
+<td>Biến quyết định phạm vi thành trạng thái rõ ràng cho từng trang.</td>
+</tr>
+<tr>
+<td>Block nào đứng trước</td>
+<td><code>reading_order.py</code></td>
+<td>Dựa vào tọa độ <code>y</code> rồi <code>x</code> theo bố cục hàng của MT700.</td>
+</tr>
+<tr>
+<td>Khi nào bắt đầu field mới</td>
+<td><code>mt700_parser.py</code></td>
+<td>Một heading hợp lệ bắt đầu bằng hai chữ số, có thể kèm option A–Z.</td>
+</tr>
+<tr>
+<td>Field nào được tách item con</td>
+<td>Script/service truyền <code>{&quot;46A&quot;, &quot;47A&quot;}</code></td>
+<td>Chỉ hai field này có danh sách <code>N/</code> trong mẫu LC01 đã kiểm tra.</td>
+</tr>
+<tr>
+<td>Khi nào bắt đầu item mới</td>
+<td><code>mt700_item_parser.py</code></td>
+<td>Regex nhận marker đầu dòng như <code>1/</code>, <code>2/</code>, ... và yêu cầu số tăng dần.</td>
+</tr>
+<tr>
+<td>Dữ liệu có được commit không</td>
+<td>Processing service + SQLAlchemy transaction</td>
+<td>Chỉ commit khi toàn bước thành công; lỗi thì rollback và ghi trạng thái <code>failed</code>.</td>
+</tr>
+<tr>
+<td>Người gọi có được thấy contract không</td>
+<td>Repository lọc <code>access_scope</code></td>
+<td>Không cho truy vấn vượt phạm vi dữ liệu.</td>
+</tr>
+<tr>
+<td>Có được trả clause không</td>
+<td><code>ContractClauseRetrievalService</code></td>
+<td>Contract phải tồn tại trong scope và có trạng thái <code>ready</code>.</td>
+</tr>
+<tr>
+<td>Có chuyển sang Mốc 2 không</td>
+<td>Người review/operator</td>
+<td>Chỉ chuyển khi tiêu chí Mốc 1 và các kiểm tra còn thiếu được chấp nhận.</td>
+</tr>
+</tbody>
+</table>
+<p>Không có LLM nào quyết định các bước trên trong Mốc 1.</p>
+<h2 id="5-th%E1%BB%A9-t%E1%BB%B1-t%E1%BA%A1o-v%C3%A0-ph%E1%BB%A5-thu%E1%BB%99c-gi%E1%BB%AFa-c%C3%A1c-file">5. Thứ tự tạo và phụ thuộc giữa các file</h2>
+<p>Đây là thứ tự triển khai/phụ thuộc nên dùng để review. Một số file dùng chung đã tồn tại trước contract pipeline; chúng được ghi là “tái sử dụng”.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:right">Thứ tự</th>
+<th>File</th>
+<th>Vai trò</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right">0</td>
+<td><code>backend/app/rag/models.py</code></td>
+<td>Tái sử dụng model <code>ExtractedPage</code> và <code>PageTextBlock</code>.</td>
+</tr>
+<tr>
+<td style="text-align:right">0</td>
+<td><code>backend/app/rag/ingestion/source_loader.py</code></td>
+<td>Tái sử dụng kiểm tra file PDF.</td>
+</tr>
+<tr>
+<td style="text-align:right">0</td>
+<td><code>backend/app/rag/ingestion/pdf_extractor.py</code></td>
+<td>Tái sử dụng PyMuPDF để lấy text block và bbox.</td>
+</tr>
+<tr>
+<td style="text-align:right">1</td>
+<td><code>backend/requirements.txt</code></td>
+<td>Thêm package PostgreSQL, Alembic và MinIO.</td>
+</tr>
+<tr>
+<td style="text-align:right">2</td>
+<td><code>.env.example</code> và <code>backend/app/core/config.py</code></td>
+<td>Khai báo tên biến cấu hình, đọc secret an toàn.</td>
+</tr>
+<tr>
+<td style="text-align:right">3</td>
+<td><code>compose.yaml</code> và <code>backend/Dockerfile</code></td>
+<td>Chạy PostgreSQL/backend trong container.</td>
+</tr>
+<tr>
+<td style="text-align:right">4</td>
+<td><code>backend/app/db/base.py</code></td>
+<td>Tạo ORM base và quy tắc tên constraint.</td>
+</tr>
+<tr>
+<td style="text-align:right">5</td>
+<td><code>backend/app/db/session.py</code></td>
+<td>Tạo engine, session và transaction boundary.</td>
+</tr>
+<tr>
+<td style="text-align:right">5a</td>
+<td><code>backend/app/db/__init__.py</code></td>
+<td>Re-export API database dùng chung.</td>
+</tr>
+<tr>
+<td style="text-align:right">5b</td>
+<td><code>backend/app/contracts/__init__.py</code></td>
+<td>Đánh dấu namespace của contract domain.</td>
+</tr>
+<tr>
+<td style="text-align:right">6</td>
+<td><code>backend/app/contracts/models.py</code></td>
+<td>Định nghĩa domain model và invariant.</td>
+</tr>
+<tr>
+<td style="text-align:right">7</td>
+<td><code>backend/app/contracts/db_models.py</code></td>
+<td>Ánh xạ domain data thành 5 bảng PostgreSQL.</td>
+</tr>
+<tr>
+<td style="text-align:right">8</td>
+<td><code>backend/alembic.ini</code> và <code>backend/migrations/env.py</code></td>
+<td>Kết nối Alembic với metadata và database URL.</td>
+</tr>
+<tr>
+<td style="text-align:right">9</td>
+<td><code>02b65599686f_create_contract_tables.py</code></td>
+<td>Tạo schema contract đầu tiên.</td>
+</tr>
+<tr>
+<td style="text-align:right">10</td>
+<td><code>backend/app/contracts/storage.py</code></td>
+<td>Checksum, upload, kiểm tra và xóa PDF trên MinIO.</td>
+</tr>
+<tr>
+<td style="text-align:right">11</td>
+<td><code>backend/scripts/contracts/smoke_storage.py</code></td>
+<td>Kiểm tra MinIO thật bằng LC01 rồi dọn object thử.</td>
+</tr>
+<tr>
+<td style="text-align:right">12</td>
+<td><code>backend/app/contracts/repository.py</code></td>
+<td>Đọc/ghi document record theo ID, checksum và scope.</td>
+</tr>
+<tr>
+<td style="text-align:right">13</td>
+<td><code>backend/app/contracts/ingestion_service.py</code></td>
+<td>Điều phối checksum → MinIO → document record.</td>
+</tr>
+<tr>
+<td style="text-align:right">14</td>
+<td><code>backend/scripts/contracts/ingest_lc01.py</code></td>
+<td>Entry point chạy ingestion LC01.</td>
+</tr>
+<tr>
+<td style="text-align:right">15</td>
+<td><code>backend/app/contracts/page_classifier.py</code></td>
+<td>Phân loại mọi trang theo phạm vi xử lý.</td>
+</tr>
+<tr>
+<td style="text-align:right">16</td>
+<td><code>96b6dd0cf83c_add_ignored_out_of_scope_page_status.py</code></td>
+<td>Bổ sung trạng thái trang ngoài phạm vi.</td>
+</tr>
+<tr>
+<td style="text-align:right">17</td>
+<td><code>backend/app/contracts/reading_order.py</code></td>
+<td>Khôi phục thứ tự đọc theo hàng cho MT700.</td>
+</tr>
+<tr>
+<td style="text-align:right">18</td>
+<td><code>backend/app/contracts/page_processing_service.py</code></td>
+<td>Lưu page metadata và positioned block.</td>
+</tr>
+<tr>
+<td style="text-align:right">19</td>
+<td><code>backend/scripts/contracts/process_lc01_pages.py</code></td>
+<td>Chạy page processing cho trang 2–3.</td>
+</tr>
+<tr>
+<td style="text-align:right">20</td>
+<td><code>backend/app/contracts/mt700_parser.py</code></td>
+<td>Tách 24 field cấp cao.</td>
+</tr>
+<tr>
+<td style="text-align:right">21</td>
+<td><code>backend/app/contracts/mt700_item_parser.py</code></td>
+<td>Tách item con của 46A và 47A.</td>
+</tr>
+<tr>
+<td style="text-align:right">22</td>
+<td><code>backend/app/contracts/clause_processing_service.py</code></td>
+<td>Lưu field/item và liên kết với source block.</td>
+</tr>
+<tr>
+<td style="text-align:right">23</td>
+<td><code>backend/scripts/contracts/process_lc01_clauses.py</code></td>
+<td>Chạy clause processing cho LC01.</td>
+</tr>
+<tr>
+<td style="text-align:right">24</td>
+<td><code>backend/app/contracts/clause_repository.py</code></td>
+<td>Query clause cùng đầy đủ source location.</td>
+</tr>
+<tr>
+<td style="text-align:right">25</td>
+<td><code>backend/app/contracts/clause_retrieval_service.py</code></td>
+<td>Áp điều kiện ready/scope và trả domain clause.</td>
+</tr>
+<tr>
+<td style="text-align:right">26</td>
+<td><code>backend/scripts/contracts/get_lc01_clause.py</code></td>
+<td>Entry point lấy clause theo label và in evidence.</td>
+</tr>
+<tr>
+<td style="text-align:right">27</td>
+<td><code>backend/scripts/contracts/__init__.py</code></td>
+<td>Cho phép chạy các script bằng cú pháp <code>python -m</code>.</td>
+</tr>
+</tbody>
+</table>
+<p>Lý do thứ tự này quan trọng: file phía sau phụ thuộc contract do file phía trước cung cấp. Ví dụ, chưa có <code>ContractTextBlockRecord</code> thì không thể tạo <code>ContractClauseSpanRecord</code>; chưa lưu span thì retrieval không thể trả bbox.</p>
+<h2 id="6-package-%C4%91%C6%B0%E1%BB%A3c-import-%C4%91%E1%BB%83-l%C3%A0m-g%C3%AC">6. Package được import để làm gì?</h2>
+<h3 id="61-package-b%C3%AAn-ngo%C3%A0i">6.1. Package bên ngoài</h3>
+<table>
+<thead>
+<tr>
+<th>Package</th>
+<th>Được dùng ở đâu</th>
+<th>Vì sao cần</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>pydantic</code></td>
+<td><code>config.py</code>, <code>rag/models.py</code>, <code>contracts/models.py</code></td>
+<td>Validate dữ liệu ngay tại biên: UUID, checksum, page range, bbox và quan hệ parent/child.</td>
+</tr>
+<tr>
+<td><code>pydantic-settings</code></td>
+<td><code>config.py</code></td>
+<td>Đọc environment thành object có type; tránh gọi <code>os.environ</code> rải rác.</td>
+</tr>
+<tr>
+<td><code>SQLAlchemy</code></td>
+<td><code>db/*</code>, repository, service, <code>db_models.py</code></td>
+<td>ORM, query, relationship và transaction với PostgreSQL.</td>
+</tr>
+<tr>
+<td><code>psycopg[binary]</code></td>
+<td>Driver được SQLAlchemy dùng qua <code>postgresql+psycopg://</code></td>
+<td>Cho Python kết nối PostgreSQL. Code không import trực tiếp vì SQLAlchemy nạp driver từ URL.</td>
+</tr>
+<tr>
+<td><code>alembic</code></td>
+<td><code>migrations/env.py</code>, migration files</td>
+<td>Version hóa schema để mọi môi trường nâng cấp database giống nhau.</td>
+</tr>
+<tr>
+<td><code>minio</code></td>
+<td><code>storage.py</code></td>
+<td>Giao tiếp S3-compatible API để lưu PDF gốc.</td>
+</tr>
+<tr>
+<td><code>PyMuPDF</code> (<code>pymupdf</code>)</td>
+<td><code>pdf_extractor.py</code></td>
+<td>Đọc PDF text và lấy tọa độ block; không chỉ lấy plain text.</td>
+</tr>
+<tr>
+<td><code>pytest</code></td>
+<td>dependency kiểm thử</td>
+<td>Đã cài để viết regression test, nhưng Mốc 1 hiện chưa có test tự động tương ứng.</td>
+</tr>
+</tbody>
+</table>
+<p>Các package <code>openai</code>, <code>langchain*</code> và <code>qdrant-client</code> có trong project vì RAG knowledge hiện có, nhưng <strong>không tham gia luồng Mốc 1</strong>.</p>
+<h3 id="62-standard-library">6.2. Standard library</h3>
+<table>
+<thead>
+<tr>
+<th>Import</th>
+<th>Mục đích</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>pathlib.Path</code></td>
+<td>Tạo và resolve đường dẫn không phụ thuộc thư mục đang đứng.</td>
+</tr>
+<tr>
+<td><code>hashlib.sha256</code></td>
+<td>Tạo fingerprint 64 ký tự cho tính toàn vẹn và chống upload trùng.</td>
+</tr>
+<tr>
+<td><code>uuid.UUID</code>, <code>uuid4</code></td>
+<td>ID contract, clause và block không phụ thuộc tên file.</td>
+</tr>
+<tr>
+<td><code>enum.StrEnum</code></td>
+<td>Trạng thái có type trong Python nhưng lưu chuỗi dễ đọc trong DB.</td>
+</tr>
+<tr>
+<td><code>dataclasses.dataclass</code>, <code>field</code></td>
+<td>Object trung gian nhẹ cho classification, located block và item draft.</td>
+</tr>
+<tr>
+<td><code>re.fullmatch</code>, <code>re.compile</code></td>
+<td>Kiểm tra scope/checksum, nhận field heading và marker <code>N/</code>.</td>
+</tr>
+<tr>
+<td><code>argparse.ArgumentParser</code></td>
+<td>Validate input CLI như UUID và label.</td>
+</tr>
+<tr>
+<td><code>contextlib.contextmanager</code></td>
+<td>Đóng gói commit/rollback/close cho session.</td>
+</tr>
+<tr>
+<td><code>functools.lru_cache</code></td>
+<td>Chỉ tạo <code>Settings</code> một lần trong một process.</td>
+</tr>
+<tr>
+<td><code>typing.Protocol</code></td>
+<td>Cho service phụ thuộc vào contract storage thay vì khóa cứng vào MinIO.</td>
+</tr>
+<tr>
+<td><code>typing.Literal</code></td>
+<td>Giới hạn giá trị cấu hình hoặc loại document hợp lệ.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="7-review-t%E1%BB%ABng-file-v%E1%BA%A5n-%C4%91%E1%BB%81-%E2%86%92-input-%E2%86%92-logic-%E2%86%92-output">7. Review từng file: vấn đề → input → logic → output</h2>
+<h3 id="71-c%C3%A1c-primitive-pdf-%C4%91%C6%B0%E1%BB%A3c-t%C3%A1i-s%E1%BB%AD-d%E1%BB%A5ng">7.1. Các primitive PDF được tái sử dụng</h3>
+<h4 id="backendappragmodelspy"><code>backend/app/rag/models.py</code></h4>
+<ul>
+<li><strong>Vấn đề giải quyết:</strong> cần một cấu trúc chung biểu diễn trang và text block có tọa độ.</li>
+<li><strong>Import:</strong> <code>pydantic.BaseModel</code>, <code>Field</code>, <code>model_validator</code> để khai báo type và reject bbox/page không hợp lệ; <code>from __future__ import annotations</code> để Python 3.11 xử lý forward reference <code>SourceSpan</code> trong <code>DocumentChunk</code>.</li>
+<li><strong>Input:</strong> số trang, kích thước trang, <code>block_index</code>, text và <code>(x0, y0, x1, y1)</code>.</li>
+<li><strong>Logic:</strong> model kiểm tra số trang dương, kích thước dương và bbox có chiều rộng/chiều cao dương.</li>
+<li><strong>Output:</strong> <code>ExtractedPage</code> chứa tuple <code>PageTextBlock</code>.</li>
+<li><strong>Lý do tái sử dụng:</strong> extraction primitive là chung; parser Article của UCP600 không được tái sử dụng cho MT700.</li>
+</ul>
+<h4 id="backendappragingestionsourceloaderpy"><code>backend/app/rag/ingestion/source_loader.py</code></h4>
+<ul>
+<li><strong>Vấn đề giải quyết:</strong> không cho file thiếu, rỗng, sai extension hoặc giả PDF đi vào pipeline.</li>
+<li><strong>Import:</strong> <code>Path</code> cho file path; <code>sha256</code> cho helper metadata của pipeline RAG cũ; <code>SourceDocument</code> là model RAG cũ.</li>
+<li><strong>Input:</strong> <code>Path</code> tới PDF.</li>
+<li><strong>Logic:</strong> kiểm tra tồn tại, là file, <code>.pdf</code>, size lớn hơn 0 và bytes đầu là <code>%PDF-</code>.</li>
+<li><strong>Output:</strong> <code>validate_pdf_path()</code> không trả dữ liệu nếu hợp lệ; ném lỗi rõ ràng nếu không hợp lệ.</li>
+</ul>
+<h4 id="backendappragingestionpdfextractorpy"><code>backend/app/rag/ingestion/pdf_extractor.py</code></h4>
+<ul>
+<li><strong>Vấn đề giải quyết:</strong> plain text không đủ để highlight; cần biết text nằm ở đâu trên trang.</li>
+<li><strong>Import:</strong> <code>pymupdf</code> mở PDF và đọc block; <code>Path</code>; <code>validate_pdf_path</code>; <code>ExtractedPage</code> và <code>PageTextBlock</code>.</li>
+<li><strong>Input:</strong> đường dẫn PDF hợp lệ.</li>
+<li><strong>Logic:</strong> với từng trang, gọi <code>get_text(&quot;blocks&quot;, sort=True)</code>, chỉ giữ block text (<code>block_type == 0</code>), loại block rỗng, giữ nguyên <code>block_index</code> và bbox.</li>
+<li><strong>Output:</strong> tuple các <code>ExtractedPage</code> theo số trang 1-based.</li>
+<li><strong>Nhánh lỗi:</strong> PDF mã hóa, cấu trúc hỏng, không có trang hoặc hoàn toàn không có extractable text.</li>
+</ul>
+<h3 id="72-dependency-c%E1%BA%A5u-h%C3%ACnh-v%C3%A0-h%E1%BA%A1-t%E1%BA%A7ng">7.2. Dependency, cấu hình và hạ tầng</h3>
+<h4 id="backendrequirementstxt"><code>backend/requirements.txt</code></h4>
+<ul>
+<li><strong>Vấn đề giải quyết:</strong> container và máy local cần cùng phiên bản major của thư viện.</li>
+<li><strong>Input:</strong> tên package và version range.</li>
+<li><strong>Logic:</strong> <code>pip</code> resolve và cài dependency.</li>
+<li><strong>Output:</strong> runtime có SQLAlchemy, Alembic, Psycopg, MinIO client, PyMuPDF và pytest.</li>
+<li><strong>Quyết định:</strong> dùng range có giới hạn major cho các package dữ liệu để giảm breaking change.</li>
+</ul>
+<h4 id="envexample"><code>.env.example</code></h4>
+<ul>
+<li><strong>Vấn đề giải quyết:</strong> cho biết hệ thống cần biến nào mà không chứa secret thật.</li>
+<li><strong>Input:</strong> tên biến PostgreSQL/MinIO.</li>
+<li><strong>Logic:</strong> làm template; runtime thực tế đọc <code>.env</code>.</li>
+<li><strong>Output:</strong> contract cấu hình gồm <code>DATABASE_URL</code>, <code>MINIO_ENDPOINT</code>, <code>MINIO_ACCESS_KEY</code>, <code>MINIO_SECRET_KEY</code>, <code>MINIO_BUCKET</code>, <code>MINIO_SECURE</code>.</li>
+<li><strong>Bảo mật:</strong> không copy value thật vào tài liệu, log hoặc commit.</li>
+</ul>
+<h4 id="backendappcoreconfigpy"><code>backend/app/core/config.py</code></h4>
+<ul>
+<li><strong>Vấn đề giải quyết:</strong> tập trung cấu hình và tránh in secret.</li>
+<li><strong>Import:</strong> <code>BaseSettings</code>/<code>SettingsConfigDict</code> đọc env; <code>SecretStr</code> che database URL và key; <code>Field</code>/<code>model_validator</code> validate; <code>Literal</code> giới hạn log level; <code>Path</code> tìm <code>.env</code>; <code>lru_cache</code> cache settings.</li>
+<li><strong>Input:</strong> environment hoặc file <code>.env</code> ở project root.</li>
+<li><strong>Logic:</strong> Pydantic chuyển chuỗi env về đúng type; <code>get_settings()</code> cache một instance.</li>
+<li><strong>Output:</strong> object <code>Settings</code> đã validate.</li>
+<li><strong>Ai quyết định tiếp:</strong> nếu thiếu cấu hình bắt buộc, Pydantic/storage dừng sớm; nếu đủ thì service mới tạo client.</li>
+</ul>
+<h4 id="composeyaml"><code>compose.yaml</code></h4>
+<ul>
+<li><strong>Vấn đề giải quyết:</strong> tạo môi trường PostgreSQL/backend lặp lại được.</li>
+<li><strong>Input:</strong> <code>.env</code>, Docker image và source mounts.</li>
+<li><strong>Logic:</strong> PostgreSQL healthcheck phải pass trước khi backend chạy; backend mount code/data/migrations/scripts.</li>
+<li><strong>Output:</strong> PostgreSQL tại cổng local 5432 và backend tại 8000.</li>
+<li><strong>Lưu ý MinIO:</strong> MinIO đang chạy native trên macOS, không phải service trong Compose. Container truy cập qua <code>host.docker.internal:9000</code>.</li>
+</ul>
+<h4 id="backenddockerfile"><code>backend/Dockerfile</code></h4>
+<ul>
+<li><strong>Vấn đề giải quyết:</strong> đóng gói backend với Python 3.11 và dependency cố định theo requirements.</li>
+<li><strong>Input:</strong> <code>requirements.txt</code>, <code>app</code>, <code>migrations</code>, <code>scripts</code>, <code>alembic.ini</code>.</li>
+<li><strong>Logic:</strong> install dependency rồi copy source; <code>CMD</code> dùng JSON array hợp lệ để chạy Uvicorn.</li>
+<li><strong>Output:</strong> image <code>rag-backend:dev</code>.</li>
+</ul>
+<h3 id="73-database-n%E1%BB%81n">7.3. Database nền</h3>
+<h4 id="backendappdbbasepy"><code>backend/app/db/base.py</code></h4>
+<ul>
+<li><strong>Vấn đề giải quyết:</strong> mọi ORM model cần chung metadata và tên constraint ổn định.</li>
+<li><strong>Import:</strong> <code>MetaData</code>; <code>DeclarativeBase</code>.</li>
+<li><strong>Input:</strong> khai báo ORM model kế thừa <code>Base</code>.</li>
+<li><strong>Logic:</strong> áp naming convention cho index, unique, check, foreign key và primary key.</li>
+<li><strong>Output:</strong> <code>Base.metadata</code> để SQLAlchemy và Alembic cùng nhìn thấy schema.</li>
+</ul>
+<h4 id="backendappdbsessionpy"><code>backend/app/db/session.py</code></h4>
+<ul>
+<li><strong>Vấn đề giải quyết:</strong> quản lý kết nối, session, commit và rollback thống nhất.</li>
+<li><strong>Import:</strong> SQLAlchemy <code>Engine</code>, <code>create_engine</code>, <code>Session</code>, <code>sessionmaker</code>; <code>contextmanager</code>; <code>Generator</code>; <code>Settings</code>.</li>
+<li><strong>Input:</strong> <code>Settings.database_url</code> dạng <code>SecretStr</code>.</li>
+<li><strong>Logic:</strong> tạo engine với <code>pool_pre_ping=True</code>; session không autoflush và không expire sau commit; <code>session_scope</code> commit khi thành công, rollback khi lỗi, luôn close.</li>
+<li><strong>Output:</strong> engine, session factory hoặc managed session.</li>
+<li><strong>Bảo mật:</strong> URL chỉ được mở bằng <code>get_secret_value()</code> khi tạo engine, không print.</li>
+</ul>
+<h4 id="backendappdbinitpy"><code>backend/app/db/__init__.py</code></h4>
+<ul>
+<li><strong>Vấn đề giải quyết:</strong> các module khác cần một điểm import ổn định cho database API.</li>
+<li><strong>Import:</strong> re-export <code>Base</code>, <code>SessionFactory</code>, engine/session factory và <code>session_scope</code> từ hai file database nền.</li>
+<li><strong>Input:</strong> không có input runtime riêng.</li>
+<li><strong>Logic:</strong> <code>__all__</code> công khai đúng các tên được phép dùng.</li>
+<li><strong>Output:</strong> module khác có thể dùng <code>from app.db import Base</code> mà không phụ thuộc cấu trúc file con.</li>
+</ul>
+<h4 id="hai-file-package-marker">Hai file package marker</h4>
+<ul>
+<li><code>backend/app/contracts/__init__.py</code> hiện rỗng: tạo namespace <code>app.contracts</code> rõ ràng cho domain contract.</li>
+<li><code>backend/scripts/contracts/__init__.py</code> hiện rỗng: cho phép gọi entry point bằng <code>python -m scripts.contracts.&lt;tên_script&gt;</code>.</li>
+<li>Hai file không nhận input, không chạy business logic và không tạo output dữ liệu.</li>
+</ul>
+<h3 id="74-domain-model-v%C3%A0-orm-schema">7.4. Domain model và ORM schema</h3>
+<h4 id="backendappcontractsmodelspy"><code>backend/app/contracts/models.py</code></h4>
+<ul>
+<li><strong>Vấn đề giải quyết:</strong> định nghĩa dữ liệu hợp lệ trước khi ghi DB hoặc trả ra ngoài.</li>
+<li><strong>Import:</strong> <code>StrEnum</code> cho trạng thái; <code>UUID</code>; <code>Literal</code>; Pydantic <code>BaseModel</code>, <code>Field</code>, <code>model_validator</code>.</li>
+<li><strong>Input:</strong> metadata document, clause và source span.</li>
+<li><strong>Logic chính:</strong>
+<ul>
+<li><code>ContractStatus</code>: <code>uploaded</code>, <code>processing</code>, <code>ready</code>, <code>partial</code>, <code>failed</code>.</li>
+<li><code>PageProcessingStatus</code>: <code>text</code>, <code>ignored_cover</code>, <code>ignored_out_of_scope</code>, <code>ocr_required</code>.</li>
+<li><code>ClauseKind</code>: <code>swift_field</code>, <code>swift_item</code>.</li>
+<li><code>ContractSourceSpan</code> kiểm tra bbox và cặp char offset.</li>
+<li><code>ContractDocument</code> kiểm tra mỗi trang chỉ có một trạng thái và terminal state phải phủ đủ trang.</li>
+<li><code>ContractClause</code> kiểm tra page range khớp spans và item phải có parent.</li>
+</ul>
+</li>
+<li><strong>Output:</strong> domain object có invariant rõ ràng.</li>
+</ul>
+<h4 id="backendappcontractsdbmodelspy"><code>backend/app/contracts/db_models.py</code></h4>
+<ul>
+<li><strong>Vấn đề giải quyết:</strong> domain object cần được lưu bền vững và liên kết đúng trong PostgreSQL.</li>
+<li><strong>Import:</strong> SQLAlchemy column types, constraints, relationship và PostgreSQL <code>ARRAY</code>/<code>UUID</code>; <code>datetime</code>; <code>uuid4</code>; enum domain; <code>Base</code>.</li>
+<li><strong>Input:</strong> record document/page/block/clause/span.</li>
+<li><strong>Logic:</strong> định nghĩa 5 bảng, foreign key, cascade, unique constraint và relationship.</li>
+<li><strong>Output:</strong> ORM record để repository/service query và persist.</li>
+</ul>
+<p>Năm bảng và trách nhiệm:</p>
+<table>
+<thead>
+<tr>
+<th>Bảng</th>
+<th>Chứa gì</th>
+<th>Khóa/liên kết quan trọng</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>contract_documents</code></td>
+<td>File, checksum, object key, trạng thái, scope và danh sách trang</td>
+<td>Unique <code>(access_scope, checksum_sha256)</code> chống ingest trùng trong cùng scope.</td>
+</tr>
+<tr>
+<td><code>contract_pages</code></td>
+<td>Kích thước và trạng thái từng trang</td>
+<td>PK <code>(contract_id, page_number)</code>.</td>
+</tr>
+<tr>
+<td><code>contract_text_blocks</code></td>
+<td>Text, thứ tự và bbox</td>
+<td>Unique <code>(contract_id, page_number, block_index)</code>.</td>
+</tr>
+<tr>
+<td><code>contract_clauses</code></td>
+<td>Field/item, parent, raw text và page range</td>
+<td>Unique <code>(contract_id, label)</code>; item trỏ parent field.</td>
+</tr>
+<tr>
+<td><code>contract_clause_spans</code></td>
+<td>Clause dùng block nào và đoạn ký tự nào</td>
+<td>PK <code>(clause_id, span_order)</code>; FK tới block.</td>
+</tr>
+</tbody>
+</table>
+<p>Quan hệ:</p>
+<pre class="hljs"><code><div>contract_documents 1 ---- N contract_pages
+contract_pages     1 ---- N contract_text_blocks
+contract_documents 1 ---- N contract_clauses
+contract_clauses   1 ---- N child contract_clauses
+contract_clauses   1 ---- N contract_clause_spans
+contract_text_blocks 1 -- N contract_clause_spans
+</div></code></pre>
+<h3 id="75-alembic">7.5. Alembic</h3>
+<h4 id="backendalembicini"><code>backend/alembic.ini</code></h4>
+<ul>
+<li><strong>Vấn đề giải quyết:</strong> cho Alembic biết migration nằm ở đâu và cấu hình logging.</li>
+<li><strong>Input:</strong> đường dẫn tương đối từ backend.</li>
+<li><strong>Logic:</strong> <code>script_location=%(here)s/migrations</code>; URL để trống có chủ ý vì lấy từ environment trong <code>env.py</code>.</li>
+<li><strong>Output:</strong> cấu hình CLI <code>alembic</code>.</li>
+</ul>
+<h4 id="backendmigrationsenvpy"><code>backend/migrations/env.py</code></h4>
+<ul>
+<li><strong>Vấn đề giải quyết:</strong> kết nối Alembic với đúng DB và ORM metadata mà không hard-code URL.</li>
+<li><strong>Import:</strong> Alembic <code>context</code>; SQLAlchemy <code>engine_from_config</code>, <code>pool</code>; <code>fileConfig</code>; <code>get_settings</code>; <code>Base</code>; import <code>app.contracts.db_models</code> để đăng ký bảng vào metadata.</li>
+<li><strong>Input:</strong> <code>alembic.ini</code>, <code>Settings.database_url</code>, <code>Base.metadata</code>.</li>
+<li><strong>Logic:</strong> inject URL lúc runtime; hỗ trợ offline SQL và online migration; <code>compare_type=True</code> phát hiện đổi type.</li>
+<li><strong>Output:</strong> Alembic có thể generate/run migration đúng schema.</li>
+</ul>
+<h4 id="backendmigrationsscriptpymako-v%C3%A0-backendmigrationsreadme"><code>backend/migrations/script.py.mako</code> và <code>backend/migrations/README</code></h4>
+<ul>
+<li><strong>Vấn đề giải quyết:</strong> đây là scaffolding Alembic dùng để tạo revision mới và mô tả loại cấu hình migration.</li>
+<li><strong>Import trong template:</strong> <code>Sequence</code>, <code>Union</code>, Alembic <code>op</code> và SQLAlchemy <code>sa</code>; chúng được chèn vào migration mới khi chạy <code>alembic revision</code>.</li>
+<li><strong>Input:</strong> message, revision ID, down revision và phần SQL do Alembic generate.</li>
+<li><strong>Logic:</strong> Mako thay placeholder <code>${...}</code> thành nội dung migration Python.</li>
+<li><strong>Output:</strong> file revision mới trong <code>migrations/versions</code>; README chỉ ghi đây là cấu hình một database.</li>
+<li><strong>Lưu ý:</strong> hai file này không trực tiếp thay đổi database; chỉ <code>upgrade()</code>/<code>downgrade()</code> trong revision được chạy mới làm việc đó.</li>
+</ul>
+<h4 id="backendmigrationsversions02b65599686fcreatecontracttablespy"><code>backend/migrations/versions/02b65599686f_create_contract_tables.py</code></h4>
+<ul>
+<li><strong>Vấn đề giải quyết:</strong> tạo schema Mốc 1 trên database thật.</li>
+<li><strong>Import:</strong> Alembic <code>op</code>; SQLAlchemy <code>sa</code>; PostgreSQL dialect cho ARRAY/ENUM; type hints <code>Sequence</code>, <code>Union</code>.</li>
+<li><strong>Input:</strong> database đang ở revision rỗng.</li>
+<li><strong>Logic:</strong> <code>upgrade()</code> tạo enum, bảng, FK, unique constraint và index theo thứ tự phụ thuộc; <code>downgrade()</code> xóa theo thứ tự ngược.</li>
+<li><strong>Output:</strong> 5 bảng contract và các enum ban đầu.</li>
+</ul>
+<h4 id="backendmigrationsversions96b6dd0cf83caddignoredoutofscopepagestatuspy"><code>backend/migrations/versions/96b6dd0cf83c_add_ignored_out_of_scope_page_status.py</code></h4>
+<ul>
+<li><strong>Vấn đề giải quyết:</strong> phân biệt “cover” với “trang hợp lệ nhưng không thuộc phạm vi review”.</li>
+<li><strong>Import:</strong> Alembic <code>op</code>; <code>Sequence</code> cho metadata revision.</li>
+<li><strong>Input:</strong> enum <code>page_processing_status</code> từ migration đầu.</li>
+<li><strong>Logic:</strong> upgrade thêm <code>ignored_out_of_scope</code>; downgrade map dữ liệu về <code>ignored_cover</code> rồi rebuild enum cũ.</li>
+<li><strong>Output:</strong> DB chấp nhận trạng thái mới cho trang 4–14.</li>
+<li><strong>Vì sao cần migration riêng:</strong> sửa Python enum không tự thay đổi PostgreSQL enum đã tồn tại.</li>
+</ul>
+<h3 id="76-object-storage-v%C3%A0-ingestion">7.6. Object storage và ingestion</h3>
+<h4 id="backendappcontractsstoragepy"><code>backend/app/contracts/storage.py</code></h4>
+<ul>
+<li><strong>Vấn đề giải quyết:</strong> lưu PDF gốc bất biến, xác minh đúng file và không làm lộ credential.</li>
+<li><strong>Import:</strong> <code>Minio</code> để gọi S3 API; <code>SecretStr</code>; <code>Settings</code>; <code>Protocol</code>; <code>Path</code>; <code>sha256</code>; <code>fullmatch</code>; <code>UUID</code>; <code>validate_pdf_path</code>.</li>
+<li><strong>Input:</strong> file path, <code>contract_id</code>, <code>access_scope</code>, checksum mong đợi và MinIO settings.</li>
+<li><strong>Logic:</strong>
+<ol>
+<li>validate PDF;</li>
+<li>scope chỉ cho ký tự an toàn;</li>
+<li>checksum phải là 64 hex;</li>
+<li>tính lại checksum trước upload;</li>
+<li>tạo object key <code>scope/contract_id/checksum.pdf</code>;</li>
+<li>upload kèm metadata SHA-256;</li>
+<li><code>stat_object()</code> xác minh metadata sau upload;</li>
+<li>nếu sai thì xóa object và báo lỗi.</li>
+</ol>
+</li>
+<li><strong>Output:</strong> object key khi thành công.</li>
+<li><strong>Tại sao dùng <code>Protocol</code>:</strong> service có thể nhận MinIO implementation hoặc fake storage trong test mà không sửa logic ingestion.</li>
+</ul>
+<h4 id="backendscriptscontractssmokestoragepy"><code>backend/scripts/contracts/smoke_storage.py</code></h4>
+<ul>
+<li><strong>Vấn đề giải quyết:</strong> chứng minh credential, bucket, upload, stat và delete hoạt động thật.</li>
+<li><strong>Import:</strong> <code>Path</code>, <code>uuid4</code>, storage helpers và <code>get_settings</code>.</li>
+<li><strong>Input:</strong> <code>LC01.pdf</code> và cấu hình MinIO từ env.</li>
+<li><strong>Logic:</strong> checksum → verify bucket → upload bằng UUID tạm → xóa object.</li>
+<li><strong>Output:</strong> hai dòng pass; không để lại object thử nghiệm.</li>
+</ul>
+<h4 id="backendappcontractsrepositorypy"><code>backend/app/contracts/repository.py</code></h4>
+<ul>
+<li><strong>Vấn đề giải quyết:</strong> tách SQL query khỏi business service.</li>
+<li><strong>Import:</strong> SQLAlchemy <code>select</code>, <code>Session</code>; <code>UUID</code>; <code>ContractDocumentRecord</code>.</li>
+<li><strong>Input:</strong> session và điều kiện <code>contract_id</code>/checksum + <code>access_scope</code>.</li>
+<li><strong>Logic:</strong> query luôn kèm scope; <code>add()</code> flush để DB gán default và bắt constraint sớm.</li>
+<li><strong>Output:</strong> document record hoặc <code>None</code>.</li>
+</ul>
+<h4 id="backendappcontractsingestionservicepy"><code>backend/app/contracts/ingestion_service.py</code></h4>
+<ul>
+<li><strong>Vấn đề giải quyết:</strong> upload object và tạo document record phải là một use case nhất quán.</li>
+<li><strong>Import:</strong> <code>Path</code>, <code>uuid4</code>, SQLAlchemy <code>Session</code>, document record/status/repository, storage protocol/checksum và <code>extract_pdf_pages</code>.</li>
+<li><strong>Input:</strong> file path và <code>access_scope</code>.</li>
+<li><strong>Logic:</strong>
+<ol>
+<li>tính checksum;</li>
+<li>nếu cùng checksum + scope đã tồn tại thì trả record cũ;</li>
+<li>extract để biết <code>page_count</code> và xác nhận PDF đọc được;</li>
+<li>tạo <code>contract_id</code>;</li>
+<li>upload MinIO;</li>
+<li>tạo document trạng thái <code>uploaded</code>;</li>
+<li>commit DB;</li>
+<li>nếu DB lỗi sau upload thì rollback và xóa object để bù trừ.</li>
+</ol>
+</li>
+<li><strong>Output:</strong> <code>ContractDocumentRecord</code>.</li>
+<li><strong>Giới hạn transaction:</strong> PostgreSQL và MinIO không chung một transaction; delete object là compensation logic.</li>
+</ul>
+<h4 id="backendscriptscontractsingestlc01py"><code>backend/scripts/contracts/ingest_lc01.py</code></h4>
+<ul>
+<li><strong>Vấn đề giải quyết:</strong> tạo entry point có thể lặp lại để ingest đúng LC01.</li>
+<li><strong>Import:</strong> <code>Path</code>, ingestion/storage service, settings và DB factory.</li>
+<li><strong>Input:</strong> <code>backend/data/raw/contracts/LC01.pdf</code>; scope thử nghiệm <code>public</code>.</li>
+<li><strong>Logic:</strong> tạo settings → engine → session → storage → gọi <code>upload_contract()</code>.</li>
+<li><strong>Output:</strong> contract ID, filename, status <code>uploaded</code>, page count 14.</li>
+</ul>
+<h3 id="77-ph%C3%A2n-lo%E1%BA%A1i-th%E1%BB%A9-t%E1%BB%B1-%C4%91%E1%BB%8Dc-v%C3%A0-l%C6%B0u-pageblock">7.7. Phân loại, thứ tự đọc và lưu page/block</h3>
+<h4 id="backendappcontractspageclassifierpy"><code>backend/app/contracts/page_classifier.py</code></h4>
+<ul>
+<li><strong>Vấn đề giải quyết:</strong> không được coi mọi trang có text là trang cần review.</li>
+<li><strong>Import:</strong> <code>dataclass</code>; <code>PageProcessingStatus</code>; <code>ExtractedPage</code>.</li>
+<li><strong>Input:</strong> tuple trang, <code>selected_text_pages</code> và <code>ignored_cover_pages</code>.</li>
+<li><strong>Logic theo thứ tự ưu tiên:</strong>
+<ol>
+<li>trang cover → <code>ignored_cover</code>;</li>
+<li>không nằm trong selected → <code>ignored_out_of_scope</code>;</li>
+<li>selected và có block → <code>text</code>;</li>
+<li>selected nhưng không có block → <code>ocr_required</code>.</li>
+</ol>
+</li>
+<li><strong>Validation:</strong> hai tập trang không được chồng nhau và không được chứa trang ngoài PDF.</li>
+<li><strong>Output:</strong> ba danh sách processed, ignored và OCR-required.</li>
+</ul>
+<h4 id="backendappcontractsreadingorderpy"><code>backend/app/contracts/reading_order.py</code></h4>
+<ul>
+<li><strong>Vấn đề giải quyết:</strong> thứ tự block do PDF trả về chưa chắc đúng cặp label/value của MT700.</li>
+<li><strong>Import:</strong> chỉ dùng <code>ExtractedPage</code>, <code>PageTextBlock</code>; không cần package ngoài mới.</li>
+<li><strong>Input:</strong> extracted pages có bbox.</li>
+<li><strong>Logic:</strong> sort theo tọa độ trên <code>y0</code>; gom các block có <code>y0</code> lệch tối đa 1.5 point vào cùng hàng; trong một hàng sort trái sang phải theo <code>x0</code> rồi <code>block_index</code>.</li>
+<li><strong>Output:</strong> <code>ExtractedPage</code> mới với block đúng reading order.</li>
+<li><strong>Tại sao không dùng UCP reading order:</strong> UCP600 có bố cục hai cột; LC01 MT700 cần đọc theo hàng label/value.</li>
+</ul>
+<h4 id="backendappcontractspageprocessingservicepy"><code>backend/app/contracts/page_processing_service.py</code></h4>
+<ul>
+<li><strong>Vấn đề giải quyết:</strong> biến extraction tạm thời thành dữ liệu page/block có thể truy vết lâu dài.</li>
+<li><strong>Import:</strong> <code>Path</code>, <code>UUID</code>, SQLAlchemy <code>Session</code>, ORM records, status, classifier, repository, checksum, extractor và contract reading order.</li>
+<li><strong>Input:</strong> <code>contract_id</code>, scope, file path, selected <code>{2,3}</code>, cover <code>{1}</code>.</li>
+<li><strong>Logic:</strong>
+<ol>
+<li>tìm document trong đúng scope;</li>
+<li>so checksum local với record;</li>
+<li>extract và order tất cả trang;</li>
+<li>kiểm tra page count;</li>
+<li>classify đủ 14 trang;</li>
+<li>chuyển status sang <code>processing</code>;</li>
+<li>xóa page cũ và <code>flush()</code> trước khi insert lại;</li>
+<li>lưu metadata mọi trang;</li>
+<li>chỉ lưu block của trang status <code>text</code>;</li>
+<li>nếu có OCR page thì <code>partial</code>, nếu không thì <code>ready</code>;</li>
+<li>lỗi thì rollback và ghi <code>page_processing_failed</code>.</li>
+</ol>
+</li>
+<li><strong>Output:</strong> document record đã có pages/blocks và trạng thái cuối.</li>
+<li><strong>Vì sao cần <code>flush()</code> sau <code>record.pages.clear()</code>:</strong> buộc DELETE chạy trước INSERT, tránh vi phạm unique key khi reprocess cùng trang.</li>
+</ul>
+<h4 id="backendscriptscontractsprocesslc01pagespy"><code>backend/scripts/contracts/process_lc01_pages.py</code></h4>
+<ul>
+<li><strong>Vấn đề giải quyết:</strong> chạy use case page processing với tham số LC01 đã chốt.</li>
+<li><strong>Import:</strong> <code>ArgumentParser</code>, <code>Path</code>, <code>UUID</code>, service, settings và DB factory.</li>
+<li><strong>Input:</strong> contract UUID từ bước ingestion.</li>
+<li><strong>Logic:</strong> hard-code phạm vi thử nghiệm: selected <code>{2,3}</code>, cover <code>{1}</code>, scope <code>public</code>.</li>
+<li><strong>Output:</strong> status, ba danh sách trang, số page record và block record.</li>
+</ul>
+<p>Kết quả đã chạy:</p>
+<pre class="hljs"><code><div>status=ready
+processed_pages=[2, 3]
+ignored_pages=[1, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+ocr_required_pages=[]
+stored_page_count=14
+stored_block_count=99
+</div></code></pre>
+<h3 id="78-t%C3%A1ch-field-v%C3%A0-item-mt700">7.8. Tách field và item MT700</h3>
+<h4 id="backendappcontractsmt700parserpy"><code>backend/app/contracts/mt700_parser.py</code></h4>
+<ul>
+<li><strong>Vấn đề giải quyết:</strong> text block rời rạc chưa phải “điều khoản” để truy xuất.</li>
+<li><strong>Import:</strong> <code>dataclass</code>; regex <code>fullmatch</code>; <code>UUID</code>, <code>uuid4</code>; domain models; extracted page/block models.</li>
+<li><strong>Input:</strong> ordered pages, <code>contract_id</code> và selected page numbers.</li>
+<li><strong>Logic:</strong>
+<ol>
+<li>bỏ block noise đã biết;</li>
+<li>heading phải bắt đầu bằng đúng hai chữ số;</li>
+<li>có thể đọc option A–Z thành label như <code>40A</code>, <code>46A</code>;</li>
+<li>title là phần trước dấu <code>:</code>;</li>
+<li>khi gặp heading mới thì đóng field cũ;</li>
+<li>gom mọi block tiếp theo vào field hiện tại;</li>
+<li>tạo source span cho từng block;</li>
+<li><code>page_start/page_end</code> lấy từ spans.</li>
+</ol>
+</li>
+<li><strong>Output:</strong> 24 <code>ContractClause</code> loại <code>swift_field</code>.</li>
+<li><strong>Order index:</strong> field dùng khoảng cách 100 (<code>0, 100, 200, ...</code>) để chèn item con ngay sau parent.</li>
+</ul>
+<h4 id="backendappcontractsmt700itemparserpy"><code>backend/app/contracts/mt700_item_parser.py</code></h4>
+<ul>
+<li><strong>Vấn đề giải quyết:</strong> field 46A/47A chứa nhiều điều kiện đánh số; nếu chỉ lưu cả field thì không lấy chính xác <code>47A.2</code>.</li>
+<li><strong>Import:</strong> <code>dataclass</code>, <code>field</code>; <code>re.compile</code>; <code>UUID</code>; domain models; extracted page/block models.</li>
+<li><strong>Input:</strong> pages, parent fields và tập label cần tách item.</li>
+<li><strong>Logic:</strong>
+<ol>
+<li>tạo lookup <code>(page_number, block_index)</code>;</li>
+<li>chỉ xử lý parent nằm trong <code>item_field_labels</code>;</li>
+<li>regex nhận marker đầu dòng <code>N/</code>;</li>
+<li>marker mới đóng item trước và mở item mới;</li>
+<li>số item phải tăng;</li>
+<li>block không có marker sau đó vẫn nối vào item hiện tại;</li>
+<li>lưu <code>char_start/char_end</code> để biết item dùng đoạn nào trong block;</li>
+<li>label con có dạng <code>47A.2</code> và trỏ <code>parent_clause_id</code> về <code>47A</code>.</li>
+</ol>
+</li>
+<li><strong>Output:</strong> 17 <code>ContractClause</code> loại <code>swift_item</code>.</li>
+<li><strong>Điểm cần review:</strong> clause ID của item hiện được suy ra bằng phép cộng trên UUID của parent và vị trí. Cách này lặp lại được nhưng không có ràng buộc toán học đảm bảo không va chạm giữa mọi parent; nên cân nhắc UUID5 theo namespace/label hoặc UUID4 khi harden hệ thống.</li>
+</ul>
+<h4 id="backendappcontractsclauseprocessingservicepy"><code>backend/app/contracts/clause_processing_service.py</code></h4>
+<ul>
+<li><strong>Vấn đề giải quyết:</strong> parser trả object trong memory; hệ thống cần lưu clause và liên kết đúng source block trong DB.</li>
+<li><strong>Import:</strong> <code>Path</code>, <code>UUID</code>; SQLAlchemy <code>delete</code>, <code>select</code>, <code>Session</code>; ORM records; domain status/clause; hai parser; reading order; repository; checksum; PDF extractor.</li>
+<li><strong>Input:</strong> contract ID, scope, local file, selected pages và item field labels.</li>
+<li><strong>Logic:</strong>
+<ol>
+<li>xác minh document và checksum;</li>
+<li>extract + order lại đúng cùng quy tắc;</li>
+<li>parse field rồi item;</li>
+<li>load block đã lưu thành lookup;</li>
+<li>xóa toàn bộ clause cũ để reprocess idempotent;</li>
+<li>lưu parent field trước và flush;</li>
+<li>lưu child item sau để FK parent tồn tại;</li>
+<li>mỗi source span phải map được tới block đã lưu;</li>
+<li>commit và giữ document <code>ready</code>;</li>
+<li>lỗi thì rollback và ghi <code>clause_processing_failed</code>.</li>
+</ol>
+</li>
+<li><strong>Output:</strong> tuple gồm 24 field + 17 item và DB có 41 clause.</li>
+</ul>
+<h4 id="backendscriptscontractsprocesslc01clausespy"><code>backend/scripts/contracts/process_lc01_clauses.py</code></h4>
+<ul>
+<li><strong>Vấn đề giải quyết:</strong> chạy parser/persistence với phạm vi LC01 đã chốt.</li>
+<li><strong>Import:</strong> <code>ArgumentParser</code>, <code>Path</code>, <code>UUID</code>, processing service, <code>ClauseKind</code>, settings và DB factory.</li>
+<li><strong>Input:</strong> contract UUID; pages <code>{2,3}</code>; item fields <code>{&quot;46A&quot;,&quot;47A&quot;}</code>.</li>
+<li><strong>Logic:</strong> gọi service, đếm loại field/item và kiểm tra page range của 46A/47A.</li>
+<li><strong>Output:</strong> 24 field, 17 item, tổng 41; 46A ở trang 2–3, 47A ở trang 3.</li>
+</ul>
+<h3 id="79-truy-xu%E1%BA%A5t-clause">7.9. Truy xuất clause</h3>
+<h4 id="backendappcontractsclauserepositorypy"><code>backend/app/contracts/clause_repository.py</code></h4>
+<ul>
+<li><strong>Vấn đề giải quyết:</strong> lấy clause mà không gây N+1 query và không mất thông tin vị trí.</li>
+<li><strong>Import:</strong> SQLAlchemy <code>select</code>, <code>Session</code>, <code>selectinload</code>; <code>UUID</code>; ORM records; domain clause/span.</li>
+<li><strong>Input:</strong> <code>contract_id</code>, <code>access_scope</code>, label hoặc clause UUID.</li>
+<li><strong>Logic:</strong>
+<ul>
+<li>join document để áp scope;</li>
+<li>eager-load span → block → page;</li>
+<li><code>to_domain()</code> dựng lại bbox, kích thước trang và char offsets.</li>
+</ul>
+</li>
+<li><strong>Output:</strong> ORM record hoặc <code>ContractClause</code> domain đầy đủ source spans.</li>
+</ul>
+<h4 id="backendappcontractsclauseretrievalservicepy"><code>backend/app/contracts/clause_retrieval_service.py</code></h4>
+<ul>
+<li><strong>Vấn đề giải quyết:</strong> repository chỉ query; use case cần lỗi nghiệp vụ rõ ràng và chỉ trả dữ liệu đã sẵn sàng.</li>
+<li><strong>Import:</strong> <code>UUID</code>, SQLAlchemy <code>Session</code>, document/clause repositories, contract status/model.</li>
+<li><strong>Input:</strong> contract ID, scope và label/clause ID.</li>
+<li><strong>Logic:</strong>
+<ol>
+<li>contract phải tồn tại trong scope;</li>
+<li>status phải là <code>ready</code>;</li>
+<li>label được trim và uppercase;</li>
+<li>query clause;</li>
+<li>không có clause thì ném lỗi riêng;</li>
+<li>convert record sang domain.</li>
+</ol>
+</li>
+<li><strong>Output:</strong> <code>ContractClause</code> có raw text, parent, kind, page range và spans.</li>
+<li><strong>Ba lỗi riêng:</strong> <code>ContractNotFoundError</code>, <code>ContractNotReadyError</code>, <code>ContractClauseNotFoundError</code>.</li>
+</ul>
+<h4 id="backendscriptscontractsgetlc01clausepy"><code>backend/scripts/contracts/get_lc01_clause.py</code></h4>
+<ul>
+<li><strong>Vấn đề giải quyết:</strong> cho operator kiểm chứng trực tiếp một clause từ DB.</li>
+<li><strong>Import:</strong> <code>ArgumentParser</code>, <code>UUID</code>, retrieval service, settings và DB factory.</li>
+<li><strong>Input:</strong> <code>contract_id</code> và label CLI; scope thử nghiệm <code>public</code>.</li>
+<li><strong>Logic:</strong> parse UUID, gọi <code>get_by_label()</code>, in nội dung và evidence.</li>
+<li><strong>Output:</strong> label, title, kind, page range, raw text và từng span gồm page, block, bbox, char offsets.</li>
+</ul>
+<h2 id="8-state-machine-c%E1%BB%A7a-contract">8. State machine của contract</h2>
+<pre class="hljs"><code><div>ingest thành công
+    -&gt; uploaded
+
+page processing bắt đầu
+    -&gt; processing
+
+mọi selected page có text
+    -&gt; ready
+
+có selected page không có text
+    -&gt; partial + ocr_required_pages
+
+lỗi page processing
+    -&gt; failed + page_processing_failed
+
+lỗi clause processing
+    -&gt; failed + clause_processing_failed
+</div></code></pre>
+<p>Với LC01 hiện tại:</p>
+<pre class="hljs"><code><div>uploaded -&gt; processing -&gt; ready
+</div></code></pre>
+<p>Lưu ý: clause processing giữ trạng thái <code>ready</code> khi thành công. Retrieval không trả clause nếu document không ở <code>ready</code>.</p>
+<h2 id="9-t%E1%BA%A1i-sao-c%E1%BA%A7n-c%E1%BA%A3-minio-v%C3%A0-postgresql">9. Tại sao cần cả MinIO và PostgreSQL?</h2>
+<table>
+<thead>
+<tr>
+<th>Nơi lưu</th>
+<th>Dữ liệu</th>
+<th>Vì sao</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>MinIO</td>
+<td>PDF gốc nguyên vẹn</td>
+<td>Dùng để tải/xem lại tài liệu, kiểm tra checksum và làm nguồn sự thật của file.</td>
+</tr>
+<tr>
+<td>PostgreSQL</td>
+<td>Metadata, page, block, clause, span</td>
+<td>Query nhanh theo contract/label và giữ quan hệ có constraint.</td>
+</tr>
+</tbody>
+</table>
+<p>Nếu chỉ có MinIO, mỗi lần hỏi phải parse lại PDF. Nếu chỉ có PostgreSQL text, mất file gốc để đối chiếu trực quan. Mốc 1 cần cả hai vì mục tiêu là <strong>truy xuất có thể quay về nguồn</strong>.</p>
+<h2 id="10-t%E1%BA%A1i-sao-c%E1%BA%A7n-page-block-clause-v%C3%A0-span-ri%C3%AAng">10. Tại sao cần page, block, clause và span riêng?</h2>
+<p>Ví dụ <code>47A.2</code>:</p>
+<ul>
+<li><code>contract_pages</code> nói trang 3 có kích thước bao nhiêu.</li>
+<li><code>contract_text_blocks</code> giữ hai block text thật và bbox của chúng.</li>
+<li><code>contract_clauses</code> nói đây là item <code>47A.2</code>, parent là <code>47A</code>, nguyên văn là gì.</li>
+<li><code>contract_clause_spans</code> nói item này dùng block nào, theo thứ tự nào và đoạn ký tự nào.</li>
+</ul>
+<p>Nếu chỉ lưu <code>raw_text</code> trong clause, UI biết nội dung nhưng không biết highlight ở đâu. Nếu chỉ lưu bbox mà không lưu clause, hệ thống không biết block đó mang ý nghĩa nghiệp vụ nào.</p>
+<h2 id="11-c%C3%A1c-l%E1%BB%97i-%C4%91%C3%A3-g%E1%BA%B7p-v%C3%A0-l%C3%BD-do-s%E1%BB%ADa">11. Các lỗi đã gặp và lý do sửa</h2>
+<table>
+<thead>
+<tr>
+<th>Lỗi</th>
+<th>Nguyên nhân</th>
+<th>Cách giải quyết</th>
+<th>Bài học hệ thống</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>MINIO_ENDPOINT is not configured</code></td>
+<td>Chưa có cấu hình runtime cho MinIO</td>
+<td>Điền biến vào <code>.env</code>, không đưa value vào source/log</td>
+<td>Config và secret phải tách khỏi code.</td>
+</tr>
+<tr>
+<td>AIStor từ chối S3 dù đăng nhập đúng</td>
+<td>Binary đang dùng yêu cầu license hợp lệ cho S3 operation</td>
+<td>Cài license hợp lệ và dùng app access key</td>
+<td>Đăng nhập WebUI thành công không đồng nghĩa S3 API được phép.</td>
+</tr>
+<tr>
+<td>Container không kết nối MinIO host</td>
+<td><code>127.0.0.1</code> trong container là container itself</td>
+<td>Dùng <code>host.docker.internal:9000</code> khi chạy từ container</td>
+<td>Endpoint phụ thuộc network boundary.</td>
+</tr>
+<tr>
+<td>Dockerfile báo <code>unknown instruction: &quot;uvicorn&quot;</code></td>
+<td>JSON <code>CMD</code> bị tách thành nhiều Dockerfile instruction</td>
+<td>Đưa toàn bộ JSON array vào một <code>CMD</code> hợp lệ</td>
+<td>Dockerfile không hiểu array trải sai cú pháp.</td>
+</tr>
+<tr>
+<td><code>NameError: SourceSpan is not defined</code></td>
+<td>Forward reference trên Python 3.11</td>
+<td><code>from __future__ import annotations</code> và <code>model_rebuild()</code> sau khi định nghĩa <code>SourceSpan</code></td>
+<td>Type reference phải tương thích runtime Python của container.</td>
+</tr>
+<tr>
+<td>Future import không ở đầu file</td>
+<td>Dòng import được đặt sau import khác</td>
+<td>Chuyển future import thành dòng đầu tiên</td>
+<td>Future import có quy tắc vị trí đặc biệt.</td>
+</tr>
+<tr>
+<td>Ban đầu xử lý trang 2–14</td>
+<td>Classifier dùng “có text” thay cho phạm vi nghiệp vụ</td>
+<td>Thêm selected pages <code>{2,3}</code> và <code>ignored_out_of_scope</code></td>
+<td>Có text không đồng nghĩa thuộc phạm vi review.</td>
+</tr>
+<tr>
+<td>PostgreSQL enum không nhận trạng thái mới</td>
+<td>Python enum và DB enum là hai schema khác nhau</td>
+<td>Thêm migration <code>96b6dd0cf83c</code></td>
+<td>Mọi thay đổi DB type cần migration.</td>
+</tr>
+<tr>
+<td>Reprocess vi phạm unique page/block</td>
+<td>ORM chưa flush DELETE trước INSERT</td>
+<td><code>record.pages.clear()</code> rồi <code>session.flush()</code></td>
+<td>Thứ tự SQL thực thi quan trọng khi replace children.</td>
+</tr>
+<tr>
+<td>Field label/value có nguy cơ sai thứ tự</td>
+<td>MT700 là bố cục hàng, không phải UCP hai cột</td>
+<td>Tạo reading order riêng cho contract</td>
+<td>Chỉ tái sử dụng extraction primitive, không tái sử dụng parser/bố cục sai loại tài liệu.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="12-tr%C3%ACnh-t%E1%BB%B1-ch%E1%BA%A1y-l%E1%BA%A1i-m%E1%BB%91c-1">12. Trình tự chạy lại Mốc 1</h2>
+<p>Các lệnh dưới đây không chứa credential.</p>
+<h3 id="b%C6%B0%E1%BB%9Bc-1--ch%E1%BA%A1y-migration">Bước 1 — chạy migration</h3>
+<pre class="hljs"><code><div><span class="hljs-built_in">cd</span> /Users/matthew/Desktop/RAG
+docker compose run --rm backend alembic upgrade head
+</div></code></pre>
+<p><strong>Output mong đợi:</strong> database ở revision <code>96b6dd0cf83c</code> hoặc mới hơn.</p>
+<h3 id="b%C6%B0%E1%BB%9Bc-2--ki%E1%BB%83m-tra-minio">Bước 2 — kiểm tra MinIO</h3>
+<pre class="hljs"><code><div><span class="hljs-built_in">cd</span> /Users/matthew/Desktop/RAG
+docker compose run --rm \
+  -e MINIO_ENDPOINT=host.docker.internal:9000 \
+  backend python -m scripts.contracts.smoke_storage
+</div></code></pre>
+<p><strong>Output mong đợi:</strong> upload/checksum pass và temporary object được xóa.</p>
+<h3 id="b%C6%B0%E1%BB%9Bc-3--ingest-lc01">Bước 3 — ingest LC01</h3>
+<pre class="hljs"><code><div><span class="hljs-built_in">cd</span> /Users/matthew/Desktop/RAG
+docker compose run --rm \
+  -e MINIO_ENDPOINT=host.docker.internal:9000 \
+  backend python -m scripts.contracts.ingest_lc01
+</div></code></pre>
+<p>Ghi lại <code>contract_id</code> được in ra. Ingestion là idempotent theo checksum + scope, nên chạy lại có thể trả ID đã tồn tại.</p>
+<h3 id="b%C6%B0%E1%BB%9Bc-4--x%E1%BB%AD-l%C3%BD-trang-2%E2%80%933">Bước 4 — xử lý trang 2–3</h3>
+<pre class="hljs"><code><div><span class="hljs-built_in">cd</span> /Users/matthew/Desktop/RAG
+docker compose run --rm backend \
+  python -m scripts.contracts.process_lc01_pages &lt;CONTRACT_ID&gt;
+</div></code></pre>
+<h3 id="b%C6%B0%E1%BB%9Bc-5--t%C3%A1ch-v%C3%A0-l%C6%B0u-fielditem">Bước 5 — tách và lưu field/item</h3>
+<pre class="hljs"><code><div><span class="hljs-built_in">cd</span> /Users/matthew/Desktop/RAG
+docker compose run --rm backend \
+  python -m scripts.contracts.process_lc01_clauses &lt;CONTRACT_ID&gt;
+</div></code></pre>
+<h3 id="b%C6%B0%E1%BB%9Bc-6--truy-xu%E1%BA%A5t-m%E1%BB%99t-item-v%C3%A0-ki%E1%BB%83m-tra-v%E1%BB%8B-tr%C3%AD">Bước 6 — truy xuất một item và kiểm tra vị trí</h3>
+<pre class="hljs"><code><div><span class="hljs-built_in">cd</span> /Users/matthew/Desktop/RAG
+docker compose run --rm backend \
+  python -m scripts.contracts.get_lc01_clause &lt;CONTRACT_ID&gt; 47A.2
+</div></code></pre>
+<p><strong>Output cần review:</strong></p>
+<ul>
+<li><code>raw_text</code> đúng nguyên văn;</li>
+<li><code>page_range=3-3</code>;</li>
+<li>có hai source span;</li>
+<li>mỗi span có <code>page</code>, <code>block</code>, <code>bbox</code> và <code>chars</code>.</li>
+</ul>
+<h2 id="13-quy-t%E1%BA%AFc-b%E1%BA%A3o-m%E1%BA%ADt-c%E1%BB%A7a-m%E1%BB%91c-1">13. Quy tắc bảo mật của Mốc 1</h2>
+<ul>
+<li>Không đưa <code>.env</code>, database URL, access key, secret key hoặc license key vào tài liệu/log.</li>
+<li><code>.env.example</code> chỉ ghi tên biến hoặc value phát triển không nhạy cảm; secret thật nằm trong <code>.env</code> không commit.</li>
+<li><code>SecretStr</code> giảm nguy cơ vô tình print secret, nhưng không thay thế việc quản lý secret đúng cách.</li>
+<li>Dùng app access key có quyền tối thiểu với bucket <code>contracts</code>; không dùng root credential cho backend.</li>
+<li><code>access_scope</code> phải được kiểm tra ở mọi query contract/clause.</li>
+<li>Khi có API, backend/auth quyết định scope; không tin scope do client tự khai báo.</li>
+<li>Object key không chứa filename do người dùng cung cấp; key dùng scope, UUID và checksum để tránh path injection và trùng tên.</li>
+</ul>
+<h2 id="14-%C4%91i%E1%BB%83m-review-tr%C6%B0%E1%BB%9Bc-khi-sang-m%E1%BB%91c-2">14. Điểm review trước khi sang Mốc 2</h2>
+<h3 id="b%E1%BA%AFt-bu%E1%BB%99c-%C4%91%E1%BB%83-kh%C3%B3a-nghi%E1%BB%87m-thu-m%E1%BB%91c-1">Bắt buộc để khóa nghiệm thu Mốc 1</h3>
+<ol>
+<li>Chạy lại retrieval và xác nhận bbox thực tế của <code>47A.2</code>.</li>
+<li>Test label không tồn tại và xác nhận <code>ContractClauseNotFoundError</code>.</li>
+<li>Test contract ID/scope sai và xác nhận <code>ContractNotFoundError</code>.</li>
+<li>Test contract chưa ready và xác nhận <code>ContractNotReadyError</code>.</li>
+<li>Thêm pytest cho classifier, reading order, field parser, item parser và retrieval scope.</li>
+</ol>
+<h3 id="n%C3%AAn-harden-tr%C6%B0%E1%BB%9Bc-apiproduction">Nên harden trước API/production</h3>
+<ol>
+<li>Thay chiến lược tạo item UUID bằng UUID5 có namespace rõ ràng hoặc UUID4.</li>
+<li>Tải nguồn từ MinIO bằng <code>object_key</code> thay vì yêu cầu local file path ở processing service.</li>
+<li>Đưa selected pages/document profile ra cấu hình hoặc metadata, không hard-code vĩnh viễn trong script.</li>
+<li>Thêm constraint/check cho page number, bbox và char range ở DB nếu cần bảo vệ ngoài Pydantic.</li>
+<li>Thêm logging có <code>contract_id</code> nhưng không có secret/raw credential.</li>
+<li>Xác định chiến lược OCR; hiện hệ thống chỉ đánh dấu <code>ocr_required</code>, chưa thực hiện OCR.</li>
+</ol>
+<h2 id="15-ranh-gi%E1%BB%9Bi-gi%E1%BB%AFa-m%E1%BB%91c-1-v%C3%A0-m%E1%BB%91c-2">15. Ranh giới giữa Mốc 1 và Mốc 2</h2>
+<p>Mốc 1 trả lời:</p>
+<blockquote>
+<p>“Trong LC01, điều khoản <code>47A.2</code> viết gì và nằm ở đâu?”</p>
+</blockquote>
+<p>Mốc 2 sẽ trả lời:</p>
+<blockquote>
+<p>“Điều khoản <code>47A.2</code> liên quan quy định nào trong knowledge như UCP600, và toàn văn căn cứ đó là gì?”</p>
+</blockquote>
+<p>Mốc 2 không nên sửa lại parser Mốc 1 trừ khi test phát hiện lỗi. Nó sẽ nhận <code>ContractClause</code> đã truy xuất làm input, tìm evidence trong knowledge pipeline, rồi đọc đầy đủ reference clause. LangChain/agent vẫn chưa cần thiết cho riêng bước retrieval knowledge nếu logic deterministic đã đủ.</p>
+<h2 id="16-k%E1%BA%BFt-lu%E1%BA%ADn-review-m%E1%BB%91c-1">16. Kết luận review Mốc 1</h2>
+<p>Mốc 1 đã dựng được đường đi dữ liệu cốt lõi:</p>
+<pre class="hljs"><code><div>LC01.pdf
+  -&gt; PDF gốc có checksum trong MinIO
+  -&gt; document/page/block trong PostgreSQL
+  -&gt; 24 MT700 fields + 17 numbered items
+  -&gt; 41 traceable clauses
+  -&gt; lấy đúng 47A.2 cùng vị trí nguồn
+</div></code></pre>
+<p>Giá trị lớn nhất của thiết kế này không chỉ là “đọc được text”, mà là mỗi kết quả đều có đường quay lại file gốc. Đây là nền tảng để Mốc 2 tìm căn cứ knowledge và các mốc sau tạo citation/highlight mà không để model tự bịa tọa độ.</p>
+
+</body>
+</html>

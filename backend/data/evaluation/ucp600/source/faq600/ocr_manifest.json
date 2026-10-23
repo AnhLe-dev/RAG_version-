@@ -1,0 +1,49 @@
+{
+  "created_at_utc": "2026-10-23T06:29:54Z",
+  "source": {
+    "path": "backend/data/raw/evaluation_sources/faq600/FAQ600.pdf",
+    "sha256": "59003167b431e7a550057b090fc275e991c422f88c4a8ee185aea465c1d1b9ed",
+    "page_count": 49,
+    "pages_with_text_before_ocr": 0
+  },
+  "ocr": {
+    "ocrmypdf_version": "17.13.0",
+    "tesseract_version": "5.5.3",
+    "language": "eng",
+    "options": [
+      "--rotate-pages",
+      "--deskew",
+      "--output-type",
+      "pdf"
+    ]
+  },
+  "outputs": {
+    "pdf": {
+      "path": "backend/data/evaluation/ucp600/source/faq600/FAQ600.ocr.pdf",
+      "sha256": "266edf626123078db2c7ce3655981208c95b1bc64498d504a54ed80e582d90dd"
+    },
+    "sidecar_text": {
+      "path": "backend/data/evaluation/ucp600/source/faq600/FAQ600.txt",
+      "sha256": "24f049031d47b37bd4c428fa5a2bd827ffffef6ba542723a6e8d46dee088bfe8"
+    }
+  },
+  "validation": {
+    "pdf_page_count": 49,
+    "pdf_pages_with_text": 49,
+    "sidecar_page_segments": 49,
+    "suggested_answer_markers": 213,
+    "replacement_characters": 0,
+    "manual_review_pages": [
+      1,
+      10,
+      25,
+      49
+    ],
+    "status": "candidate_discovery_only",
+    "known_ocr_errors": [
+      "banks read as panks",
+      "17 (b) read as 17 registered-sign",
+      "Gen19 read as Geni9"
+    ]
+  }
+}

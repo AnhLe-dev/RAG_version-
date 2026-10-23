@@ -1,0 +1,3620 @@
+OLLYER -
+Consulting
+
+Frequently Asked Questions under UCP 600
+
+REN
+
+& ‘ e\
+<c ‘) Volume I
+Qa September 2007
+
+tah
+
+Introduction _ eee
+
+Weicome to this first volume of “Frequently Asked Questions under UCP 600” provided by Collyer
+Consulting LLP. In what is the first of a half yearly publication, we will look at the types of
+questions that are being asked on a global basis and offer extensive responses to those questions.
+This volume includes at least 3 questions (and suggested answers) for all 39 articles of UCP 600.
+Additionally, there are some questions that fall under the category of “General”. All in all, there
+are some 220 questions on a wide variety of topics and issues.
+
+Most of the questions in this volume were submitted by participants, in writing, during seminars
+conducted by Gary Collyer during the period January to June 2007. The remainder were sent to
+him by email leading up to and following the implementation of UCP 600 on July 1, 2007. Over
+time, we hope that you will agree that these volumes will build into an invaluable’ guide for you
+the documentary credit practitioner, highlighting the questions that are being asked globally and _
+their possible resolvement. You will note that for each section of questions the numbering
+commences with the respective article number (or Gen) followed by the question. number within
+each article or the general section. In subsequent’ volumes we will add questions and the
+numbering will increase under each section accordingly. We will also provide, from volume tr
+onwards, an index of the query numbers, a brief description of its content and the volume
+number in which it appears, so that you may easily identify whether a particular i issue has already
+been covered.
+
+Questions are welcomed from all readers and you may find your question, and the answer, in
+future volumes. Of course, names and organisations will be kept confidential and you will receive
+the response first!
+
+We hope that you will find this volume to be more than d useful I aid in your day-to-day activities,
+
+" rer Consulting LLP
+September 2007
+
+© No part of this publication may be reproduced, stored or transmitted without! the express agreement of Collyer
+Consulting LLP. . .
+
+i.
+Contents. ,
+
+Article
+
+1. Application of UCP cae
+
+2... Definitions | ‘
+
+3 Interpretations =
+
+4. Credits v. Contracts .
+
+§ Documents v. Goods, Services or Performance _
+
+6 - Availability, Expiry Date and Place for Presentation
+
+7 Issuing Bank Undertaking mo ; ~
+
+8 Confirming Bank Undertaking .
+
+9 Advising of Credits and Amendments
+
+10 Amendments
+
+11 Teletransmitted and Pre-Advised Credits and
+Amendments. a
+
+12 Nomination
+
+13 Bank-to-Bank Reimbursement Arrangements
+
+14. Standard for Examination of Documents
+
+15 Complying Presentation
+
+16 Discrepant Documents, Waiver and Notice
+
+17 Original Documents and Copies
+
+18 Commercial Invoice
+
+19 Transport Document Covering at Least Two
+
+‘ Different Modes of Transport
+
+20 Bill of Lading
+
+21 Non-Negotiable Sea Waybill
+
+22 Charter Party Bill of Lading |
+
+23 Air Transport Document
+
+24 Road, Rail or Inland Waterway Transport Documents
+
+25 Courier Receipt, Post Receipt or Certificate of Posting
+
+26 “On Deck”, “Shipper’s Load and Count”, “Said by
+Shipper to Contain” and Charges Additional to Freight
+
+27 Clean Transport Document ,
+
+28 Insurance Docurnent arid Coverage *
+
+29 Extension-to Expiry Date or Last Day for Presentation
+
+30 Tolerance in Credit Amount, Quantity and Unit Prices
+
+31 Partial Drawings or Shipments
+
+32 Instalment Drawings or Shipments
+
+33 Hours of Presentation we
+
+34 Disclaimer on Effectiveness of Documents
+
+35 Disclaimer on Transmission and Translation
+
+36 Force Majeure
+
+37 Disclaimer for Acts of an Instructed Party
+
+38 Transferable Credits
+
+39 Assignment of Proceeds
+
+Gen General Queries
+
+a
+
+Article 1 — Application of ucP
+
+11
+
+12
+
+13
+
+1.4
+
+15
+
+After July 1, 2007 are all letters of credit automatically subject to UCP 600?
+
+Suggested answer:
+
+A credit is subject to UCP 600 when its text expressly indicates that it is subject to
+the rules. For a SWIFT issued credit, this is-evidenced by completion of field 40E with
+one of “UCP LATEST VERSION”, “EUCP LATEST VERSION”, “UCP URR LATEST
+VERSION” or “EUCP URR LATEST VERSION”. If a credit is to be issued subject to
+another set of rules, field 40E must be completed with “ISP LATEST VERSION” (for a
+standby letter of credit subject to ISP) or “OTHR” if subject to another set of rules
+(such as UCP-500), convention: or law.
+
+Are domestic letters of credit covered under the UCP rules or not?
+
+Suggested answer:
+Yes. No distinction is drawn in the UCP between credits that can be classified as
+domestic as opposed to cross border.
+
+If we wish to open a standby letter of credit subject to UCP 600 (not 1SP98), do we
+need to mention any additional condition(s)?
+
+Suggested answer:
+
+Tt should-be remembered that the UCP i is not specifically designed for the handling of
+standby letters of credit. This-is the primary reason that the ISP98 were developed.
+When issuing a standby letter of credit subject to UCP 600 an issuing bank,
+recognising good practice, should list the articles that do not apply to that standby
+ie., °.... subject to UCP 600 excluding articles ........ ", AS a minimum these would
+include articles 18-28 (i.e,, the articles covering commercial invoices, transport
+documents and insurance documents). Such action would not necessarily be needed
+if the standby were. issued subject to ISP98.
+
+Ts it correct to state that a non- -bank can issue a letter of credit but it cannot confirm
+or negotiate it?
+
+Suggested answer:
+
+In October 2002, the ICC issued its opinion (reference R.505) indicating that any
+party could issue a credit subject to UCP 500. The content of that opinion equally
+applies under UCP 600. There is no reason why a non-bank could not add
+confirmation to a credit or negotiate under same. The decision as to whether or not
+this was acceptable would be for the benéficiary to determine. In the case of non-
+bank issued credits it is common that where confirmation is to be added It is
+completed by a bank and that a bank will provide the negotiation service.
+
+We issued a letter of credit, by SWIFT, before July 1, 2007 stating that it is subject to
+“UCP LATEST VERSION”. When we receive documents under this credit, after July 1,
+which version of UCP will the credit be subject - UCP 500 or UCP 600?
+
+Suggested answer;
+
+The applicable rules remain those under which the credit was issued. The only
+circumstances where documents presented under a UCP 500 credit would be
+reviewed under UCP 600, is if the credit had subsequently been amended ‘to state
+that the applicable rules were now UCP 600. This course ‘of action is not
+recommended due to the differences in structure and language between the two sets
+of rules. Obviously, any such amendment would be subject to the agreement of the
+issuing bank, confirming bank (if any) and the beneficiary.
+
+© Copyright Collyer Consulting LLP
+Not to be reproduced or copied without consent of the author
+
+Article 2 - Definitions
+
+2.1
+
+2.2
+
+2.3
+
+2.4
+
+Please explain, under the definition of negotiation, “on or before the banking day on
+which reimbursement is due to the nominated bank”.
+
+Suggested answer:
+
+.The basic premise of negotiation is that a nominated bank advances their own funds
+
+to the beneficiary. If a nominated bank effects settlement to the beneficiary utilising
+funds that have already been received from an issuing bank or. reimbursing bank they
+are not negotiating, they are honouring. Therefore, the wording in the definition of
+negotiation reflects that the act of advancing or agreeing to advance funds is fulfilled
+by the nominated bank on or prior to receipt of reimbursement from the issuing
+bank. For example, the due date of a draft is August 20 and the nominated bank is
+based in Hong Kong. The currency.is USD and the issuing bank will remit funds to the
+negotiating bank’s account in New York on the due date, The nominated bank has
+negotiated and agreed to advance funds to the beneficiary on August 20. The
+advance will be made without the bank in Hong Kong being aware as to whether or
+not covering funds have been remitted by the issuing bank.
+
+Why is the applicant not a concerned party involved in the letter of credit?
+
+Suggested answer:
+
+A credit is a bank undertaking (as shown in the definition of ‘Credit’). To allow an
+applicant to take an active role in.the decision process (to determine compliance and
+pay or to determine non-compliance and refuse) would be to undermine the whole
+principle of credit operations in that it is an issuing bank that determines whether or
+not the documents comply and an issuing bank is ultimately responsible.for
+settlement to the beneficiary or r reimbursement to a nominated bank that has acted
+on its nomination.
+
+Complying presentation means “..... and international standard banking practice”. We
+understand that reference to “international standard banking practice” is not
+restricted to the ISBP publication 681 but.that it includes the principles therein. So,
+under UCP 600, in a notice of refuse can we indicate that documents are discrepant
+because they fail to comply with ISBP?
+
+Suggested answer: -
+
+The enquirer is correct in their assessment of ‘international standard banking
+practice’ in that the concept goes beyond the principles contained in the ISBP
+publication. However, any refusal of documents may only be made.on the basis of
+the terms and conditions of the credit and thé UCP. The ISBP may be used to provide
+support for the rationale behind a particular reason for. refusal.
+
+Asa beneficiary, how can we identify the difference between honour and negotiation
+by a nominated bank? .
+
+Suggested answer:
+
+The word “honour” has been used in UCP 600 as a drafting technique $0 as to avoid
+the continual repeating of “to pay at sight if the credit is available at sight, to incura
+deferred payment undertaking and pay at maturity if the credit is available by
+deferred payment, or to accept a draft drawn by the beneficiary and pay at maturity-
+if the credit is available by acceptance”. From a beneficiary viewpoint, you would still
+need to consider whether a credit.is to be issued available by payment, acceptance,
+deferred: payment or by negotiation and that'such availability meets the terms of
+your proforma invoice or contract.. .
+
+© Copyright Collyer Consulting LLP
+Not to be reproduced -or copied without consent of the author
+
+25
+
+2.6
+
+2.7
+
+2.8
+
+Suppose a nominated. bank purchases discrepant documents after receipt of the °
+issuing bank's authorisation,.does this constitute an effective negotiation?
+
+Suggested answer: .
+Provided a nominated bank reviewed the documents at the time of presentation,
+
+. sought the issuing bank’s approval to the identified discrepancies, received the advice
+
+of approval of those discrepancies and negotiated, it would be considered to have
+negotiated within the confines. of ucP 600.
+
+Can we conclude that a letter of credit may be made available by negotiation
+providing that it is available with one or more banks other than the drawee in the
+draft?
+
+Suggested answer:
+
+Under the definition of negotiation, a draft (if required) is to be drawn on a bank
+other than the nominated bank Le., the issuing bank or reimbursing bank. If a
+beneficiary chooses te present documents directly to the issuing bank, the credit will
+become one which is available with the issuing bank by honour. 7
+
+Article 2 with regard to complying presentation; why is international standard
+banking practice added when complying presentation is defined? Does this mean all
+parties involved may make reference to ISBP or any previous opinions appearing in
+Icc publications when a dispute arises?
+
+" Suggested answer:
+
+The inclusion of “international standard banking practice” in the defi nition of
+complying presentation follows the principle that was established in UCP 500 sub-
+article 13 (a). The UCP is not ail encompassing with regard to the actions that banks
+
+take in relation to letters of credit. Acts which form the basis of international standard
+
+banking practice, including those that are not specifically indicated in the ISBP
+publication, are equally relevant in the determination of a complying presentation.
+Reference’ may be made to the ISBP publication 681 ar ICC opinions in the event of
+any dispute under a credit.
+
+The definition of issuing bank; would you please explain the difference between
+applicant bank and issuing bank, where we need to discount or forfait the credit to a
+beneficiary?
+
+Suggested answer: .
+
+An applicant bank is generally used when that bank has outsourced the processing of
+credits to ariother bank or where a beneficiary has specifically requested a named
+bank to-be the issuer and that bank is not the banker of the applicant: The applicant
+will ask their bank to request the named bank to issue the credit, usually under cover
+of a guarantee or other arrangement, but request the insertion of their name as
+applicant bank to preserve their association with the credit transaction. The applicant
+bank is not recognised under the UCP and it is the named issuing bank that has given
+the undertaking to honour. In respect of any discount of forfaiting, it is the issuing
+bank that is to be considered for the purposes of establishing bank tisk. :
+
+Article 3 - Interpretations
+
+3.1
+
+A letter of credit stipulates that the goods must be shipped on or about November
+15, 2007. Therefore, the beneficiary can ship during the period November 11, 2007
+to November 19, 2007. Is this correct?
+
+Suggested answer:
+No. The beneficiary may ship up to five calendar days before November 15 (i.¢.,
+November 10) or five calendar days after November 15 (i.e., November 20).
+
+© Copyright Collyer Consulting LLP; ,
+Not to be reproduced or copied without consent of the author
+
+3.2 Will banks have a problem with an electronic bill of f fading that is not signed or
+stamped?
+
+Suggested answer:
+
+It should. be remembered that the UCP is not specifically designed to cater for
+electronic documents. This is why the EUCP was developed. A bill of lading presented
+under a UCP 600 credit, for which no allowance has been made in the credit to cater
+for it to be issued electronically, must comply with the requirements of UCP 600
+including the interpretation of signing that is given in article 3.
+
+3.3 Branches of a bank in different countries are considered to be separate banks. What
+does this mean? Can I understand that branches of a bank in the same country are
+considered to be the same bank?
+
+Suggested answer: :
+
+Branches of a particuiar bank are able to perform different functions as envisaged by
+the UCP provided they are based in different countries. For example, if a bank in
+London issues a letter of credit, its branch in Manchester cannot confirm it as-they
+are both in the same country and, therefore, considered to be the same bank.
+
+. However, if the same bank in London issues a-letter of credit and its office in Dubai
+were requested to add its confirmation then this is acceptable. under article 3, (but.
+not necessarily acceptable to the beneficiary) as the branches are in different
+countries,
+
+Article 4 — Credits v. Contracts
+
+4,1." What does ‘underlying. contract’ mean?
+
+Suggested answer: *
+Often, rather than provide a general description of the goods, an applicant will give a
+short statement in the letter of credit application form as to the type of goods being
+shipped and a reference to the contract (the underlying contract) or proforma invoice
+agreed between them and the beneficiary. They will then request the issuing bank to
+forward a copy of that contract or proforma invoice to the advising bank so-that the
+
+’ documents will be reviewed not only against the terms and conditions of the credit
+but also the content of the contract or proforma invoice, It is this sending of the
+contract or proforma invoice, as an integral part of the credit that i is baing
+
+. discouraged in this article.
+
+42 “A letter of credit bears a goods description and attaches contract (A). In the
+beneficiary’s invoice it shows “[goods description] as per contract (A)”. Is this
+sufficient?
+
+Suggested answer:
+
+If the credit states that contract (A) forms an integral part of the credit, the advising
+bank should have raised an objection under article 4, if they have not, the ,
+beneficiary should seek an amendment to remove the contract as an integral part of
+the credit.’ Otherwise, the banks will be expected to also review the documents
+against that contract and the beneficiary would be required to detail the goods as _
+shown in that contract. If there is no mention of the contract or proforma forming an
+integral part of the credit, the goods description need only coniply with that i in the
+credit.
+
+© Copyright Collyer Consulting LLP
+Not to be reproduced or copied without consent of the author
+4.3
+
+4.4
+
+How should the nominated bank act if they receive a letter of credit which has a copy
+of the underlying contract as an integra! part of the credit?
+
+Suggested answer:
+
+Ideally, they:should revert to the issuing bank requesting the removal of this
+
+condition and referring them to the contents of article 4. If the nominated bank is
+
+willing to act under the credit i.e., review the documents against that contract, then
+. they need take no further action. The rule is designed to protect a nominated bank
+
+_ that does not wish to (or should-not) be burdened with additional, and often
+
+unnecessary, examination requirements.
+
+Does article 4 discourage terms such as “details Is as per contract rox" under the goods
+description? |
+
+Suggested answer: :
+
+Not entirely. A godds description should not just be “goods as per proforma invoice
+number 12345" or “goods with details as per contract 12345”. The credit should
+provide sufficient information to determine the type of goods being shipped and,
+where applicable, a reference to the underlying proforma invoice or contract to which
+the goods refer, A credit that states a goods description followed by a reference to a
+contract or proforma invoice is not discouraged by this article.
+
+av
+
+Article 5 — Documents v. Goods, Services or Performance
+
+5.1
+
+5.2
+
+5.3
+
+Does reference to “Bank” cover non-bank issuers as well?
+
+Suggested answer:
+Yes. Where a non-bank issuer issues a letter of credit they take o on the responsibilities
+stated in the UCP under ‘issuing bank’.
+
+Compliant documents are received by the issuing bank, but prior to-effecting honour
+the applicant informs them that they believe there may be poor quality goods in the
+consignment and requests the issuing bank not to pay. Should the issuing bank
+follow the instructions of the applicant?
+
+Suggested answer: "
+
+No. The rules are quite clear (article 4) banks are not concerned with the sale or
+other contract on which the credit may be based and (article 5) banks deal with
+documents and not with goods, services or performance to which the documents
+may relate. Issues of quality should be resolved between buyer and seller outside the
+terms of the credit. If an applicant has or had potential issues or concerns on quality,
+the credit should have included a requirement for the presentation of an inspection or
+analysis certificate from an independent body.
+
+Should a bank review documents such as inspection documents, certificates of
+analysis etc. to ensure that there are no derogatory comments regarding the goods?
+
+Suggested answer:
+
+. No. This is not.the responsibility of a bank. Sub-article 14 (a) emphasises that banks
+
+examine a presentation on the basis of the documents alone as to whether or not
+they appear on their face to constitute a complying presentation. If the applicant
+requires that documents not contain any adverse comments or that documents
+should bear specific staternents as to the quality or standard of the goods, this must
+form part of the terms and conditions of the credit.
+
+© Copyright Collyer Consulting LLP
+Not to be reproduced or copied without consent of the author
+
+Article 6 — Availability, Expiry Date and Place for Presentation
+
+6.1 Is it acceptable for a bank to issue a letter of credit with an expiry date that is
+greater than 21 days beyond the latest shipment date, such as one month or six
+months? ”
+
+Suggested answer:
+
+Tt is okay, but the question would be f for what purpose if the beneficiary only has a
+specific-period in which to present documents after the date of shipment. Some
+banks have been known to include the usance period of a draft within the expiry
+period. This is not necessary. Provided that the documents are presented within the
+latest presentation date or expiry date, the maturity of the accepted draft or deferred
+payment undertaking may occur beyond the stated expiry date.
+
+6.2 If a non-nominated bank received a presentation from the beneficiary, where should
+it be presented ~ to the nominated bank or the issuing bank? What special
+information should be added to the covering schedule?
+
+Suggested answer: - :
+The non-nominated bank would be advised to present to the nominated bank
+especially if the latest presentation date or expiry date is imminent. Often,
+beneficiaries request their own bankers to handle the transaction and for that bank to
+send the documents to the issuing bank, thereby possibly reducing costs. In this
+| case, the non-nominated bank takes a risk should the documents be lost in transit
+unless it takes suitable instructions from its client. There are-no special instructions
+required for the schedule other than payment instructions or contact details, in the
+event of discrepancies. ;
+6.3 If documents are presented t to the issuing bank by the beneficiary or non- -nominated
+; bank, will the issuing bank enquire of the nominated bank for confirmation of no
+previous presentation for the same goods or value?
+
+: Suggested answer:
+If there is a specific nominated bank, the issuing. bank would be well advised to check
+with the nominated bank prior to effecting any settlement of a complying
+presentation. The message of the issuing bank would also serve’as notice to the
+. nominated bank to mark their files in respect of the drawing that has been made
+directly to the issuing bank.
+
+6.4 Can we issue a letter of credit available with any bank by deferred payment?
+Suggested answer:
+
+Yes. There is no reason why it cannot be: made available with any bank. If there is a
+reimbursing bank involved, the reimbursement authorisation would allow the
+reimbursing bank to honour a claim from 2 any bank.
+
+6.5 The issuing bank, ABC Bank in USA, issues a credit through XYZ Bank in The
+Netherlands and XYZ Barik is the nominated bank. The expiry date is stated to be
+August 16, 2007 at the counters of the nominated bank. The beneficiary presents
+documents to BBB Bank in The Netherlancis on August, 16 2007 and BBB Bank
+courier all documents to the issuing bank on that day. Issuing bank receives the
+documents on August ‘17, 2607. From this scenario, is this presentation considered to
+be late presentation or not? Can the issuing bank also point out a discrepancy i.e.,
+documents not presented by nominated bank?
+
+Suggested answer: a :
+The documents must be received .by the nominated bank or the issuing bank no later
+than August 16, 2007.‘By virtue of the i issuing bank receiving them on August 17,
+
+© Copyright Collyer Consulting Up
+Not to be reproduced or copied without consent of the author
+
+]
+
+they would be entitled to refuse on the grounds of credit expired. Due to the content
+of sub-article 6 (a) that “a credit available with a nominated bank is always available
+with the issuing bank’ the issuing bank cannot refuse.due to the fact that documents
+were not received via the nominated bank. However, they will be able to take the
+course of action referred to in query 6.3 above.
+
+When comparing UCP 600 to UCP 500 what is the purpose in deleting the sentence
+“panks will consider such drafts as an additional document”? If the. beneficiary
+presents a draft drawn on the applicant will it make the documents discrepant?
+
+Suggested answer:
+
+The words “banks will consider such drafts as an additional document” were deleted
+“owing to the fact that there was a lot of confusion over what was intended by
+“additional document”. Additional in what sense? What detail was to be reviewed?
+Was the draft to be accepted as presented? The use of the words in UCP 500 (and
+now UCP 600) is to stop banks issuing credits available by a draft on the applicant.
+An applicant has no part to play in the decision process of when a beneficiary is paid.
+It should be noted, however, that there is nothing to stop an issuing bank from
+calling for a draft on the applicant (in addition to one which may be drawn on the
+issuing bank or nominated bank), as a required document, should they need such a
+draft for their own purposes |.e., to seek reimbursement from the applicant. If so, the
+credit must provide full details of the requirement for the draft so that a nominated
+bank knows what it is expected to examine.
+
+Sub-article 6 (c) states “A credit available with a nominated bank is also available
+with the issuing bank”, ;
+
+Question: Is it possible for a beneficiary to by-pass the confirming bank or
+negotiating bank (who has been nominated) and present alf the documents directly
+to the issuing bank for payment. Will it bé considered a discrepancy under the credit?
+
+Suggested answer:
+As mentioned in the responses to queries 6.3 and 6.5 it is possible. A beneficiary
+would need to ask itself why would it by-pass a confirming bank when, in all
+probability, it has paid for the confirmation to be added. The beneficiary, in sending
+
+. the documents to the issuing bank, takes the risk of non-delivery and in the event of
+the issuing bank finding discrepancies in the documents may find it impossible to
+correct them within any remaining presentation period or expiry date.
+
+Bank A, HK branch issued a letter of credit through its branch S in country C. The
+credit stipulated:
+
+1. available with any bank by negotiation;
+
+2. advising bank holds special instructions on reimbursement; and
+
+3 documents. must be sent by courier to the advising bank stipulated in the
+credit. If not followed, payment may be delayed or penalty will be charged if
+documents are couriered to the issuing bank.
+
+Branch S nominated another branch, branch B, as the bank to which documents are
+to be couriered. Another bank, Bank C, in beneficiary's city presented documents to
+branch B.
+
+s
+
+Questions:
+1. “Is Bank C a nominated bank under this credit?
+
+2. Branch B acknowledges Its position only as presenting bank, not negotiating
+bank. What is the role of branch B? :
+3. Can Bank C courier documents to Bank A directly?
+
+© Copyright Collyer Consulting LLP ~
+Not to be reproduced or copied without consent of the author
+
+6.9
+
+Suggested answer:
+
+As the credit is available with any bank, Bank Cis.a nominated bank. The position of
+Branch B is-unclear. Bank A states in their credit that Branch S holds special
+instructions and that documents are to be sent to the advising bank i.e., Branch S.
+Unless these instructions are conveyed between Branch S$ and Branch B, Branch B
+would seem to be an unnecessary party and their involvernent will delay the whole
+process. Branch B would need to send the documents to Branch S for settlement to
+be made to Bank C. Bank C could courier the documents directly to Bank A but item
+3 of the query would seem to indicate that this may not be the wisest option.
+Sending to Branch S would be an option that Bank C could take as this would be in
+line with the credit terms and conditions. .
+
+A credit indicates. expiry date as August 20, 2007 in Bangkok, available with ABC
+bank. Can the beneficiary request their bankers to present documents directly to the
+issuing bank (to avoid additional charges by the restricted bank)? If yes, where is the
+place where the credit expires? —
+
+Suggested answer:
+By virtue of sub-article 6 (a), the expiry date of August 20, 2007 would apply to a
+presentation made at the counters of ABC bank or the issuing bank.
+
+‘Article 7 — ~ Issuing Bank Undertaking.
+
+71
+
+7.2
+
+723
+
+May an issuing bank refuse to pay if a court injunction i is issued?
+
+Suggested answer:
+
+An issuing bank has no choice but to observe a court injunction. However, the issuing .
+
+bank should review the injunction to ascertain the reason(s) for the granting of the
+order and the effect that the injunction may have on its ability to perform its
+
+’ responsibilities under the credit and UCP. Issues such as quality of goods should be
+
+contested on the basis of the contents of articles 4 and 5. Issues of fraud, in relation
+to acceptance or deferred payment credits would need to be considered in
+conjunction with the authorization to prepay or purchase included in sub-article 12
+(b) and whether or not the underlying credit excluded that authorization. Again, this
+may give rise to the issuing bank being required to contest the viability of the court
+injunction in relation. to the content of the UCP 600 and the terms and conditions of
+their credit. :
+
+If a credit stipulated “available with issuing bank by negotiation” may another bank
+or banks negotiate the documents under the credit?
+
+Suggested answer:
+
+A credit’can only be made available with an issuing bank by honour i.¢., payment,
+deferred payment or acceptance. Under the definition of negotiation, a negotiation
+credit is a credit that is available: with a nominated bank either with a draft drawn on
+a party other than the nominated bank i.e., the issuing bank or reimbursing bank, or
+no draft. For another bank to negotiate, it would require the credit to indicate that it
+was available with that bank or available with any bank.
+
+Ifa confirming bank determines a presentation is complying and forwards the
+documents to the issuing bank, does the issuing bank have the right to hold an
+Opposite view on the documents and refuse to pay the confirming bank?
+
+Suggested answer: :
+
+The issuing bank undertaking is to honour documents that constitute a complying
+presentation. If the issuing bank determines that the documents do not comply, then
+they are under no obligation to honour no matter whether a confirming bank or
+nominated bank determined that in their opinion, they did comply.
+
+© Copyright Collyer Consulting LLP
+Not to be reproduced or copied without consent of the author
+7.4
+
+75
+
+77
+
+7.8
+
+When an issuing bank or confirming bank honour or negotiate a presentation
+available with another-nominated bank who do. not pay, incur a deferred payment
+undertaking, accept a draft or negotiate, should the drafts, if any, be amended to be
+drawn on the issuing bank or confirming bank?
+
+‘ Suggested.answer: .
+
+There.are no drafts required under a deferred payment credit and drafts are not
+necessary under a payment or negotiation credit. In a negotiation credit, the drafts
+would already be drawn on a bank other than the nominated bank. If a nominated
+
+- bank, who has not confirmed.the credit, decides not to accept a-draft drawn on it
+
+they may request the beneficiary draw a draft on the issuing or confirming bank or
+forward the documents without a draft. Where a draft is presented, the issuing or
+confirming bank would be required to accept it. If no draft is presented, a deferred
+payment undertaking would be given.
+
+Thinking about the definition of "honour", the obligation of the issuing bank in article
+7 should be that the issuing bank must honour under a credit available by payment,
+deferred payment or acceptance, but must pay under a negotiation credit ‘if the
+nominated bank does not negotiate.
+
+Suggested answer:
+
+Under a negotiation credit, if there were a draft required it would invariably be drawn
+on the issuing bank. If the nominated bank does not negotiate, the issuing bank
+would pay (at sight) or accept (a usance draft) or incur a deferred payment
+undertaking (no usance draft).
+
+If a letter of credit is available with an issuing bank by deferred payment can the
+beneficiary ask the issuing bank to discount?
+
+Suggested answer:
+
+_ Yes. There is no reason why such a request could not be made. However, the i issuing
+
+bank would be under no obi igation to provide the discount.
+
+Please explain i in sub-article 7 (c) “An issuing bank undertaking to reimburse a
+nominated bank is independent of the issuing bank's undertaking to the beneficiary”.
+
+Suggested answer:
+When a credit is issued it represents an irrevocable undertaking, of the issuing bank,
+to honour a complying presentation made by the beneficiary. Where a nominated
+
+‘bank agrees to act under their nomination and the nominated bank honours or
+
+negotiates, that undertaking. becomes an undertaking to reimburse the nominated
+bank. The undertaking of the issuing bank, (to reimburse) a nominated bank that has
+honoured or negotiated, is independent of its undertaking to.a beneficiary (to
+
+honour) where a@ nominated bank has not honoured or negotiated or where the
+
+beneficiary has chosen to present directly to an issuing bank.
+
+What is the implication of sub-article 7 (b)? .
+
+Suggested answer:
+
+No different from what it would be under UCP 500. UCP 500 sub-article 9 (d) Gi)
+stated that an issuing bank was irrevocably bound as of the time it issued an
+amendment. The same position must equally apply with respect to the issuance of a
+credit. If an issuing bank issues a credit and then seeks cancellation prior to the
+advice of the credit reaching the beneficiary, the beneficiary must still provide an
+acceptance of the cancellation request.
+
+© Copyright Collyer Consulting LLP
+Not to be reproduced or copied without consent of the author
+7.9
+
+‘7.410
+
+Regarding sub-article 7 (b) and reference to “as of the time it issues the credit”. In
+case the SWIFT or telex message is garbled or the mailed credit i is missing, is the
+credit still valid and the issuing bank still bound?
+
+Suggested answer:
+
+The issuing bank is bound as of the time it issues the credit. The fact that the credit
+is garbled or lost in transit does not change the position that the.credit was issued
+and the issuing bank was bound as of that date.
+
+Under a deferred payment credit, may the issuing bank refuse to pay (reimburse) ifa
+court injunction has been issued? :
+
+Suggested answer:
+
+Clearly, an issuing bank cannot i ignore @ court Injunction. But, an issuing bank needs
+to consider the effects of that court injunction in rélation to the terms and conditions
+of the letter of credit and the effect of sub-article 12 (b). If the issuing bank has not
+excluded this rule or it is known that the nominated bank has prepaid the deferred
+
+. payment undertaking, the issuing bank should revert to the court to seek the removal
+
+of the order. The issuing bank would need to present a copy of the credit and the
+UCP to the court to explain the transaction and the rules that affect a deferred
+payment undertaking. The issuing bank should also consider the points mentioned in
+the suggested answer to question 7.1
+
+Article 8 — Confirming Bank Undertaking |
+
+8.1
+
+8.2
+
+8.3
+
+Can-a draft be drawn on a confirming bank if a credit is available with it by
+
+. Negotiation? What if the credit is available with it by sight payment, deferred
+
+payment or acceptance?
+
+Suggested answer:
+
+If a draft is drawn on the confirming bank, it can only be available with them by
+payment (sight draft) or acceptance (usance draft). Under a credit available by
+negotiation the draft must be drawn on a bank other than the nominated .
+(confi iming) bank. Under a deferred payment credit no draft should be requested,
+
+Ifa bank adds confirmation to a credit without a request or authorization of the
+issuing bank, ‘what are the risks they may face? ~
+
+Suggested answer:
+The provisions in article 8 reflect the situation where the confi irming bank has added
+confirmation at the request or authorization of the issuing bank. Where a bank has
+added:a “silent” confirmation, they have nq rights with regard to agreeing to any
+amendment that is made to the credit (a right that is afforded to’a confirming bank
+under sub-article 10 (a) of UCP 600). A silent confirmation has no recognition in the
+UCP. The conditions, under which the bank will add their confirmation and how the
+confirmation will be effective, must be clearly indicated i in a separate agreement that
+is signed between the bank and the beneficiary.
+
+Confirmation must only be added by a bank?
+
+Suggested answer: ;
+
+No. Confirmation could be added by any party that is acceptable to the beneficiary
+and the issuing bank (who must request or authorise such party to add
+confirmation). For issuing bank read ‘non-bank issuer in the event of such issuance.
+
+10
+© Copyright Collyer Consulting LLP
+
+Not to be reproduced or copied without consent of the author
+
+—— oo
+
+Article 9 ~ Advising of Credits and’Amendments
+
+9.1
+
+9.2
+
+9.3
+
+9.4
+
+Does an advising bank take any risk if it advises a credit directly to thé beneficiary
+instead of through the second advising bank as indicated in the credit? ;
+
+Suggested answer: .
+
+An advising bank should follow the instructions contained in‘the credit. However, it is
+recognised that in certain circumstances the beneficiary may be willing to receive the
+credit directly from the advising bank thereby reducing costs. In such an event, the
+advising bank should have the agreement of the beneficiary to send the credit direct
+and should inform the issuing bank of the action that has been taken, and that it was
+at the request and with the agreement of the beneficiary. '
+
+How to define the advising bank’s responsibility in respect of “advice accurately
+reflects the terms and conditions of the credit or amendment received”?
+
+Suggested answer: s
+
+Sub-article 9 (b) for the advising bank and sub-article 9 (c) for the second advising
+bank, recognise the responsibility of such banks to ensure that all the details of a
+credit or amendment are advised to the beneficiary. It can happen that when
+photocopying a credit or amendment that has been received, part of the message is
+not copied due to the folding of the document to accommodate the photocopier. The
+rules require the bank to ensure that all the details of a credit or amendment that are
+relevant to the beneficiary are. sent to the beneficiary. There may be information that
+appears in a credit or amendment that is between the two banks e.g., financing
+requests, interest details or bank account numbers etc, that are-of no concern to a
+beneficiary. These may be conveyed to a beneficiary or deleted from the advice that
+is sent to the beneficiary. :
+
+* ”
+
+What does the last sentence of sub-article 9 (f) mean?
+
+Suggested answer:
+
+Sub-article 9 (f). allows an advising .or second advising bank to advise a credit or
+amendment to the beneficiary even though they have not been able to satisfy
+themselves as.to the apparent authenticity of the message e.g., the authentication
+was incorrect or the signatures did not-agree. In this event, the bank must inform the
+beneficiary in their advice of the credit or amendment and also inform the issuing
+bank. However, in order to protect the beneficiary, most banks do not take this
+option and will formally advise the credit or amendment only when they are able to
+satisfy themselves that the message is apparently authentic.
+
+In sub-article 9 (e) “without delay” is mentioned, but how. many days’ does this
+mean?
+
+Suggested answer: *
+
+The words “without delay” appear in a few places in n UCP 600. During the course of
+the revision of UCP 500 some requests were made for a definition of without delay to
+be given. Unfortunately, this term is not capable of being defined.as there can be no
+penalty attached to any failure to adhere. For example, if sub-article 9 (e) stated “If a
+
+, bank is requested to advise a credit or amendment but elects:not.to do so, it must.so
+
+inform, within 3 banking days, the bank from which the credit, amendment or advice
+
+- has been received”. What would be the penalty if the advising bank informed the
+
+issuing bank on the 4" or 5" banking day? Would the advising bank be compelled to
+advise the credit? The answer to the latter question must surely be no. It therefore
+follows that ‘without delay’ cannot be fully defined in terms of a period of days. The
+number of days to which it equates will differ by transaction. For example, if the
+
+-advising bank is required to make a credit decision due to the role they are being
+
+asked to perform, this could take one day or five days. The requirement is for the
+
+11
+© Copyright Collyer Consulting LLP
+
+Not to be reproduced or copied without consent of the author
+
+advising bank to inform the issuing bank as of the time the decision is made not to
+advise the credit or amendment and takes into account the fact that the decision may
+not be an immediate one.
+
+Article 10 - Amendments
+
+10.1
+
+10.2
+
+10.3
+
+10.4
+
+If documents comply with an amendment to which the confirming bank elects not to
+extend. its confirmation, could the confirming bank change its status to a common
+nominated ‘bank? In these circumstances where should the. presentation be made ~
+only to the issuing bank?
+
+Suggested answer: -
+
+The confirmation that was added to the credit and to any amendment, for which
+there is no reference to the confirmation not applying, will be available to the
+beneficiary. It is only to the extent of the amendment that has not been confirmed
+for which the confirming bank has given no undertaking. For example, the credit is
+issued for USD100,000 and an amendment is received to increase the value to
+
+~ USD150,000. The confirming bank advises the credit with its confirmation added for
+
+USD100,000. When the amendment is received, the confirming bank decides that
+they will not add their confirmation to the increase. They advise the amendment to
+the beneficiary stating that their confirmation has not been added to the increase.
+The beneficiary presents documents to the confirming bank for USD150,000. The
+confirming bank must honour or negotiate a complying presentation up to the
+amount of their confirmation i.e., USD100,000..They have no undertaking to pay the
+remaining USD50,000. The issuing bank has given an undertaking to honour for
+USD150,000.
+
+Is it proper for a beneficiary to present documents that comply with the original
+credit and not to an amendment, where they do not provide a notification of rejection
+of the amendment to the advising bank?
+
+Suggested answer: ;
+Under sub-article 10 (c) this is allowed. The drafting group for UCP 600 proposed to
+ICC national committees that the rule be changed to require the beneficiary to
+
+-present a notification, no later than the date of presentation of documents, stating
+
+which amendments had been accepted or rejected. This proposal was rejected
+almost unanimously..Under sub-article 10 (c), the beneficiary should provide a
+notification of acceptance of any amendment but if they fail to-do so it will be the
+presentation of documents that will determine whether or not the-beneficiary has
+accepted or rejected an amendment. However, it may be the case that it is-not
+always possible to determine whether an amendment has been accepted or rejected
+and the bank will still need to make enquiries of the beneficiary to ascertain the
+position.
+
+Since sub-article 10 (c) makes it hard for the issuing bank to determine whether an
+amendment is accepted or riot, why do we still keep it in the UCP 600?
+
+Suggested answer:
+
+The wording is there to remind beneficiaries that they have a duty to advise the bank
+of their acceptance of amendments: Given that most amendments are issued as a
+result of a specific request of the beneficiary it is not unreasonable to expect that the
+vast majority of amendments will be accepted. This is why sub-article 10 (c) refers to
+notification of acceptance rather than of acceptance or rejection. The wording also
+serves to advise beneficiaries that failing. notification of acceptance, banks‘ will make
+a determination of acceptance based on the presentation of documents:
+
+Under sub-article 10 (d), if the advising bank has not received any notification of
+acceptance or rejection, should the advising bank enquire of the beneficiary?
+
+12
+© Copyright Collyer Consulting LLP
+
+Not to be reproduced or Copied | without consent of the author
+
+Suggested answer:
+
+The advising bank may make enquiries of the beneficiary but the beneficiary is under
+no obligation to provide any intimation of acceptance or rejection prior to the
+presentation of documents.
+
+10.5 In the letter of credit, the issuing bank stipulates “notification of acceptance or
+rejection of an amendment, if any, issued by the beneficiary is required”. The
+beneficiary fails to give such notification. Where an amendment has been issued,
+
+__does this mean that. sub-article 10 (c) is modified and the beneficiary must present
+such notification as a document required by the credit?
+
+Suggested answer:
+
+If the request for notification is in the form of a document to be presented by the
+beneficiary then the beneficiary must comply. Such a request may be seen as a
+modification of-the rule in sub-article 10 (c).
+
+10.6 . An amendment reduces the credit amount from usp100,000 to USDS0,000 and the
+beneficiary fails to notify the advising bank whether they accept or reject the
+amendment. The beneficiary presents documents for USD100,000 to the advising
+bank for negotiation.
+
+Questions: ©
+
+1. Is it implied that the beneficiary rejects the amendment?
+
+2. Can the advising bank negotiate documents for USD100,0007
+
+3. Must the advising bank advise the issuing bank of rejection of the
+amendment?
+
+Suggested answer:
+
+In answer to the specific questions:
+
+1. Yes. The beneficiary has presented documents for the value of the original credit.
+
+2, Yes, The credit cannot be amended without the agreement of the beneficiary.
+The beneficiary has rejected the amendment by virtue of a Presentation for the
+value of the original credit.
+
+3. From the schedule and.the documents presented it should be clear to. the issuing
+bank that the amendment has been rejected. The advising bank may provide
+such a statement on their covering advice to the issuing bank, for information
+purposes, but are under no obligation to do so. :
+
+Article 11 — Teletransmitted and Pre-Advised Credits and
+Amendments
+
+11.1 Do the words “rot inconsistent” mean there is to be no inconsistency in the
+confirmation of the credit or inconsistency in the mail confirmation?
+
+Suggested answer:
+It means that the operative instrument should, in afl respects, mirror the initial
+telecommunication.
+
+11.2 What should happen if the operative credit is inconsistent with the teletransmission?
+
+Suggested answer:
+The advising bank should revert to the issuing bank for Clarification. .
+
+11.3. If an issuing bank issues a pre-advice of a credit can they subsequently advise that
+they are cancelling the credit?
+
+13
+© Copyright Collyer Consulting LLP
+
+Not to be reproduced or copied without consent of the author
+
+Suggested answer:
+
+No. The rule in sub-article 11 (c) is quite clear — the i issuing bank i is irrevocably’
+committed to issue the operative credit. If a bank has any doubt as to whether a
+credit will be issued, no pre-advice should be sent. .
+
+Article 12 - Nomination
+
+12.1
+
+12.2
+
+12.3
+
+12.4 °
+
+‘If a nominated bank does not negotiate should it clearly note this fact on its covering
+schedule-when making a presentation to the confirming bank or issuing bank?
+
+Suggested answer: .
+
+There is no need for any such statement. The covering schedule should merely refer
+to the documents being a presentation under the terms of the issuing bank’s credit.
+There should be no statements such as “on collection”, “in trust” or “on approval”.
+Such terms may be misinterpreted to be an allowance to treat the presentation under
+the Uniform Rules for Collection. It is, however, advisable for nominated banks that
+have negotiated to indicate this fact on their covering schedule.
+
+If the letter of credit is available with ABC bank by deferred payment we understand
+this means that ABC bank has the authority of the issuing bank to discount the
+documents. Does this authorization extend to other, non-nominated, banks that may
+handle the presentation?
+
+Suggested answer: . :
+The rule in sub-article 12 (b) is quite clear, If an issuing bank issues a credit available
+
+‘by deferred payment this. provides the nominated bank with an authorization to
+
+prepay or purchase a deferred payment undertaking incurred by the nominated bank.
+This rule covers two aspects: (1) that the nominated bank must have incurred a
+deferred payment undertaking and (2) that unless the credit excludes or modifies the
+rule, the nominated bank has the authorization of the issuing bank to prepay or
+purchase. This rule does not extend to non-nominated banks nor does it provide an
+authorization for a nominated bank to prepay or purchase where the issuing bank
+has given a deferred payment undertaking and the nominated bank has not issued
+their own deferred payment undertaking in favour of the beneficiary. °
+
+If the nominated bank, in a credit available by negotiation, examines the documents
+and sends them to the issuing bank, but chooses not to negotiate, will it affect the
+rights and responsibility of the nominated bank? ©
+
+o
+
+Suggested answer: ” at
+
+If a nominated bank examines documents but does not honour or negotiate, they
+have not acted under their nomination. The bank was named in the credit as a
+nominated bank (to act). If that bank, who had not added its confirmation, decided
+not to act they aré not a nominated bank in the context of honouring or negotiating
+under the credit.
+
+Can the nominated bank indicate that it has sent documents to the i issuing bank ona
+“collection basis”?
+
+Suggested answer: .
+
+As mentioned in question 12.1, the use of such terminology should be resisted. In
+previous ICC opinions it has been stated that if such words are used the issuing bank
+may be entitled to treat the documents as a collection under the Uniform Rules for
+Collection.
+
+14
+© Copyright Collyer Consulting LLP -
+
+Not to be reproduced or copied without consent of the author
+
+Article 13 — Bank-to-Bank Reimbursement Arrarigements
+
+13.1
+
+13.2
+
+13.3
+
+13.4
+
+When wouid an issuing bank issue a credit subject-to the conditions of sub-article
+13(b)? Why?
+
+Suggested answer:
+
+Whilst the URR are the more encompassing rules with regard to bank-to-bank
+reimbursements, there are still a number of banks that do not refer to them in their
+letters of credit. The rules need to cater for these situations and.this if why sub-
+article 13 (a) refers to situations where the URR apply and sub-article 13 (b) where
+URR does not apply. It should be noted that sub-article (c) applies whethier (a) or (b)
+is applicable, The choice of whether or not to use URR is for the issuing bank to
+make and is often subject of a policy decision within a bank.
+
+In a credit, is it necessary to indicate the number of the publication of of URR i ie, 525
+or only indicate that it f is subject to URR? .
+
+.
+
+Suggested answer: 7 Tes .
+As most letters of credit are issued using the SWIFT MT7 series messages, there is a
+
+’ specific field in these messages (40E) for the applicable niles to be specified. Where
+
+URR is applicable, these are “UCP-URR LATEST VERSION” or “EUCP URR LATEST
+VERSION”. Reference to “LATEST VERSION’ would apply to the versions of UCP,
+EUCP and URR that are in operation on the date of issuance of the credit. In a credit
+issued by telex or letter, it would be advisable to state “-URR 525” or "URR latest
+version”. It is envisaged that sometime in 2008 the URR 525 may be updated to
+reflect the language and style of UCP 600, so the publication number will change.
+
+Is a reimbursement authorisation automatically subject to URR? If not, and we are
+
+‘ the reimbursing bank and receive a reimbursement authorisation which bears an
+
+expiry date, what should we do?
+
+Suggested answer: . -
+
+Due to the change in wording in article 1 of UCP 600, a reimbursement authorisation
+is no longer automatically subject to URR. In line with the changes that were made to
+the MT700, MT710, MT720, to incorporate field 40E “Applicable Rules”, the same
+change has been made in the reimbursement authorisation (M7740). The i issuing
+bank is required to indicate “URR LATEST VERSION” or “NOTURR”. If you receive a
+reimbursement authorisation including an expiry date, you should either revert to the
+issuing bank seeking deletion or accept the authorization on the basis ‘that you will
+adhere to the expiry date. The emphasis in sub-article 13 (b) is focussed towards the
+instructions given by an issuing bank and not the actions of a reimbursing bank.
+
+If we, the reimbursing bank receive a claim from a nominated bank after the expiry
+date stated in a reimbursement authorisation, what should we do?
+
+Suggested answer:
+
+if an expiry date has been included within the reimbursement authorisation, the
+reimbursing bank cannot ignore that fact and pay the claim. They would be required
+to refuse the claim and leave the claiming bank to resolve the issue with the issuing
+bank including any claim they may have for delayed payment interest.
+
+15
+© Copyright Collyer Consulting LLP
+
+Not to be reproduced or copied without consent of the author
+
+Article 14 — Standard for Examination of Documents
+
+14.1
+
+14.2
+
+14.3
+
+14.4
+
+14.5
+
+Under UCP 600, are banks required to effect payment within five banking days
+following receipt of the documents?
+
+Suggested answer:
+
+No. The rule.in sub-article 14 (b) is that a nominated bank acting on its nomination, a
+confirming bank, if any, and the issuing bank shall each. haye a maximum period of 5
+banking days following the day of presentation. to determine whether the documents
+comply. When the bank determines that the documents comply it is at that point that
+they must honour or negotiate (see sub-articles 15 (a), (b) and (. and answer to
+question 15.2). .
+
+What documents can be issued A by the benefi Kian?”
+
+Suggested answer: ,
+
+It is usual for the beneficiary to issue documents such as’ invoices; packing lists,
+weight lists and beneficiary certificates. Whether they may issue documents such as
+inspection certificates, certificates of origin and certificates of analysis-will depend on
+the wording appearing in the credit, It is also.not. unusual for commodity type
+beneficiaries to own their own vessels and therefore issue a bill of lading. -
+
+1
+
+What is the meaning of “fulfil the function"?
+
+Suggested answer:
+
+That the. document provides data that i is'in line with its title and/or the credit
+requirement, For example, if the credit requires a packing list but the presented
+document does not provide any data that can be considered to be packing detail it
+
+’ would not appear to fulfil its function. The reference to “fulfil the function” does not
+
+impose on a document checker a requirement that they be an expert in every type of
+document and its content, The requirement is that the document checker can
+ascertain that the document contains data that befits the required document.
+
+; If the documents ‘show the address of the beneficiary or ‘applicant in a different city
+
+from that in the credit, but in the same country, is this. acceptable?. -
+
+Suggested answer.
+
+Yes, except where the applicant address appears as part of the consignee or notify.
+party details. It could be argued that this is the position under UCP_500 as well. Sub-
+article 37 (a) of UCP 500 does not make any reference to addresses of the
+beneficiary or the applicant.
+
+Must each document be connected with each other? Connected with the credit?
+
+Suggested answer: ,
+This question brings out the issue of linkage. Linkage comes in two forms.
+
+(1) The ICC issued a position paper (number 3) under ucp 500. which sought to
+explain the requirements in respect of non-documentary conditions. This paper,
+whilst explaining that non-documentary conditions in a credit will be disregarded,
+went on to state that the position on non-documentary conditions would prevail
+unless there was linkage between the condition and a required document. This
+caused a lot of indifference between banks in their attitude towards accepting
+documents. For example, is a condition in a credit stating “Goods must be
+shipped on a regular line vessel” non-documentary or documentary as the credit
+tequires presentation of a bill of lading and therefore linkage occurs? Some banks
+took the view it was non-documentary whilst others took the opposite viewpoint.
+The introduction to UCP 600 makes it clear that the position papers have no
+
+16
+© Copyright Collyer Consulting LLP
+Not to be reproduced or copied without consent of the author
+14.6
+
+14.7
+
+14.8
+
+effect under UCP'600. The issue of linkage has not been introduced into UCP
+600. However, it shuld be noted that whilst'a’bank will not be required to
+examine the presentation for a document evidencing compliance with a. non-
+documentary condition, the stipulated documents that makeup the presentation
+must not contain data that conflicts with the stated condition.
+
+(2) Whether there is a need for the documents to contain data that links them to the
+same presentation. The answer to this is NO. If any form of linkage between the
+documents is required, then this must be achieved through the terms and
+conditions of the credit.
+
+Under UCP 600 the terminology “forwarder” is not used and it is stated that a
+
+‘transport document may be issued by any party. After July 1, 2007 if a credit
+
+stipulates “forwarders BL not acceptable” how should we treat this stipulation?
+
+Suggested answer:
+
+The condition is unclear. Does it refer to a document that is issued on the letterhead
+of a freight forwarder or does it refer to the fact that the bili of lading must be signed
+by the carrier rather than by their agent? An explanation should be Sought of the
+issuing bank as to their intentions.
+
+Please interpret sub-article 14 (d) and give an example. -
+
+Suggested answer:
+
+Under UCP 500 the position was that documents should not contain data that was
+deemed to be inconsistent between documents. The problem with the-reference to
+inconsistent.or inconsistency was that some banks interpreted this to the extreme.
+This resulted in a number of banks rejecting documents due to typographical or
+inconsequential reasons. The wording in sub-article 14 (d) is designed to highlight
+that whilst the data in documents must not be in conflict with data in the same
+document, any other stipulated document or the credit, it need not be identical. For
+example, a credit contains a goods description of “Tyres for Motor Vehicles”, the
+invoice contains the same description but in the packing list it states “500 Tyres for.
+Ford Vehicles, 500 Tyres for Audi Vehicles, and 500 Tyres for Hyundai Vehicles, etc”.
+The description on the packing list is not identical but it is not in conflict with the
+description in the invoice or the credit.
+
+What is the-differénce between latest presentation date and the expiry date? What if
+the beneficiary presents documents within the latest presentation date and
+negotiation occurs after the expiry date?
+
+Suggested answer:
+
+The latest presentation date is the date that falls at the end of the spect ied number
+of days after shipment, for presentation of documents. This period is usually 21
+calendar days after the shipment date, but can be any period depending on the
+journey and type of transport used. The expiry date is the date on which the
+undertaking of the issuing bank or confirming bank will cease. Provided the
+beneficiary presents complying documents on ar prior to the latest presentation date
+but in any event within the expiry date, 4 the act tof honour or negotiation may occur
+after such dates. .
+
+The usual presentation period for the beneficiary to present documents is not later
+than 21 days after shipment. What if the beneficiary needs more time i i.e., 30 days?
+Does ucp 600 allow the e applicant to stipulate 30 days?
+
+Suggested answer:
+Sub-article 14 (c) establishes the default period for presentation following the date of
+shipment. This default period is set at 21 calendar days where the credit is silent as
+
+7
+© Copyright Collyer Consulting LLP *
+Not to be reproduced or copied without consent of the author
+
+14.10
+
+to the period required. The credit may specify any peried of time for the presentation
+of documents, up to and including the expiry date of the credit.
+
+Is it necessary to mention the full address.of the beneficiary and the applicant in the
+invoice? If the invoice shows the beneficiary's name and applicant’s name only,
+without mention. of any address or country, is it acceptable? If the invoice shows
+beneficiary's name and country, applicant's name and country, without mentioning
+the address of both parties, is it acceptable?
+
+Suggested answer: .
+There is no requirement for a full or partial address to appear in the invoice. The-rule
+in sub-article 14 (j) refers to “when the addresses” appear in a document, not that
+
+they must appear.
+
+Article 15 — Complying Presentation
+
+15.1
+
+15.2
+
+15.3
+
+Can negotiation be made the day after checking the documents?
+
+Suggested answer:
+
+It is possibile but the timing will depend on the processing time needed by the
+nominated bank in arranging the advance of funds or the undertaking to advance
+funds.
+
+Does article 15 mean that banks must honour or negotiate the same day as they find
+the documents to comply?
+
++ Suggested ai answer:
+
+No. Whilst this may be feasible le in certain cases, the timing of when honour will occur
+will depend on the processing time required by the bank and, in some cases, the
+terms of the credit in relation to reimbursement.
+
+What i is the rationale for including in sub-articles 15 {b) and ©) reference to™and
+forward the documents perenees ~”? .
+
+Suggested answer:
+If a bank honours or negotiates then they have satisfied themselves as to the
+
+: documents complying and the conditions relating to reimbursement. On this basis,
+
+15.4
+
+there is no necessity for them to hold onto-the documents for a period beyond the
+date of honour or negotiation. In fact, during the UCP 500 revision process, a number
+of banks requested the inclusion of this condition as they had experienced situations
+where the nominated bank had been reimbursed but stifi held onto the documents
+
+. for a period of time and for no valid reason.
+
+Five banking days is the maximum time for banks.te examine documents. What is the
+maximum time for banks to pay the proceeds to a beneficiary under’a sight credit?
+
+Suggested answer:
+
+When a nominated bank acting on its ‘nomination, a confirming bank, if any, or the
+issuing bank determine that the documents comply they must either honour or
+negotiate. The maximum time for honour or negotiation will be affected by the
+reimbursement conditions that.are stated in the credit. For example, if'a credit states
+that the confirming bank is to claim reimbursement value 3 working days following
+the determination of compliance of the documents, then the settlement:to the
+beneficiary will be with a value date that matches the value that the confirming bank
+expects to be reimbursed.
+
+18
+© Copyright Collyer Consulting LLP
+Not to be reproduced or copied without consent of the author
+
+Article 16 — Discrepant. Documents, Waiver, and Notice
+
+16.1
+
+16,2
+
+16.3
+
+16.4
+
+16.5
+
+If a beneficiary presents documents to a nominated bank for negotiation and the
+nominated bank find the documents to be discrepant, does the nominated bank need
+to refuse to negotiate and list the discrepancies to the beneficiary in writing, or is a
+
+"telephone advice valid?
+
+Suggested answer:
+
+The requirement in sub-article 16 (d) is that the advice of refusal is given by
+telecommunication or other expeditious means. Telecommunication would include by
+telephone, Where a telephone advice of refusal is given it is wise to follow this up in
+writing so that there can be no dispute over what was or was not stated in the
+telephone conversation.
+
+Could you describe more about the close of a banking day? For example, in Thailand
+the banks close at 4.30 or 5.00pm and in USA the banks close at 5. 00pm.
+
+Suqgested answer:
+Reference to the close of the fifth banking day, in Sub-article 16 (d), is not confined
+
+. to the banking hours that are covered in article 33. The requirement in sub-article 16
+
+(d) is that the message conveying the refusal notice leaves the sending bank by the
+close of the fifth banking day, which for the purposes of sending the message (which
+may be out of the control of the letter of credit department as it is in the banks
+systems for sending) would be 11:59pm.
+
+What is the ‘consequence if a nominated bank fails to act in accordance with sub-
+article 16 (c)?
+
+Suggested answer:
+
+As a nominated bank has no obligation under a credit, unlike an issuing bank or
+confirming bank, it cannot be liable to effect settlement for failing to adhere to the
+provisions of article 16 even if it has agreed to act under its nomination. This position
+is no different to that under UCP 500.
+
+The issuing bank states in their refusal notice “that the bank is holding the
+documents pending further instructions from the presenter”. In this case, how can
+they “return the documents to the presenter at any time”? Will this not be in conflict
+since the issuing bank has not received instructions from the presenter and the
+presenter has not requested the return of the documénts?
+
+Suggested answer:
+
+UCP 600 no longer includes the words "at the disposal of”, in relation to the bank
+holding documents, as appeared in sub-article 14 (d) (ii) of UCP 500. By the deletion
+of these words the rule in sub-article 16 (e) allows a bank, that has provided a
+refusal notice according to UCP 600 sub-articles 16 (a)-or (b), to return the
+documents should no instructions or waiver be forthcoming. The rule recognises the
+position that a bank should.not be responsible for holding onto documents
+indefinitely,
+
+Can you provide an example in respect of sub-article 16 (c) (iif) (d) - “that the bank is
+acting in accordance with instructions previously received from the presenter.”
+
+Suggested answer:
+
+A nominated bank or presenting bank or beneficiary forwards documents to the
+issuing bank. In their covering schedule they indicate that they have observed
+discrepancies in the documents and list them. They go on to state that should the
+issuing bank observe the same discrepancies, they.require a refusal notice to that
+effect but rather than wait for further instructions request the issuing bank to
+
+19
+© Copyright Collyer Consulting LLP
+
+Not to be reproduced or copied without consent of the author
+16.6
+
+16.7
+
+16.8
+
+16.9
+
+immediately contact the applicant for a waiver and only release documents against a
+waiver that is acceptable to the issuing bank. The issuing bank, having examined the
+documents, determines that the listed discrepancies are the only discrepancies and
+they are agreeable to the course of action requested. They provide a refusal notice
+listing. the discrepancies observed and state that they are acting in accordance with
+the instructions received. If the issuing bank finds other discrepancies they should
+seek instructions from the presenter before proceeding with the instructions
+previously received. .
+
+The issuing bank refused documents and the venefiiory presented corrected ones.
+As the beneficiary made a new presentation, why can’t the bank mention new
+discrepancies? .
+
+Suggested answer:
+
+The issuing bank may refuse for a second time but only in respect of discrepancies
+that have occurred due to the content, or an error in the corrections made, in the
+replacement document(s). If a replacement docurnent contains discrepant data that
+was apparent in the original presentation of that document, then the issuing bank is
+not able to refuse for that reason. The discrepancy should have been observed at the
+
+‘time of the initial review of the documents,
+
+After the issuing bank informed their refusal to honour, due to a discrepancy, the
+nominated bank presented new documents, within the presentation period, which
+
+" complied with the credit. In this circumstance, must the issuing bank honour or still
+
+refuse documents? If it must honour, can the issuing bank collect their discrepancy
+fee.as they advised details of the discrepancy at the time of first presentation?
+
+Suggested answer: .
+If corrected documents are presented. within the latest presentation period and/or
+expiry date, then the issuing bank must honour. The presentation now complies. The
+issuing bank would be entitled to deduct a discrepancy fee due to the fact that they
+had observed an initial discrepancy in the first presentation.
+
+The nominated bank stated “we have negotiated documents under this credit” and
+also indicated in its covering schedule discrepancies found in the documents. The
+issuing bank did not issue a refusal notice after receipt of such documents. The
+discrepancies stated by the nominated bank did exist. Is the nominated barik entitled
+to reimbursement due to the fact that the i issuing bank did not refuse after receipt of
+the documents?
+
+Suggested answer:
+
+Yes. Even though a nominated bank may have indicated discrepancies in the
+documents presented, the issuing bank must still provide a notice of refusal even if
+they agree with the discrepancies that were listed. As the issuing bank did not send a
+notice of refusal, they are precluded under sub-article 16 (fF) from stating that the
+documents do not constitute a complying presentation and are required to honour.
+
+Under sub-article 16 (e), can the issuing bank return the documents to the presenter
+directly, without giving notice, and only mentioning the discrepancy in their returning
+schedule? Or, the issuing bank must return the documents immediately after they
+
+‘give a refusal notice required ‘by sub-article 16 (c) (ill) (c)?
+
+Suggested answer:
+An issuing bank cannot return the documents without giving notice. If the issuing
+
+bank elects to.return the documents rather than seek further instructions from the
+
+presenter or seek waiver from the applicant, they must provide 4 refusal notice by
+
+- -telecommunication in which they indicate that they are returning the documents. The
+
+documents should then be returned to the presenter without delay.
+
+20
+© Copyright Collyer Consulting LLP
+
+Not to be reproduced or copied without consent of the author
+
+16. 10 If the issuing bank does not indicate i in their SWIFT refusal message that they are
+
+16.11
+
+‘returning the documents, can the presenting bank send a reply message informing
+* them-to hold the documents pending the beneficiary contacting the applicant?
+
+Suggested answer:
+In the refusal notice, the issuing bank must indicate one of the four options shown
+under sub-article 16 (c) (ili) (a), (b), (c) or (d). If the issuing bank chooses (a) or (b)
+
+.. then the presenter is actually being requested to provide instructions. The reply
+
+message stated above would constitute a form of instruction to the issuing bank. .
+
+Can a bank, after the documents have been checked on day 1, decide to inform the
+discrepancies to the customer on day 5?
+
+Suggested answer:
+
+Sub-article 16 (a) commences “When a nominated bank ......”. Reference to “when” is
+a directive that at the time the bank determines that they do not comply they are to
+provide a notice of refusal. However, there are exceptions to this. An issuing bank,
+having examined the documents on day one, may decide to exercise their right under
+sub-article 16 (b) to contact the applicant for a waiver, This will delay any refusal
+notice being sent to the presenter. Also, depending on the time that the documents
+were examined and any processing pressures within the bank, an advice of refusal
+may not be sent until the following day. The rule in article 16 does not allow an
+arbitrary position that a bank may wait to the fifth banking day in all cases where the
+documents were examined on day one or two etc.
+
+Article 17 — Original Documents and Copies
+
+17.1
+
+17.2
+
+17.3
+
+17.4
+
+A credit calls for copy documents and prohibits originals, can we present a photocopy
+of a document for which the wording “original” still remains? -
+
+Suagested answer:
+Yes, The reference to “original” applies to the document that was photocopied, it
+does not apply to the photocopy itself.
+
+-In sub-article 17 (a) it says that the presenter. must present at least one original
+
+document. In case one original must be presented to the applicant direct, cant
+present a copy? . » ™ .
+
+Suggested answer: :
+
+If the credit specifically states that a an original of all or certain documents must be
+sent to the applicant, this would be seen as a modification of the rule unless the
+document was issued in more than one original in which case it would stil be
+possible for an original to be presented.
+
+Please explain “document issuer's original stationary”?
+
+Suggested answer:
+
+Every company will have a form of headed : paper which specifies the name of the
+company and other details relating to their address and telecormmunication details. In
+its printed form it is a copy, as a company will generally order large quantities of the
+document from their printers and, therefore, is a reproduced document. If data is
+added to that document it becomes an original under sub-article 17 (c) (ii).
+
+Can a bank accept documents as original if there is wording to the effect that it will
+need no signature? -
+
+21
+© Copyright Collyer Consulting up
+
+Not to be reproduced GF copied without consent of the author
+
+17.5
+
+17.6
+
+17.7
+
+17.8
+
+17.9
+
+17.10
+
+Suggested answer:
+
+A signature is only one of a number of ways in which a document may be considered
+to be an original. Provided the document otherwise complies with one or more of the
+conditions stated in sub-articles 17 ® and/or (c) it will be considered to be an
+original.
+
+Since invoices do not need to be signed by the beneficiary, is this true for a Packing
+
+. list or similar type of document? For a beneficiary certificate or other beneficiary
+
+documents what is the rule?
+
+Suggested answer: .
+
+A document need ‘not be signed unless specifically required by the credit, the
+document itself or the UCP. Certificates or declarations, by the nature of the
+document, require a signature (refer to ISBP publication 681 paragraph 37).
+
+If a document is a photocopy and signed with an original signature or signed
+according to sub-articie 17 (b), is it an original?
+
+Suggested answer:
+Yes. The signing of a copy of a document would be one way in which to make a copy
+or photocopy decument an original under the UCP.
+
+Credit required: Packing list in | three copies.
+Three copies of packing list were presented. Is this acceptable? _ :
+
+. Suggested answer:
+
+No. Sub-article 17 (e) states that a requirement for documents to be presented in
+duplicate, two fold or two copies (in this-case three copies).will be satisfied by the
+presentation of at least one original and the remaining number in.copies.
+
+Invoice in three copies is required by the credit. Would it be acceptable for the
+beneficiary to fax the documents to the bank and the bank then place an original
+stamp on the fax invoices? Would ‘the fax documents be considered as original?
+
+Suggested answer:
+
+If the three invoices were sent to the bank, by fex, there would ber no indication of
+originality that meets the requirements of sub-articles 17 (b) or (c). If the bank were
+to add an ‘original’ stamp to the three fax invoices this would not be acceptable
+under sub-article 17 (c) (i). Sub-article 17 (c) () states “appears to be written, typed,
+perforated or stamped by the decuments issuer's hand”. If the bank adds the
+‘original’ stamp, it could not meet the requirement for this to have been completed
+by the document issuer's hand.
+
+Sub-article (e} refers to“... except when the document itself indicates otherwise”.
+What does this mean?
+
+Suggested answer:
+The document may clearly indicate that it has been issued with the sole purpose of
+
+‘acting as a copy.
+
+LC requires a certifi cate of origin in triplicate. If the beneficiary presents a certificate
+of origin (issued in ‘original’, ‘triplicate’ and a “eopy’)) only {the one marked ‘duplicate’
+
+is missing). Is this acceptable or not?
+
+Suggested answer:
+Yes. Sub-article 17 (e) states that a document in triplicate will be satisfied by the
+presentation of at least one original and the remaining number in copies. The
+documents marked ‘triplicate’ and ‘copy’ serve the purpose of presenting copies. The
+
+: 22
+© Copyright Collyer Consulting LLP
+Not to be reproduced or copied without consent of the author
+
+17.11
+
+fact that a document, marked ‘duplicate’ has not been ‘Presented does not create a
+discrepancy.
+
+According to ISBP, when a copy of a: document is required, an original can be
+accepted instead of a copy. In this case, suppose a credit calls for a copy of a bill of
+lading to be presented and the originals are to be sent directly to the applicant. The
+beneficiary presents an original bill of lading instead which indicates the “number of
+originals” issued. Can such a presentation be acceptable or not? _~
+
+Suggested answer:
+
+If the credit requires the original bills of lading to be sent to the applicant, this means
+all of the originals - as indicated on the bill of lading in the box “number of originals
+issued” or in similar text elsewhere in the document. If the beneficiary presents an
+original bill of lading to the bank this means that not all the originals were sent to the
+applicant, as required by the credit, and therefore the presentation will be discrepant.
+
+*
+
+Article 18 — Commercial Invoice
+
+18.1
+
+18.2
+
+18.3
+
+18.4
+
+The credit amount is USD50,000. If the invoice presented shows an amount of
+USD60,000 and the cover letter of the nominated bank and the draft of the
+beneficiary are requesting settlement of USD50,000, is this acceptable?
+
+Suggested answer: .
+
+From the information provided, the nominated bank has accepted an invoice for an
+amount greater than the amount of the credit but has not honoured or negotiated for
+an amount in excess of that permitted by the credit. On this basis, the actions of the
+nominated bank bind the confirming bank, if any and the i issuing bank to accept the
+invoice. This is the effect of sub-article 18 (b).
+
+Commercial invoice must be made out in the same currency as the credit. How about
+@ credit denominated in local currency but the reimbursement clause states that “at
+matutity, we shall effect payment for the equivalent in USD”, is the currency USD?
+
+Suggested answer:
+
+No. The currency of the credit is that.of the local currency. The fact that
+reimbursement is to be made in the equivalent of US Doll ars does not make US
+Dollars the currency of the credit.
+
+If a credit stipulates that a signed commercial invoice is required, is it necessary to
+inctude an indication of the person’s 's name who is signing on behalf of the
+beneficiary?
+
+Suggested answer:
+
+No. The requirement is for a signature ‘that purports to be acting for or on behalf of
+the beneficiary. There is no requirement for the name of the person or a bank to
+investigate whether the person signing was authorised by the company to do so.
+
+Sub-article 18 (c) — ‘corresponds’ means mirror image or not on the invoice?
+
+Suggested answer: | ‘ .
+Reference to “corresponds” does not mean a mirror image, although in most
+instances the beneficiary will repeat the goods description word for word so as to
+avoid any possible dispute on the wording. Use of ‘corresponds’ allows for the goods
+description to appear in a number of places on the invoice (not necessarily in one
+place or fieid) and to reflect what has actually been shipped rather than the
+quantities that may. be shown in the credit. For example, in a crédit allowing partial
+shipments and a goods description of 20 cars, 20 taxis and 20 vans, the beneficiary
+may only ship 15 cars in the first shipment. The i invoice for this presentation would
+
+23
+© Copyright Collyer Consulting LLP
+
+Not to be reproduced or copied without consent of the author
+18.5
+
+|
+|
+18.6
+
+18.7
+
+18.8
+
+18.9
+
+_. ,only make reference to the 15 cars that were shipped. It is not a mirror. image but
+
+the description ‘corresponds’. Lot
+
+If a credit requires signed invoice in 3 copies, should the beneficiary present 3
+
+original signed invoices, or is 1 original signed invoice ‘and.2. copies of signed invoice
+acceptable? ; ‘ .
+
+Suggested answer:
+
+_ISBP publication 681 paragraph 32 states that copies of documents need not be
+
+signed. In a credit requiring a signed invoice in’3 copies, this may be satisfied by
+three invoices that are originally signed, one invoice that is originally signed and two
+photocopies of the signed invoice or one originally signed i invoice and two copies of
+an invoice.
+
+Sub-article 18 (c) states that a “goods description in the commercial invoice must
+correspond with that appearing in the credit” but in sub-articlé 14 (d) it is stated that
+data in a document need not be identical. Is this not a contradiction?
+
+Suggested answer:
+Use of the word “correspond” also signifies that the wording need not be identical.
+There is no contradiction between sub-article 18 (c) and sub-article 14 (d).
+
+Should all the content in a SWIFT MT700 field 45A be indicated in the invoice?
+
+Suggested answer:
+
+Field 45A is the field designated for the goods description. The description that
+appéars in this field is required to appear in the invoice to the extent that the
+description in the invoice corresponds to that in the credit. (See the responses to
+other questions on a similar theme). If this field includes reference to an Incoterm,
+then the Incoterm should be included within the content of the invoice.
+
+Sub-article 18 (c) states that the description of goods in the commercial invoice must
+correspond with that appearing i in the credit. This means that if the credit stipulates
+the description of goods as “Potatoes, Onions, .....” but invoice shows “Vegetables”,
+
+this will be okay, Is this correct? (If so, the applicant may re receive other kinds of
+
+vegetables than those stipulated in the credit).
+
+Suggested answer:
+
+The credit, as described in the query, is quite specific with regard to the type of
+vegetables to be shipped. If the invoice showed ‘vegetables’ as the goods description,
+this would not be seen as corresponding with the description in the credit. As is
+stated in the query, by referring to ‘vegetables’ the goods actually shipped may not
+be of the type which is specified in the credit itself. It should be noted that if it were
+the other way around i.e., the credit specified ‘vegetables’ and the invoice listed out
+the various types of vegetables, this would be acceptable.
+
+Credit states in the SWIFT MT700 field 45A — Clothes (70% cotton, 30% polyester)
+and commercial invoice shows only Clothes. Is this acceptable or not? As a variation,
+commercial invoice shows Clothes (70% cotton, 30% polyester) merchandise no. 111
+and item code 111. Is this acceptable or not?
+
+Suggested answer:
+
+For the first example, the answer r would be no. The rationale would be the same as
+that given in the opening response to query 18.8, The addition of merchandise
+numbers or item codes does not detract from the description shown and would be
+acceptable. -
+
+24
+© Copyright Collyer Consulting LLP
+
+Not to be reproduced or copied withaut consent of the author
+
+A
+
+Article 19 — Transport Document Covering at Least Two Different
+Modes of Transport
+
+19.1
+
+19.2
+
+19,3
+
+19.4
+
+In a multimodal-or combined bill of lading, may the field “port of loading” and “port
+of discharge” be left blank when the place of dispatch, taking in charge and the place
+of final destination are © completed in accordance with those stated in n the credit?
+
+Suggested answer:
+Yes. If a credit specifies the starting point as being a place other.than a port or the
+final destination as a place other than a port, then data included in the fields “place
+
+. of receipt” or similar and “place of final destination” or similar may be completed
+
+according to the credit. There is no need for the transport document to indicate the
+modes of transport that have been used.
+
+When using the phrase “one and the same” in sub-article 19 (c) (i, is it just to
+emphasize? Are there situations which the “one” transport document is not “the
+same” or vice-versa?
+
+Suggested answer:
+
+Use of the words “one and the same” is to clearly spell out that information regarding
+the carriage, and in particular any details regarding the place(s) of transhipment are
+shown in one transport document. This highlights that separate documents covering
+each leg of the carriage are not allowed unless required by the credit.
+
+The transport documents show an additional place of dispatch, taking in charge,
+shipment or place of final destination. Even if the additional place is different from
+the place of dispatch, taking in ‘charge or shipment or final place of destination
+stipulated in the credit, is this okay? :
+
+Suggested answer:
+
+Yes. Sub-article 19 (a) (1) (a) states “the transport document states, in addition, a
+different place of dispatch, taking in charge or shipment or place of final destination”.
+Where a different place of dispatch, taking in charge or shipment is shown, the
+transport document must indicate that the goods have been dispatched, taken in
+charge or shipped on board at the place stated in the credit. A place of final
+destination different from the place of final destination stated in the credit will usually
+occur where the place of final destination stated in the credit is a port or airport and
+the goods are then carried to an iniand destination. :
+
+In cases where an agent signs on behalf of the carrier, the transport document must
+still show the name of the carrier. Yes or no?
+
+Suggested answer:
+
+In all cases where an agent signs for and on behalf of the carrier the carrier must be
+named. This may be by a specific mention of the carriers name or in the manner in
+which the document is signed i.e., ABC Co. Ltd as agents for the carrier; XYZ Ltd. It
+should be noted that the manner in which the carrier is idéntified and the manner in
+which a carrier, master or agent signs a transport document is unchanged from UCP
+
+300 except for circumstances where an agent signs for and on behalf of the master.
+
+In this event, the name of the master need not be stated.
+
+25
+© Copyright Collyer Consulting LLP
+
+Not to be reproduced or copied without consent of the author
+
+Article 20 — Bill of Lading
+
+20.1
+
+20.2
+
+20.3
+
+20.4
+
+20.5
+
+What information should an “on board notation” contain?
+
+Suggested answer: .. ~-
+
+. Anon board notation will norma lly consist of only a date, Le., the date on 1 which the
+
+goods were shipped on board. For other instances, there may be a-need to include
+the name of the vessel and/or the port of loading. See sub-articles 20 (a) (ii) and (iii)
+for the circumstances that would require this additional information.
+
+If the: beneficiary presents a photocopy of a bill of lading marked original and signed
+
+by the carrier, should the bank accept it as an original bill of lading?
+
+Suggested answer:
+Provided the document meets the conditions of articles 17 and 20 it will be
+acceptable.
+
+What is a Lash barge? What is a Trailer? Can you say something about how they are
+used in sea transport?
+
+Suggested answer:
+
+A LASH barge is a barge on which the goods are loaded. The barge is then ‘lashed’ to
+the ship, usually on the deck of the ship. The barge is then transported to the port of
+discharge where it is transferred into the water and continues its journey, by tug, to
+
+the final destination. A trailer is much the same in that the goods are loaded on the
+trailer and the trailer is loaded onto the vessel. At the port of discharge a lorry will
+connect with the trailer and deliver the goods to their destination.
+
+A credit requires a bill of lading covering shipment from Rotterdam to Bangkok.
+Bill of lading shows:
+
+Place of Receipt Amsterdam
+
+Port of Loading Rotterdam .
+Port of Loading Bangkok .
+Place of Final Destination | Phuket
+
+Is this a discrepancy? :
+
+Suggested answer:
+
+The document checker would need to be satisfied that any reference to shipped on
+board relates to the vessel and Rotterdam port as opposed to any conveyance that
+may be transporting the goods for loading on to the vessel. A place of final
+destination different to the port of discharge would be acceptable.
+
+Sub-article 20 ‘@) (iv) dees not require. the bill of lading to indicate the number of
+originals that.have been issued (but ISBP publication 681 paragraph 93 does require
+this information). Can you refuse the documents for the discrepancy, “BL does not
+indicate the number of originals issued”?
+
+Suggested answer:
+
+There is no requirement as to a specific’ number of bills of lading that are to be
+isSUed. This is left to the carrier or their agent to decide unless a credit specifies the
+number to be presented. Sub-article 20 (a) (iv) requires that the full set as indicated
+on the bill of lading be presented unless the credit indicates disposal instructions for
+one or more of the original bills of lading. If the bill of lading does not indicate the
+number of original bills of lading that have been issued, a bank cannot determine
+
+.compliance with sub-article 20 (a) (iv) and, therefore, the decument would be
+
+, . 26
+© Copyright Collyer Consulting LLP
+Not to be reproduced or copied without consent of the author
+
+20.6
+
+20.7
+
+20.8
+
+20.9
+
+20.10
+
+discrepant. A discrepancy worded as stated in the query would be correct plus an
+original bill of lading presented to the bank whereas the credit requires all originals to
+be sent to the applicant,
+
+*
+
+Most biils of lading show the name of the carrier in the headline or top right hand
+quartile of the document, but do not specifically indicate themselves as the carrier. Is
+this acceptable or not?
+
+Suggested answer: .
+
+No. There must be a clear indication on the bill of lading a as to the n name of the
+carrier. This may be by a specific statement indicating the name of the carrier i.e.,
+“XYZ Ltd the carrier’ or by the manner.in which it is signed i.e:, ‘For the carrier, XYZ
+Ltd’, ‘ABC Co. Ltd as agents for and on behalf of the carrier, XYZ Ltd’.
+
+The bill of fading does not bear an original signature of the carrier or their agent, it is
+only printed out by computer with the company’s name at the end of it. Can it be
+deemed as correctly signed?
+
+Suggested answer:
+No, The bill of lading must be signed according to one of the forms shown in the
+interpretation of signing in article 3 and in accordance with sub-article 20 (a) (i).
+
+If goods are shipped bya pre-carriage vessel and transhipment Is effected onto an
+ocean vessel how should we show the 2 vessels on the bill of lading (In the pre- .
+carriage vessel field, in ocean vessel field or on board notation)?
+
+Suggested answer:
+
+The answer depends on whether the pre-carriage vessel or the ocean vessel is the
+vessel that is leaving the port of loading stated in the credit. If the pre-carriage
+vessel is the one departing from the port of loading, and it is shown in the pre-
+carriage field, then an on board notation is required indicating the port of loading
+stated in the credit, the name of the vessel and the date of shipment (see sub-article
+20 (a) (iii). If the pre-carriage (feeder) vessel leaving the port of loading stated in
+the credit is shown in the ocean vessel field and the ocean vessel is stated within the
+body of the credit i. e,, transhipment will be effected at ABC port on vessel XYZ, then
+a pre-printed shipped on beard notation would suffice or-an on board notation
+showing the date of shipment. .
+
+Goods have been shipped on board a named vessel. If the bill of lading shows 2
+vessels, should the on board notation only show the first vessel? Some issuing banks
+require the bill of jading to show the. second.(acean vessel). How can we know the
+2" on board date whereas UCP requires “shipped on board a named vessel’?
+
+Suggested answer:
+
+The bill of lading must indicate that the goods have been shipped on board a named
+vessel at the port of loading stated in the credit (sub-article 20 (a) (ii). If the bill of
+lading indicates a further. vessel on which transhipment will be effected; during the
+carriage between the port of loading and the port of discharge there is no
+requirement for an on board notation to be added in respect of that vessel.
+
+Can transhipment occur outside the stated carriage? Or, only between the port of
+‘loading and the port of discharge stated in the credit?
+
+.
+
+Suggested answer:
+
+_ Yes, transhipment can occur outside the stated journey but the UCP is only
+
+concemed with transhipment that occurs between the ports of loading and discharge
+stated in the credit: The bill of lading could indicate, for, example, that shipment has
+been effected from a place of receipt to the port of loading stated in the credit.
+Transhipment would then occur at the port of loading stated in the credit. This
+
+27
+© Copyright Collyer Consulting LLP
+
+Not to be repraduced or copied without consent of the author
+
+20.11
+
+Article 21 — Non-Negotiable Sea Waybill
+
+| 21.4
+21.2
+
+|
+
+21.3
+
+21.4
+
+" -transhipment event is not covered by the UCP. An onboard notation would be
+
+required in respect of the vessel departing the port of loading stated in the credit.
+
+If a credit called for a bill of lading is it deemed a discrepancy if a charter party bill of
+lading or other transport document is presented if no allowance is 5 made | in the
+credit?
+
+* Suggested answer:
+
+Tf the credit called for a bill of lading, a document, however named, would be
+acceptable provided it met the conditioris of the credit and the content of article 20.
+However, if a charter paity bill of lading was presented, without specific authorization
+in the credit, this would be considered to be a discrepancy — - refer to sub-article 20
+(a) (vi).
+
+Could you explain more about the nature of the sea waybill?
+
+Suggested answer:
+
+The non-negotiable sea waybill was referenced in UCP, for the first time, in UCP 500.
+It was seen as the document that would bridge the gap between a paper bill of
+lading and an electronic one. It was also seen to serve the needs of importers and
+
+-exporters where there was a short sea journey and a need arose for documentation
+
+to be available at the port of discharge when the vessel arrived. The non-negotiable
+sea waybill is common in trade between countries such as USA and Canada, but is
+not widely used. See question 21.2 and the answer for further information.
+
+What is the basic difference between a Ron-negotiable sea waybill and a bill of
+lading? ,
+
+© a
+
+Suggested answer: . —
+
+A non-negotiable sea waybill is, as the title suggests, a non-negotiable document and
+therefore not a document of title. This type of document is not issued “to order” of a
+named party, itis straight consigned. The consignee is not normally required to
+present an original of the non-negotiable sea waybill in return for their goods.
+
+A bill of lading is capable of being a document of title when issued “to order” of a
+named party. The “order party” is normally required to submit one of the original bills
+of lading in return for their goods.
+
+‘What is to be understood by the words “shipped on board a named vessel at the port
+
+of loading stated in the credit” which appear in sub-article 21 (a) (li)?
+
+Suggested answer:
+
+The-non-negotiable sea waybill inust appear to indicate that the goods have been
+shipped on board a named vessel at the port of loading stated in the credit. This
+issue only comes into doubt where there is a place of receipt stated in the non-
+negotiable sea waybill, In such an event, ahy-statement of shipped on board must
+clearly relate to the narned vessel and the port of loading stated in the credit. If there
+is doubt, then an on board notation will be required. be
+
+Should the address and telephone nuniber of the applicant be stated as part of the
+notify party details on a non-negotiable sea waybill?
+
+Suggested answer:
+
+There is no requirement in UCP for the address or telephone number of the applicant
+to be included as part of the notify party details. However, this would be required
+where the credit so specified or when the applicant’s.address and contact details
+
+28
+
+© Copyright Collyer Consulting LLP”
+Not to be reproduced or copied without consent of the author
+
+Were shown. on the non-negotiable sea waybill as consignee or notify party— in which
+event the details must match those in the credit.
+
+Article 22 — Charter Party Bill of Lading
+
+22.1 Can we induce the following from articie 22?
+1. Name of the master need not be mentioned in a charter party bill of lading?
+2. If the owner or charterer, who signs the charter party bill of lading is an
+’ individual, his name need not be shown on the document? .
+
+Suggested answer:
+
+‘1. The name of the master need not be stated when an agent signs for and on
+behalf of the master. Where a master signs in his or her own capacity he or she
+must declare their capacity.
+
+2. The name of the owner or charterer, whether an individual or company, must be
+shown on the charter party bill of lading.
+
+22.2 Is a bill of lading stating “Freight payable subject to charter party’, a charter party
+bill of lacing? .
+
+Suggested answer:
+This is one of the ways in which a bill of lading would indicate that it is subject to a
+charter party.
+
+22.3. Accharter party bill of lading signed by a charterer and banks will not examine a
+charter party contract. How does the issuing bank know that the owner will accept to
+release the cargo against such a charter party bill of lading? Are there any risks for
+the applicant?
+
+Suggested answer:
+Where a charter party bill of lading is required, the applicant needs to make their
+own risk assessment of the shipper and the party that is contracting, to carry the
+
+; goods. It should be remembered that in an FOB consignment the applicant could be
+‘the charterer. Banks will accept documents that on their face comply with. the terms
+‘and conditions of the credit. A bank that issues a credit calling for a charter party bill
+of lading and is looking to have an interest in the underlying goods will need to make
+an assessment of the parties involved prior to agreeing to issue such a credit. The
+risks associated with charter party bills of lading and the release of the cargo to
+which such document relates is outside the scope of the UCP.
+
+Article 23 — Air Transport Document
+
+23.1 Does an air waybill require the shippers (beneficiary) signature?
+
+Suggested answer:
+No. This is not a requirement of the UCP. It would be most unusual for such a
+condition to be incorporated into the terms and conditions of a credit.
+
+23.2 A credit requires shipment by airfreight from USA to Bangkok. But now, after moving
+to a new airport namely Suwarnaphumi airport, which is located in Samutprakarn
+province instead of Bangkok, documents are received showing airport of destination
+differing fron that in the credit. Is this a discrepancy or not? What if the credit was
+issued before moving to the new airport, do we have to amend each credit?
+
+.. Suggested answer: ‘
+
+_~ Whilst the néw airport has been bullt outside the city of Bangkok, it is still the airport
+
+- that serves that city. This could be likened to Heathrow which is commonly referred
+
+29
+© Copyright Collyer Consulting LP
+Not to be reproduced or copied without consent of the author --
+
+23.3
+
+23.4
+
+23.5
+
+to as London Airport. Heathrow is not in London it is located i ina county on the
+outskirts of London. Air transport documents evidencing dispatch. to Suwarnaphumi
+airport would be acceptable under a credit requiring shipment to Bangkok, but it
+must be recognised that there may be a number of banks that May not be aware of
+.the significance of the name and it would be wise to refer to the name of the airport
+in future credits.
+
+Do the words “goods have been accepted for carriage” mean
+
+(a) goods received for carriage, or
+(b) goods are acceptable for carriage?
+
+Suggested answer: .
+For the goods to have been accepted for carriage they must have been received for
+carriage.
+
+How is transhipment indicated in an air waybill?
+
+Suggested answer: . ;
+Transhipment is normally indicated by reference to multiple flights and an indication
+of the airports at which such transhipment will occur. As there is not usually a
+specific field for transhipment information it is often quoted i in the handling
+information field or flight details area.
+
+Under article 24, it is stated “A road transport document ... or bear no wording
+indicating for whom the documents have been prepared”. What about an air waybill?
+In practice, we have received some air waybill’s which bear no marking indicating for
+whom the document has been prepared.
+
+Suggested answer:
+
+Sub-article 23 (a) (v) is quite specific in that the air waybill must be the ‘original for
+Consignor or shipper’. For a bank to accept any other form of document is not in line
+with the requirements of UCP and can place them at risk as the shipper may request
+the airline to alter the name of the consignee. By requesting the original for
+consignor or shipper, the details cannot be changed without submission of that
+document.”
+
+Article 24 — Road, Rail or Inland Waterway Transport Documents
+
+24.1
+
+24.2
+
+Under sub-article 24 (a) (i), does it mean that any notation of receipt of the goods
+must be authenticated? If the authentication is made by the agent who signs the
+document, the agent must indicate his capacity? even if this has been mentioned
+when he signs the document?
+
+Suggested answer:
+
+Sub-article 24 (a) (i) requires that an indication of receipt be made by signature,
+stamp or notation. Any stamp or notation must bear evidence that it was made by
+the carrier or their agent. If the agent has declared his capacity elsewhere in the
+document, there is na need to repeat this in respect of the stamp or notation.
+
+A credit indicated that shipment was to be effected by rail and required a railway
+receipt. When documents were presented to the issuing bank a multimodal transport
+
+“document was presented instead. Can we accept this under the umbrelfa of “however
+
+named”?
+
+Suggested answer: : -
+From what is stated, the credit required dispatch by rail only. On this basis, a
+document titled multimodal transport document would not be accepted unless it only
+
+30
+© Copyright Collyer Consulting LLP
+
+Not to be reproduced or copied without consent of the author
+
+24.3
+
+- covered dispatch from thie railway station of departure to the railway station of
+destination as stated. in the credit. On ‘this basis, the document would be accepted
+under the doctrine of “however named”, If there were any indication that another
+mode of transport was used during the journey between the two railway stations, the
+document would not meet the requirements of the credit and would be discrepant.
+
+If I require goods to be dispatched by road and for transhipment not to occur, can I
+completely prohibit transhipment? Sub-article 24 (e) (ii) seems to allow transhipment
+even if prohibited by the credit.
+
+Suggested answer:
+
+A prohibition of transhipment can be achieved by the credit stating that transhipment
+is prohibited and a clause in the additional conditions field stating that sub-article 24
+(e) (ii) does not apply or is excluded.
+
+Article 25 — Courier Receipt, Post Receipt or Certificate of Posting
+
+25.1
+
+25.2
+
+25.3
+
+A credit required a non-negotiable set of documents to be sent to the applicant and a
+courier receipt was to accompany the documents. Should the courier receipt be
+checked according to article 25?
+
+Suggested answer:
+No. Article 25 covers the despatch of goods by courier service not the sending of
+documents to an applicant.
+
+A document is presented to us entitled “courier waybill” will this be acceptable under
+a credit calling for a courier receipt?
+
+Suggested answer:
+Yes. Sub-article 25 (a) states a courier receipt, “however named” will be accepted. A
+courier waybil will fall into this category.
+
+The courier receipt is not manually signed but, in line with current industry standards,
+it bears a bar code as evidence of receipt.and for tracking purposes. There is no
+
+‘place for a signature to be added. Would this form of document be acceptable?
+
+Suggested answer: ,
+
+Articte 3 provides an interpretation of signing. Within that interpretation is reference
+to “any other mechanical or electronic method of authentication”. This would cover a
+document that is ‘signed’ by means of a bar code especially where the document
+itself does not have a place for a signature.
+
+Article 26 ~ “On Deck”, “Shipper’s Load and Count”, “Said by Shipper
+to Contain” and Charges Additional to Freight
+
+26.1
+
+26.2
+
+A transport document stipulated, the goods are or will be loaded on deck — we
+understand that this is not acceptable. Another transport document stipulated the
+goods may be loaded on deck, is this ok?
+
+Suggested answer:
+
+Banks are concerned that there are no clauses on a bill of lading indicating that
+goods are or will be loaded on deck. A clause stating that the goods may be loaded
+on deck is not a statement that this will occur and is therefore acceptable.
+
+A bill of lading includes a fieid with the pre-printed wording “particulars furnished by
+the shipper”. In this field there is a goods description plus a freight paid stamp and
+
+31
+© Copyright Collyer Consutting LLP
+
+Not to be reproduced or copied without consent of the author
+26.3
+
+. amon board notation. Can it be deemed that the freight paid stamp and on board
+
+notation were “furnished by the shipper” and not the carrier or their agent?
+
+Suggested answer:
+
+The pre-printed wording needs to be observed in the context of the bill of lading prior
+to the insertion of any data. The wording relates to the heading in that particular
+field, i.e., goods description and any packing details. It does not relate to-other forms
+of data that may be stated later e.g., indications of freight paid or collect, on board
+notation or statements of goods being loaded on deck.
+
+A credit is silent with regard to excluding sub-article 26 (c), does this mean that we
+may accept a transport document that evidences costs relating to terminal handling
+and. container removal and cleaning etc.?
+
+Suggested answer:
+Yes. If an issuing bank (or the applicant) only wishes to see that freight charges are
+to be collected then an exclusion of the rule must be made in the credit.
+
+Article 27 — Clean Transport Document
+
+27.4
+
+27,2
+
+27,3
+
+If a credit called for a ‘clean on board’ bill of lading, but the transport document
+states ‘shipped on board‘ does this comply with the credit? The bill of lading does not
+contain any remarks regarding the goads or their packaging.
+
+Suggested answer:
+
+Yes, It should be noted that most carriers and their agents will not add the word
+“clean” to a transport document as such terminology has a different meaning to the
+
+shipping industry than it does under UCP.
+
+A bill of lading bears the words “clean on board” but the word “clean” has been
+deleted and this deletion has been authenticated by the agent of the Carrier, Does
+this make the document discrepant? Can it be deemed to be ‘unclean’?
+
+Suggested answer:
+
+No. As mentioned in question 27.1, most carriers and their agents will not allow the
+word “clean” to appear on the transport document. The fact that the word ‘clean’ was
+added and then deleted does not make the document unclean unless it contains a
+Clause or notation that expressly declares a defective condition of the goods or their
+packaging.
+
+Can a bill of lading. marked “packaging miay not be suitable for sea travel” be
+considered as an unclean document?
+
+Suggested answer:
+
+No. This does not expressly declare a defective condition of the packaging. At the
+time of shipment the packaging must have been suitable otherwise a clause or
+notatior! would have been made. The clause is covering the carrier in the event of
+something happening during the voyage, nat something that will necessarily happen.
+
+Article 28 — Insurance Document and Coverage
+
+28.1
+
+A credit stipulated “insurance covering all risks”. The insurance policy shows “all risks
+excluding war risks”, is this okay?”
+
+Suggested answer:
+
+Yes. If the credit requires insurance covering “all risks” rather than specifically named
+risks, then an insurance document evidencing any ‘all risks’ notation or clause will be
+accepted without regard to any risks not covered.
+
+32
+© Copyright Collyer Consulting LLP
+
+Not to be reproduced or copied without consent of the author
+28.2 If the insurance docurhent does not indicate the riumber of originals issued, should
+the bank accept the insurance document as presented as being the sole original?
+
+Suggested answer:
+
+Yes. Only where the insurance document indicates that it has been issued in more
+than-one original or where it refers to a document titled “duplicate” or similar being
+capable of submission in the event of a claim, must all the originals or documents in
+the set be presented.
+
+28.3 Please explain sub-articles 28 (g) & (h) in relation to “without regard to any risks that
+are not covered” and “without regard to any risks stated to be excluded”?
+
+Suggested answer:
+
+Sub-articles 28 (g) and (h) are effectively ‘penalty’ articles. If the issuing bank is not
+clear as to the risks that are to be covered, the beneficiary is entitled to present (i)
+an insurance document without regard to insurance risks that are not covered (sub-
+article 28 (g) — where the credit references insurance covering ‘usual’ or ‘customary’
+tisks) and (ii) an insurance document that bears any all risks notation without regard
+to any risks that are excluded (sub-article 28 (h) — where the credit references
+insurance covering ‘all risks’), An issuing bank should avoid using the terminology
+mentioned in sub-articles 28 (g) and (h) and be specific as to the risks that are to be
+covered. .
+
+28.4  Acredit states “insurance policy issued to order of issuing bank”. Who should be the
+name of the insured?
+
+Suggested answer: . .
+
+The insurance document should show the assured as the issuing ; bank. However, an
+-insurance document issued in favour of ‘bearer’ would also be acceptable. It should
+be remembered that.an insurance document is not like a bill of fading in that it may
+be endorsed continually to different parties.
+
+Article 29 — Extension of Expiry Date or Last Day for ‘Presentation
+
+29.1 In relation to sub-article 29 (b) many banks print the sentence “all terms and
+‘conditions are complied with” in their covering schedule (despite the fact that many
+presentations contain discrepancies) and the date of the covering schedule is often
+much later than the expiry date (i.¢., in some case more than 1 or 2 months). Can an
+issuing bank reject the docurnents for the reason of late presentation despite the
+presenting banks declaration?
+
+Suggested answer:
+
+This is not really an issue that is covered by sub-article 29 (b). If a schedule is dated
+some time after the expiry date of the credit — especially'1 or 2 months ~ the issuing
+bank would be entitled to seek an explanation for the delay in sending the
+documents. Hopefully, the wording now included in article 15 will stop the practice of
+banks holding on to documents for a period of time.
+
+29.2 If the covering schedule is dated after the expiry date is it necésSary to identify that
+the documents were presented within the validity of the credit?
+
+Suggested answer:
+
+Obviously, the beneficiary could present documents to a nominated bank up to and
+including the expiry date. Given that the nominated bank has a maximum of five
+banking days in which to examine the documents, it is conceivable that the
+conclusion of the examination and the sending of documents would, in such
+circumstances, occur after the expiry date. Most nominated banks will indicate in
+
+33
+© Copyright Collyer Consulting LLP
+Not to be reproduced or copied without consent of the author
+
+29.3
+
+29.4
+
+their schedule that documents were received within the expiry date to cover this
+issue or that all terms and conditions of the credit were complied with. An issuing
+bank may seek clarification if either of these types of statement is missing from the
+covering schedule, but having received a confirmation of receipt of the documents
+within the expiry date should proceed with the processing of the transaction.
+
+Is it sufficient to indicate on the covering letter that the documents are compliant
+with the terms and conditions of the credit? .
+
+Suggested answer:
+
+See comments under questions 29.1 and 29.2. A statement that all terms and
+conditions are complied with can cover a situation of documents being sent after the
+expiry date of the credit i.e., to signify presentation within the stated expiry date.
+However, in general terms, the statement has no value as.the issuing bank is still
+required to make their own decision as to whether or not the documents comply.
+
+_ This is irrespective of any statement that may be made by a nominated bank as to
+
+their findings.
+
+According to sub-article 29 (b) a covering schedule must state that. the presentation
+was made within the time limits extended in accordance with sub-article 29 (a), Must
+we indicate the sentence in accordance with sub-article 29 (a)?
+
+Suggested answer:
+
+That is the requirement of sub-article 29 (b). However, it is recognised that banks will
+also signify compliance by a statement that all terms and conditions were complied
+with.
+
+Article 30- — Tolerance in Credit Amount, Quantity and Unit Prices
+
+30.1 °
+
+30.2
+
+30,3
+
+In a SWIFT MT700 advice of a credit, field 39a shows a tolerance of 02/02 in relation
+to the credit amount. Partial shipments are not allowed. If documents are presented
+for a value more than 2% under the credit value but within 5%, is it a discrepancy?
+
+Suggested answer:
+
+The credit has specified the tolerance that is to apply to the transaction. This is up to
+2% less.or 2% more than the value of the credit. The drawing of the beneficiary
+must fall within the stated tolerances. The 5% tolerance stated in sub-article 30 (b)
+does not apply where the credit is stated to be subject to a tolerance.
+
+For the purpose of sub-article 30 (b) what types of quantities or goods are
+considered as individual items or packing units?
+
+Suggested answer:
+
+1000 Computers, 1500 Tyres, 10,000 Pens would. be types of individual items.
+500 boxes or 50 pallets would be types of packing units. 5,000MT of Rice, 10,000
+Gallons of oil would not be types of packing units or individual items.
+
+Can you provide an example of how sub-article 30 (c) would be applied?
+
+Suggested answer:
+
+The credit indicates a breakdown of the CIF value i.e., FOB cost USD1000, Freight
+USDS500, Insurance USD250 = total CIF USO1750.00 At this point in time, the freight
+and insurance costs are estimated values.
+
+The invoice shows FOB cost USD1000, Freight USD460 and Insurance USD240 =
+total USD1700.00 At this point , the freight and insurance costs are actual costs and
+are less than the estimated costs. The drawing is made for the actual costs and the
+FOB value shows that the full value of the goods has been shipped.
+
+34
+© Copyright Collyer Consulting LLP
+Not to be reproduced or copied without consent of the author
+
+Article 31 — Partial Drawings or Shipments
+
+31.1 Acredit states that partial shipments are allowed.
+Goods quantity = 100 pieces Credit amount = USD1000.00
+
+1* shipment effected for 60 pieces amount USD650.00
+2"9 shipment effected for 40 pieces amount USD200.00
+
+Is it correct that the 2" shipment will be discrepant as the amount is under drawn
+(even though quantity of 100 pieces was completely shipped)?
+
+Suggested answer: .
+
+Although the credit allows for partial shipments and two shipments have been made
+for the total quantity of the.goods, the value that has been drawn is below 5% of the
+credit amount and would be discrepant not under this article but sub-article 30 (c).
+
+31.2 A credit stipulates that partial shipments are not allowed. The beneficiary presents
+five sets of charter party bills of lading. The contents of the bills of lading are almost
+identical, except the quantity and date. On the bills of lading the vessel, port of
+loading and port of discharge are the same but the shipped on board date varies over
+a period of 3 or 4 days. Is this a partial shipment or not?
+
+Suggested answer: .
+
+No. The goods are on the same vessel, for the same journey, voyage and
+destination. This is not a partial shipment provided the quantity evidenced on the five
+sets of charter party bills of lading meets the requirements of the credit and article
+31
+
+31.3 A presentation is made under a credit that prohibits part shipment. Included are
+three sets of bills of lading dated 10 July, 11 July and 12 July covering the full
+shipment of goods. Which date is taken as the date of shipment?
+
+Suggested answer:
+
+12 July. The shipment was complete once the last quantity of goods was loaded, This
+date will be taken as the date of shipment and would be considered for any
+calculation of a maturity date linked to the date of shipment.
+
+Article 32 — Instalment Drawings or Shipments
+
+32.1 If a credit indicates shipment by instalment and allows partial shipment, can each
+instalment allow for partial shipments?
+
+Suggested answer:
+Yes, partial shipments may be effected within each instalment. All shipments for each
+instalment must-be completed within the specified schedule.
+
+32.2 According to article 32, if a beneficiary does not ship the goods within the period
+allowed for an instalment, the credit will cease to be available for that and any
+subsequent instalment. If an instalment is missed and the beneficiary requests the
+applicant to amend the credit in respect of the shipment schedule, is the credit still
+available for that and any ¥ subsequent instalment?
+
+Suggested : answer; :
+Yes, the applicant may “request that the i issuing bank issue an amendment to
+reinstate the schedule and the credit.
+
+35
+© Copyright Collyer Consulting LLP
+
+Not to be reproduced or copied wittiout consent of the author
+
+33.3
+
+A credit stipulates goods of type A and B.
+
+First period for shipment 23-25 July
+Second period for shipment 01-10 August
+
+The beneficiary presents documents for the first shipment evidencing shipment on
+July 23, 2007 covering all of type B and some of type A.
+
+The beneficiary presents documents for the second shipment. evidencing shipment on
+August 6, 2007 covering the remainder of A and none of B.
+
+.
+
+Is this permitted as the re period only restricts the shipment date?
+
+Suggested answer: . :
+
+The credit did not specify when the types of goods were to be shipped. The first
+shipment was made within the dates specified for the first shipment and therefore
+met the conditions of the shipment schedule. The second shipment, which completed
+the shipment of'both types of goods, was also effected within the period allocated for
+the second shipment.
+
+Article 33 — Hours of F Presentation
+
+33.1
+
+33.2
+
+33.3
+
+Banks have no obligation to accept a presentation outside of their banking hours,
+Does this mean before 11.59pm?
+
+*
+
+Suggested answer:
+Banking hours means the hours that the bank will advertise as being their hours for
+normal banking business and/or presentation of documents. This would, in most
+
+cases, be no later than 5:00pm on a.banking day.
+
+If a courier company seeks to deliver documents outside our banking hours are we
+obliged to accept them?
+
+Suggested answer:
+
+"No. The rule is quite clear that a bank is not obliged to accept a presentation outside
+
+their banking hours. Care should be taken, however, when documents are signed for
+at a time which is beyond normal working hours. This may be taken as being a
+modification of the rule and an acceptance of the bank for the presentation to be
+considered to have been made that day.
+
+Can we advise our working hours on our covering advices / issuance of a credit?
+
+Suggested answer:
+Yes. There is nothing to stop a bank from including such data within its advices.
+
+Article 34 — Disclaimer on Effectiveness of Documents
+
+34.1
+
+Is a bank responsible for carrying out extensive mathematical calculations that
+appear in packing or weight lists?
+
+Suggested answer:
+
+No, this is made quite clear in Ise publication 681 paragraph 24. The question is
+really what is the definition of “extensive”? The guidance should be that unless a
+document checker is capable of making the calculation in their head, thereby
+requiring a calculator to conclude the exercise, it is extensive.
+
+36
+© Copyright Collyer Consulting LLP
+
+Not to be reproduced or copied without consent of the author
+34.2
+
+34.3
+
+Is it part of a bank’s responsibility to ensure that for documents issued by parties
+other than the beneficiary, that they have been issued by the stated company and
+signed by an authorized person of that company?
+
+Suggested answer:
+
+‘Banks have no responsibility with regard to the creation and signing of documents or
+the data that appears therein. Sub-article 14 (a) and article 34 make it clear that
+banks determine, based on the documents alone, whether or not, on their face, the
+
+. documents comply with the terms and conditions of a credit.
+
+Are banks required to ensure that the vessel stated in the bill of lading actually sailed
+from the port of loading and on the date stated as being the shipped on board date?
+
+Suggested answer:
+
+For the same reasons as stated in question 34.2, no. It is recognised that some
+banks utilise the services of the ICC’s International Maritime Bureau to review certain
+bills of tading to confirm that the vessel exists, it salled from the port stated in the bill
+of lading and that it is capable of carrying the goods and the quantity stated. This
+independent review is not covered or required by the UCP.
+
+Article 35 — Disclaimer on Transmission and Transtation
+
+35.1
+
+35.2
+
+35.3
+
+35.4
+
+Where the decuments have been lost in transit between the nominated bank and the
+issuing bank, which bank is responsible?
+
+Suggested answer:.
+
+Provided the nominated bank has acted on its nomination by examining ‘the
+documents and determining compliance (whether or not they have honoured or
+negotiated) and sent the documents to the issuing bank in the manner that may be
+described in the credit (i.e., in 2 mails, by courier etc.) then the i issuing bank is bound
+to honour if the documents did comply.
+
+Does the issuing bank undertake to honour where the documents are lost in transit?
+If yes, honour against a new set of documents including new set of original bills of
+lading or honour against photocopies of the original set of documents?
+
+Suggested answer: :
+
+Subject to the conditions mentioned in the answer to question 35.1, the issuing bank
+must honour. The nominated bank, and the beneficiary, is under no obligation to
+present a fresh set of original documents. The issuing bank, however, will be entitled
+to request copies of the documents so that they may ascertain that the documents
+did comply at the time they were presented to the nominated bank.
+
+It is presumed that documents must be sent according to the requirements stated in
+a credit. Does this mean that if a credit stated “forward the documents in 2 lots”, the
+nominated bank must send in 2 lots? If a credit stated “send by DHL courier”, the -
+nominated bank must use DHL? Is this correct?
+
+Suggested answer:
+
+Yes. The nominated bank must comply with any instructions in the credit with regard
+to the disposal of documents. Failure to comply may place their right to
+reimbursement in jeopardy. A number of banks have policies that state documents
+are sent in one lot by courier irrespective of the credit requirements. This is a
+business decision of the bank concerned.
+
+Can the issuing bank stipulate in a credit that the disclaimer articles of the UCP are
+excluded? For example: adding the words “Article 35 of UCP 600 is not applicable”.
+
+37
+© Copyright Collyer Consulting LLP
+
+Not to be reproduced or copied without consent of the author
+Suggested answer:
+
+An issuing,bank would be unwise to exclude the disclaimer clauses i in UCP 600.
+Articles 34, 35, 36 and 37 offer basic protection to banks when receiving and
+examining documents. Reference is made specifically to article 35 in the query.
+Presumably this is due to the new wording that has been inserted covering loss of
+documents in transit between a nominated bank and a confirming or issuing bank. To
+exclude article 35 would mean that a nominated bank, that acted under its
+nomination (a nomination that was made by the issuing bank), would not be
+protected in the event that documents are lost in transit even if it-followed the credit
+to the letter in the examination of the documents and the disposal thereof. It would
+be inconceivable that a nominated bank would be willing-to honour or negotiate
+without the protection of article 35. It should be noted that whilst the wording in
+article 35 is new to the UCP, the position would also prevail under previous revisions
+of the UCP.
+
+Article 36 ~ Force Majeure
+
+36.1
+
+36.2
+
+36.3
+
+If complying documents are presented to a nominated or confirming bank and the
+issuing bank stops business due to an Act of God, does the issuing bank have no
+liability to reimburse the nominated or confirming. bank?
+
+Suggested answer: ,
+
+If complying documents are presented to a confirming bank, the confirming bank
+must honour or negotiate. If complying documents are presented to a nominated
+bank that has not added its confirmation, the nominated bank is under no obligation
+to honour or negotiate, An issuing bank would be required to honour under their
+credit: when they re-opened as the credit was available at the counters of a
+nominated or confirming bank and documents were presented within the expiry of
+the credit. Only where the documents were sent directly to the issuing bank, by the
+beneficiary or other presenter, and delivery could not happen as they were closed
+due to a force majeure event and the credit expired during the time the bank had
+closed. would they have no obligation to honour,
+
+If a credit expires with a nominated bank on say, July 30, and the beneficiary tries to
+present on that day but they are unable to do so due to an event beyond the control
+of the bank, what are the options for the beneficiary?
+
+Suggested answer:
+The beneficiary must either present the documents to the issuing bank or face the
+risk that they lose the undertaking of the issuing bank.
+
+Same question as above, but if a credit is available with any bank and the bank to
+which the beneficiary chooses to present documents is closed for business due to a
+force majeure event, what are the options for the beneficiary?
+
+Suggested answer:
+
+As the credit is available with any bank, the beneficiary will need to present the
+documents to another bank in order to satisfy the requirement of the documents
+being presented within the expiry date.
+
+Article 37 — Disclaimer for Acts of an Instructed Party
+
+37.1
+
+Bank A disregards a clause in a credit that they are to collect their charges in
+advance and releases the credit to the beneficiary without receiving their advising
+fee. If Bank A cannot collect their advising fee from the beneficiary can they claim
+the charge from the issuing bank?
+
+38
+© Copyright Collyer Consulting LLP
+
+Not to be reproduced or copied without consent of the author
+37.2
+
+37.3
+
+Suggested answer:
+
+Ideally, the advising bank should identify that the issuing bank has included such a
+clause and revert to them for removal or seek other instructions. By advising the
+credit, with the clause, it could be understood that should the beneficiary not pay the
+fee or not present documents thereby allowing the fee to be collected/deducted, that
+the advising bank is willing to take that risk.
+
+A nominated bank receives a presentation of documents and effects honour
+thereunder, deducting certain fees. They realise a short while later that they have
+forgotten to deduct their advising fee. Are they able to claim from the issuing bank
+citing sub-article 37 (c)?
+
+Suggested answer:
+
+No. The nominated bank had an opportunity to deduct the fees from the presentation
+and failed to do so. They are not afforded any protection under sub-article 37 (c) for
+the fees that they failed to collect from a presentation that was made to them.
+
+The applicant requests that a credit be advised through a certain bank i.e., the
+bankers of the beneficiary. The issuing bank is nat in correspondent banking
+relationship with.that bank and therefore routes the credit through their preferred
+correspondent requesting that they onward advise through the named bank of the
+beneficiary. The correspondent fails to act according to the instructions of the issuing
+bank, is the issuing bank or advising bank liable in this situation?
+
+Suggested answer:
+
+No. Although the applicant requested the routing through a particular bank, the
+issuing bank was unable to complete this as they had no direct relationship with that
+bank. However, the issuing bank should have brought to the attention of the
+applicant that they were routing through another correspondent bank.
+
+Article 38 — Transferable Credits
+
+38,1
+
+38.2
+
+38.3
+
+There is a separate statement/document issued by the icc concerning transferred
+credits. Is this still valid under UCP 600? ‘
+
+Suggested answer:
+
+The document entitled “Transferable Credits and the UCP 500” (dated 30 October
+2002) was a compilation of the opinions given by the ICC in respect of transferable
+credits. This document will be applicable to UCP 600 to the extent the content of the
+respective sub-articles has not changed and the circumstances stated in the query to
+which the opinion was offered are covered in a similar manner in UCP 600.
+
+A credit is available with any bank. Can the issuing bank specify that any bank can
+transfer the credit?
+
+Suggested answer:
+
+It is. possible to. allow a credit to be transferred by any bank, but probably not
+advisable. By restricting any transfer to a named transferring bank it offers better
+control over the transaction for an issuing bank.
+
+If ‘the 1% beneficiary transfers part of the original credit to a 2™ beneficiary but later,
+the 1* beneficiary wishes to cancel that credit, should they request the transfer to
+another 2™ beneficiary or re-transfer it back to them first? Which one is appropriate?
+
+Suggested answer:
+If the transferred credit is still valid then the 2™ beneficiary must agree to its
+cancellation. If the transferred credit has expired and it is clear that no presentation
+
+39
+© Copyright Collyer Consulting LLP .
+Not to be reproduced or copied without consent of the author
+
+38.4
+
+38.5
+
+38.6
+
+38.7
+
+38.8
+
+38.9
+
+will be made by the 2" beneficiary, then the 1* beneficiary may provide instructions
+to the transferring bank in respect of any further transfer.
+
+The transferred credit must accurately reflect the terms and conditions of the credit,
+including confirmation. Does this mean the transferring bank transfers the credit
+indicatirig that the credit is to be confirmed by a bank as stated in the original credit
+or indicating that the transferring bank has added its confirmation to the transferred
+credit as per the original credit?
+
+Suggested answer:
+
+The refererice to “including confirmation” refers to the confirmation that was added
+to the original credit. If the original credit is confirmed, the transferred credit is to be
+confirmed by the same bank. It is expected that a bank that confirms a credit will
+also insist on being the transferring bank.
+
+If a credit is fully transferred and the transferring bank will not be substituting the
+documents of the 1° beneficiary for those of the 2™ beneficiary, can the 2™
+beneficiary present the documents directly to. the issuing bank?
+
+Suggested answer: ,
+Sub-article 38 (k) requires that the documents be sent to the transferring bank. In
+
+_ circumstances where there is a 100% transfer or where no substitution of documents
+
+is to occur, a transferring bank that has not confirmed the transfer may, in its advice
+of transfer, indicate that documents may be sent direct to the issuing bank, under
+advice to the issuing bank. .
+
+Can the transferring bank amend the expiry place?
+
+Suggested answer:
+Yes. The place of honour or negotiation may be changed to that of the place to
+which the credit has been transferred, This i is covered by sub-article 38 (j).
+
+If complying documents are presented by the 2™ beneficiary, including a certificate
+of origin. on which the 2™ beneficiary's invoice no. and date are indicated, then the
+1® beneficiary will substitute their invoice with, of course different invoice no. and
+date. Must the 1% beneficiary correct their invoice no. and date to match those on the
+certificate of origin?
+
+‘ Suggested answer:
+
+No. This is a‘feature of a transferred credit and one that must be appreciated by the
+issuing bank and the applicant. There is no requirement for the 1% beneficiary to
+present a substitute certificate of origin or change the invoice number and date on
+their | invoice. -
+
+How do you define ‘first demand’? How long should it be?
+
+Suggested answer: ,
+
+First demand will depend on the structure of the transfer. ‘Where the period for
+presentation has been curtailed, it may be possible to use the differénce between the
+period stated in the original credit and that stated in the transferred credit as the
+‘demand’ period. In other circumstances, banks will usually allow between 24 and 48
+hours given that the 1* beneficiary is only required to present their invoices and
+draft, if any.
+
+Could the 1* beneficiary substitute documents (other | than the invoice and draft) for
+those of the 2™ beneficiary?
+
+40
+© Copyright Collyer Consulting LLP
+
+Not to be reproduced or copied without consent of the author
+
+nm na a = a
+38.10
+
+38.11
+
+38.12
+
+38.13
+
+Suggested answer:
+
+Sub-article 38 (h) provides for the i* beneficiary to substitute their own invoices and
+drafts, if any. Substitution of any other documents will be with the agreement of the
+transferring bank. The transferring bank is under no obligation to allow substitution
+of any other documents.
+
+If the transferring bank is silent in the transferred credit, must the transferring bank
+check the 2™ beneficiary's documents and determine whether the documents
+comply? . ,
+
+Suggested answer:
+
+If a transferred credit is advised to a 2" beneficiary, indicating that it is available by
+honour or negotiation, it is reasonable to expect that the 2" beneficiary will assume
+that the transferring bank will examine their documents. If the transferring bank has
+not added its confirmation to the transferred credit and they are only willing to
+substitute the documents of the 1 beneficiary and forward the documents to the
+issuing bank, then it would be good banking practice to indicate this in the advice of
+the transferred credit. Inclusion of the manner in which the transferring bank will
+handie documents will resolve any issues at a later date and place the 2™ beneficiary
+on notice of exactly the role that the transferring bank is willing to take.
+
+When issuing a transferable credit, is it necessary to state “third party documents
+allowed”? ,
+
+Suggested answer:
+
+As explained in ISBP publication 681 paragraph 21 (c) “third party documents
+acceptable” has no meaning. Sub-article 14 (f) allows for documents other than
+commercial invoices, transport documents and insurance documents to be issued by
+a party other than the beneficiary (where a credit is silent as to the name of an
+issuer), Similarly, sub-article 14 (k) allows for the shipper or consignor on any
+document to be a party other than the beneficiary. If terminology such as “third party
+documents allowed” is used, there must be some context added as to how it is to be
+interpreted.
+
+Sub-article 38 (c) stipulates that all charges incurred in respect of a transfer must be
+paidéby ‘the 1* beneficiary, is this right?
+
+Suggested answer: :
+
+The usual stance is that the 1* beneficiary will pay the costs associated with
+transferring a credit. The rule reflects that should the 1* beneficiary require that the
+fees be paid by the 2” beneficiary then this must be agreed at the time of requesting
+the transfer. As stated in sub-article 38 (a), a transferring bank is under no obligation
+to transfer except to the extent and manner expressly consented to by that bank.
+This would include transferring the credit where the fees are to be collected from the
+2" beneficiary.
+
+Under sub-article 38 (i), if the 1* beneficiary fails to correct discrepant documents
+that they have presented, the transferring bank may present the documents of the
+2" beneficiary to the issuing bank. If so, the claim of the transferring bank is for the
+value of the 2" beneficiary’s documents. Is this correct? If it is, how can the 1*
+beneficiary get his difference? Further, if the transferring bank presents the
+documents of the 2™ beneficiary to the issuing bank, it will cause another
+discrepancy such as underdrawn. How should this be handled?
+
+Suggested answer: :
+
+If the 1* beneficiary fails to substitute on first demand or having substituted does
+not, on first demand, correct discrepancies that were found in their presentation
+(which made the entire presentation discrepant), the transferring bank may forward
+
+41
+© Copyright Collyer Consulting LLP
+
+Not to be reproduced or copied without consent of the author
+
+to the issuing bank the compliant documents presented by the 2°" beneficiary. Failure
+of the 1* beneficiary to substitute or to correct discrepant documents on first demand
+is the risk that an issuing bank and applicant take in-issuing a transferable credit. The
+issuing bank (and applicant) will be required to accept an invoice that may be
+addressed to a party other than the applicant (/.e., to the 1* beneficiary), show
+different unit prices to those in the credit and may be for an amount that is less than
+the value of the credit and outside any tolerances allowed by sub-articles 30 (b) and
+(c). If the 1* beneficiary fails to substitute or provide replacement documents, they
+forego the right under the credit to receive any difference between their invoice and
+that of the 2” beneficiary. If they wish to seek payment of this amount, they would
+be required to seek settement from the applicant, outside ‘of the credit. -
+
+When applicants request their i issuing bank to issue a transferable credit, they need
+to consider the potential risks in the event that a 1* beneficiary fails to substitute
+documents.
+
+Article 39 — Assignment of Proceeds
+
+39.1
+
+39.2
+
+39,3
+
+A negotiating bank (Bank A) requests the issuing bank to confirm their agreement to
+another party (Bank 8) whereby Bank A have transferred the right of payment at
+maturity under a credit to Bank B. Must the issuing bank comply with the negotiating
+bank’s request?
+
+,
+
+Suggested answer:
+
+An assignment of proceeds and the effect thereof is governed by the applicable law.
+In most jurisdictions, the bank is required to take note of the assignment between an
+assignor and assignee. From the viewpoint of the issuing bank effecting settlement at
+maturity to Bank B, as opposed to Bank A, there should not be a problem « with the
+issuing bank agreeing to such a request.
+
+Do banks get involved with assignments?
+
+Suggested answer:
+
+Whilst not as common as transferable credits, assignment of proceeds can happen
+under letter of credit transactions. Assignment of proceeds generally occurs where a
+transferable credit would not suit the purpose for which the assignment has been
+issued or where the assignee does not wish to act under a transferable credit.
+Assignment of proceeds are generally seen in transactions such as: assigning
+proceeds to another bank that has purchased an accepted draft or deferred payment
+undertaking, where payment is to be made for the cost of freight or payment for the
+cost of goods supplied or services, performance provided. The two parties (assignor
+and assignee) will agree the assignment of proceeds and request the bank-to
+acknowledge receipt of the.instructions and to indicate to the assignee that when
+documents are presented to the bank, and honour or negotiation occurs thereunder,
+that the. specified amount will be paid to the assignee. The balance, if any, will be
+
+‘paid to the assignor.
+
+Must the bank that gives a notice of assignment endorse the original credit?
+
+Suggested answer:
+
+There is no requirement for this to occur but a number of banks do complete such an
+endorsement. Banks will usually cover their position by sending @ separate notice to
+the assignee in which it is stated that the assignment will only be fulfilled if
+documents are presented to that bank, that the documents comply with the credit
+and that honour or negotiation occurs. In this way, the bank protects itself should
+there be (a) no presentation, (b) a presentation is. made but is discrepant and the
+applicant refuses to provide a waiver, and (c) that the documents comply but for one
+reason or another honour or negotiation does not occur.
+
+42
+© Copyright Collyer Consulting LLP
+
+Not to be reproduced or copied without consent of the author
+
+— me | a
+
+General Queries
+
+Geni
+
+Gen2
+
+Gen3
+
+Gen4
+
+Gens
+
+Gen6
+
+Gen7
+
+rary . *
+
+What is the difference between a credit available by ‘deferred payment’, ‘acceptance’
+and ‘negotiation’?
+
+Suggested answer:
+
+Under a deferred payment credit there is no draft called for and payment is due on
+the maturity date. Under an acceptance credit, a draft is required and is drawn on
+the bank which is required to accept it e.g., the nominated bank, and payment is due
+on the maturity date. Under a negotiation credit, it may be available at sight or
+usance and drafts may or may not be required. For a sight or usance negotiation’
+credit, the beneficiary may receive the funds in advance of the issuing bank
+honouring under the credit or the nominated bank may agree to advance on a
+specific date e.g., 10 days after sending documents for a sight credit or on the due
+date for a usance credit.
+
+The credit requires a bill of lading to indicate freight collect, but the bill of lading
+shows freight payable at destination. Is this acceptable?
+
+Suggested answer:
+Freight collect and freight payable at destination have the same effect and are
+interchangeable.
+
+If a credit is available with a nominated bank by acceptance “30 days after sight”,
+does this mean 30 days after the nominated bank's sight of the documents or the
+issuing bank’s sight? .
+
+Suggested answer: .
+
+If a credit is available with a nominated bank by acceptance, the draft will be drawn
+on them. Therefore, 30 days after sight will be 30 days after the date of receipt of
+documents by the nominated bank.
+
+Does an on board notation need to be authenticated?
+
+Suggested answer: :
+No. The requirement for an on board notation to be authenticated was removed at
+the time of the revision of UCP 400 and the same stance has been taken in UCP 600.
+
+Shipment date is considered to be which date ~ the on board date or the issuance
+date of the transport document?
+
+Suggested answer:
+
+The shiprnent date for the respective types of transport is specifi ied in each of the
+transport articles of UCP 600 (articles 19-25). In respect of a bill of lading, the on
+board date will always be considered to be the date of shipment — irrespective of
+whether such date is before or after the date of issuance of the bill of lading.
+
+After a credit expires, can it be amended?
+
+Suggested answer:
+
+Yes, but it would depend on how long after the expiry. If it is within a month or so,
+then mest banks will allow for the extension to occur. Beyond that, banks may have
+archived their files and request the re-issuance of the credit incorporating the new
+expiry and shipment dates. .
+
+Should a document for a remaining 10% balance i.e., against a certificate of
+completion, be presented within 21 days after shipment?
+
+43
+© Copyright Collyer Consulting LLP
+Not to be reproduced or copied without consent of the author
+
+Gen8
+
+Gen9
+
+Genl0
+
+Genil
+
+Gen12
+
+Suggested answer:
+
+No. Sub-article 14 (c) refers to the presentation period relating to a presentation that
+includes an original transport document. If the presentation only consists of a
+certificate of completion or similar document, then it must be presented within the
+expiry date.
+
+If a credit is silent concerning transhipment, is transhipment allowed?
+
+Suggested answer:
+Yes. Transhipment is deemed to be allowed unless the credit specifically prohibits this
+action.
+
+Credit states “All documents must show the credit number”. Does “All documents”
+include the draft?
+
+Suggested answer: .
+
+This may well be the intention of the issuing bank but, under a SWIFT issued credit,
+it could be argued that there is a specific field’(46A) entitled “Documents required”
+and a requirement for a draft does not appear in this field (it has its own fields 42C
+and 42a). On this basis, a requirement for “all documents to bear the credit number”
+or other specific data is confined to those documents appearing in field 46A.
+
+ISBP publication 681 paragraph 13 says: Transport documents, insurance documents
+and the draft must be dated even if the credit does not expressly require such dating.
+What does “be dated” mean? Does it mean they must have an issuance date?
+
+Suggested answer:
+
+For these documents it would mean a date of issuance. However, it should be
+remembered that an insurance document may bear a different date indicating the
+date on which the insurance cover became effective. Also, a transport document may
+additionally indicate an on board notation or a flight stamp.
+
+Please comment about documents sent in two mails. How to check them? How to
+send the refusal notice? From which mail is the checking time calculated?
+
+Suggested answer:
+
+Where an issuing bank requires documents to be sent in two mails, the nominated
+bank or presenter should ensure that at least one of each of the required documents
+is included in the first mailing. The issuing bank would then be required to review the
+documents basedon the documents received in the first mailing on the assumption
+that further originals or copies ofthe documents, that will be received in the second
+mailing, will be the same as those in the first mailing. The issuing. bank must make
+any refusal notice based on the data in the documents of the first mailing. Such a
+refusal will not refer to the absence of the documents that are following in a
+subsequent mailing.
+
+Where an issuing bank received documents and found that some documents were
+missing, the nominating bank confirmed that the stated documents were included
+with their schedule. How should this matter be settled?
+
+Suggested answer:
+
+This is probably one of the hardest questions to answer under the ucr. At the end of
+the day, one of the banks is not telling the whole truth. The nominated bank either
+did or did not send all the documents or the issuing bank did or did not receive all
+the documents. There is no positive proof that can be made available from either
+party. These types of issues are usually resolved via the correspondent banking
+relationship or the nominated bank providing additional documents.
+
+© Copyright Collyer Consulting LLP
+Not to be reproduced or copied without consent of the author
+
+Zim a HE A a
+
+Geni3 If a credit did not indicate a “notify party” in respect of a transport document, can
+
+the bill of lading show.a notify party in a different country than the discharge port?
+Suggested answer: ae we
+ISBP publication 681, as an example in paragraph 103, states that if there is no notify
+Party stated in the credit the box may remain blank or be completed in any manner.
+Completed in any manner would include a notify party that is located in a different
+country to the port of discharge.
+
+Genl4 If a bill of lading or other documents bear corrections in, say, more than 3 places is it
+discrepant? What should we do if the issuing bank refuses the documents stating it is
+an international standard banking practice to reject such documents?
+
+Suggested answer:
+
+Provided that the corrections are properly authenticated by the issuer or agent of the
+issuer, then any number of corrections is permissible in any document. Obviously, if
+there are too many, the issuer may decide to issue a replacement or new document.
+
+‘Gents. Issuing bank rejects documents. The beneficiary corrects them and presents within
+the presentation period and expiry date. The docurnents now comply with the credit
+terms. Does the issuing bank have the right to deduct their discrepancy fee?
+
+Suggested answer: 7
+
+A discrepancy fee is generally charged to handle the processing of discrepant
+documents. Where the issuing bank has provided a refusal notice it is entitled to
+charge a discrepancy fee if this is in line with their usual terms or tariff.
+
+Genié Ifthe beneficiary receives a defetred payment credit which requires ‘presentation ofa
+draft, what should they do? What should the nominated bank do?
+
+Suggested answer:
+The credit should be amended to either remove the requirement for presentation of a
+draft or to change the availability from a deferred payment credit to an acceptance or
+negotiation credit.
+
+Geni7 Why do some issuing banks not allow negotiation under reserve?
+
+Suggested answer:
+
+The act of negotiation under reserve is an arrangement between the nominated bank
+and the beneficiary. It has nothing to do with the issuing’ bank. When the issuing
+bank receives the presentation they must examine it and determine whether or not
+they consider it to be complying. If not, they provide a notice of refusal and the
+nominated bank must decide whether or not to claim under the reserve arrangement.
+A number of issuing banks include the condition in their credits where the nominated
+bank is authorised to debit the account of the issuing bank or claim from a
+reimbursing bank. By paying under reserve, the nominated bank debits the account
+of the issuing bank or claims reimbursement and pays the beneficiary. When the.
+issuing bank refuses, the nominated bank either delays refunding the amount or
+refuses to-do so until the discrepancies are resolved. By including the condition, the
+issuing bank seeks to avoid the situation where their account is debited before any
+discrepant docurnents are approved.
+
+‘Gen18 A credit stipulated, in field 47A, “Shipment to be effected on FCL/FCL basis”. Is it
+necessary for the bill of lading to indicate shipment effected on FCL/FCL basis?
+
+Suggested answer:
+- Ideally it should reflect the conditions stated in the credit but provided it did not state
+LCL or similar terminology it would be acceptable. It should be noted that the manner
+
+45
+© Copyright Collyer Consulting LLP
+
+Not to be reproduced or copied without consent of the author
+
+in which the condition is stated in the query, it is a non-documentary condition and
+should be disregarded.
+
+Geni9 Can an endorsement made on the front of the document be regarded ; as an
+‘ endorsement?
+
+Suggested answer:
+
+There is no requirement that an endorsement must be made on the reverse or back _
+side of a document. An endorsement on the front of a document would have equal
+effect.
+
+Gen20° A credit calls for signed invoice in 2 copies. The beneficiary presented 2 invoices, but
+the signature on the 2 invoices was different from each other, do the invoices comply
+with the credit terms? a
+
+, Suggested answer:
+‘The requirement under the credit is for the invoice to be signed.-The fact that the 2
+invoices are signed by different individuals does not make the document discrepant.
+Gen21 What is the interpretation or definition of “authentication”? Is it a rubber correction
+chop with signature by the issuer or neither?
+
+Suggested answer:
+
+Alterations or corrections on documents issued by the benefic iciary need not be
+authenticated. Alterations or corrections on documents issued by parties other than
+the beneficiary must evidence that they have been completed by the issuer of the
+document or a named agent for the issuer, The authentication also needs to bear a
+signature or initial of the person making the alteration or correction. Refer to ISBP
+publication 681 paragraphs 9-12.
+
+“
+Whilst. every éffort has been made to ensure that the answers ; given under’ “suggested answer” are completely
+accurate, the details ofa credit and the circumstances under which an issue may arise can affect the application of
+that response. The authors cannot accept. any legal responsibility whatsoever for consequences that may arise from
+any errors or omissions or any opinion or advice given. It should be pointed out that forma! Positions can only be
+provided through ICC opinions.
+
+46
+© Copyright Collyer Consulting LLP
+
+Not to. be reproduced or copied without consent of the author
+
+ell
+
+nana a a
